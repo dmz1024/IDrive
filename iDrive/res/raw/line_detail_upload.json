@@ -1,0 +1,99 @@
+{
+  "summary" : {
+	"title" : "女儿国的前世今生",
+	"line" : "成都---雅安---西昌",
+	"desc" : "西昌位于四川省西南部，自古便是祖国西南边陲的一个重镇，自秦汉始，历代政权均在此建立过郡、州、司府、委派过官吏。如汉元鼎6年（公元111年），武帝遣司马相如为使，建邛都（今西昌），设越西郡，辖15县，属益州。以后辖也虽不断发生变化，担郡、州、司府的治所依然在西昌。因此，西昌迄今已是有二千多年历史的文化古城（已被四川省列为省级文化名城）。同时，由于海拔、气温、日照、经纬度等条件好，加之大气中悬浮物质少，空气透明度大，所以月亮光亮圆大，故西昌又有“月城”之美誉。其市花为月季。",
+	"image" : "http://hiphotos.baidu.com/lvpics/pic/item/0eb30f2442a7d933f3057fbbad4bd11372f0014c.jpg",
+	"type" : 3,
+	"lid" : 1003,
+	"url" : ""
+  },
+
+  "user" : {
+	"name" : "林潇潇",
+	"sex" : 1,
+	"uid" : 50001,
+	"avatar" : "http://img4.duitang.com/uploads/item/201409/19/20140919213708_rrWBN.png"
+  },
+
+  "viewspot" : [
+	{
+	  "soptid": "20001",
+	  "name" : "孟买",
+	  "geo" : "116.482544,39.940278",
+	  "desc" : "孟买（Mumbai）是印度最大的海港和重要交通枢纽，素有印度“西部门户”之称。“孟买”一词来源于葡萄牙文“博姆·巴伊阿”，意为 “美丽的海湾”。最初只是作为葡萄牙女王的结婚礼物的孟买，现今具备有最先进的港湾设施，发展成为一个商业中心，著名的孟买风格建筑，可以从孟买高等法院、旧官厅、大学校舍及维多利亚车站等体现出来。郊外有蔡伯蒂海岸、焦鞭海岸；波利比里有极宏伟的国立野生公园山齐甘地。孟买可说是印度的文化中心地。在蔡亨基尔美术馆可以欣赏到定期开放的展览会，而于国立舞台艺术中心，又可以观赏国内外的音乐、舞蹈等公演。在旅客的中心地带，即TajMahal酒店旁，Colaba一带，是各式食肆云集的地区，不论印度食物或世界各地美食，你可以找到不少选择。在市内可以看到印度教庙、基督教大教堂、伊斯兰教清真寺，还有佛教寺庙等。因而孟买素有“小印度“之称。",
+	  "image" : "http://webmap4.map.bdimg.com/maps/services/thumbnails?width=520&height=290&quality=100&align=middle,middle&src=http://hiphotos.baidu.com/lvpics/pic/item/0d968f232a7d381cac34de5e.jpg"
+	},
+	{
+	  "soptid": "20002",
+	  "name" : "阿格拉",
+	  "geo" : "116.120682,39.858628",
+	  "desc" : "印度北方邦西南部城市。在亚穆纳河西岸。地当东去恒河平原，西接旁遮普平原，南通马尔瓦高原的要冲。阿格拉是印度最著名的旅游城市之一，为外国游客到印度游览的首选之地。阿格拉城市虽然不大，但自公元16世纪起，它一直是印度的首都，现在遗留着许多历史性的建筑物，其优美为世间罕见，蜚声世界的泰姬陵就在这里。",
+	  "image" : "http://webmap1.map.bdimg.com/maps/services/thumbnails?width=525&height=295&quality=100&align=middle,middle&src=http://hiphotos.baidu.com/lvpics/pic/item/8435e5dde71190ef20139517cc1b9d16fcfa6009.jpg"
+	},
+	{
+	  "soptid": "20003",
+	  "name" : "瓦拉纳西",
+	  "geo" : "116.028328,40.065198",
+	  "desc" : "瓦拉纳西（VARANASI），印度教圣地、著名历史古城。位于印度北方邦东南部，座落在恒河中游新月形曲流段左岸，该市有各式庙宇1500座以上。",
+	  "image" : "http://webmap1.map.bdimg.com/maps/services/thumbnails?width=525&height=295&quality=100&align=middle,middle&src=http://hiphotos.baidu.com/lvpics/pic/item/58ee3d6d55fbb2fb9b7231da4d4a20a44723dc99.jpg"
+	}
+  ],
+
+  "travel" : [
+	{
+	  "title" : "第一天",
+	  "date" : "2015/05/02",
+	  "images" : [
+		{
+		  "image" : "http://pic23.nipic.com/20120814/9472667_154903694132_2.jpg",
+		  "desc" : "龙胜梯田"
+		},
+		{
+		  "image" : "http://pic22.nipic.com/20120721/9075789_104526531000_2.jpg",
+		  "desc" : "田园风光 小径图片"
+		}
+	  ]
+	},
+	{
+	  "title" : "第二天",
+	  "date" : "2015/05/03",
+	  "images" : [
+		{
+		  "image" : "http://pic66.nipic.com/file/20150512/11549759_195231792000_2.jpg",
+		  "desc" : "嵩山 少室风光"
+		},
+		{
+		  "image" : "http://pic66.nipic.com/file/20150512/11549759_195402008000_2.jpg",
+		  "desc" : "太室山下的登封市区图片"
+		},
+		{
+		  "image" : "http://pic66.nipic.com/file/20150512/11549759_195137336000_2.jpg",
+		  "desc" : "少室山初夏风景图片"
+		},
+		{
+		  "image" : "http://pic66.nipic.com/file/20150512/11549759_195311285000_2.jpg",
+		  "desc" : "登封 少室风光图片"
+		}
+	  ]
+	},
+	{
+	  "title" : "第三天",
+	  "date" : "2015/05/04",
+	  "images" : [
+		{
+		  "image" : "http://pic21.huitu.com/res/20140902/600759_20140902181807085201_1.jpg",
+		  "desc" : "巴马命河"
+		},
+		{
+		  "image" : "http://pic23.huitu.com/res/20141019/442910_20141019175741596200_1.jpg",
+		  "desc" : "巴马长寿村"
+		},
+		{
+		  "image" : "http://pic22.nipic.com/20120715/10511133_150800580150_2.jpg",
+		  "desc" : "深山人家图片"
+		}
+	  ]
+	}
+  ]
+}

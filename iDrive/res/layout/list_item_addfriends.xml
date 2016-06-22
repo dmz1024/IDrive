@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:background="#ffffff"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:id="@+id/ll_itemaddfriends"
+            android:paddingLeft="@dimen/size5"
+            android:paddingRight="@dimen/size5"
+            android:layout_height="@dimen/size50"
+            >
+        <RelativeLayout android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_friends"
+            android:layout_marginLeft="@dimen/size12"
+            android:layout_width="@dimen/size35"
+            android:layout_centerVertical="true"
+            android:layout_height="@dimen/size35"
+            android:src="@drawable/cqsw_default_pic"
+            />
+    <TextView android:id="@+id/friends_name"
+              android:text="明月"
+              android:textStyle="bold"
+              android:layout_toRightOf="@+id/img_friends"
+              android:layout_marginLeft="@dimen/size8"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerVertical="true"
+              android:textColor="#222222"
+              android:textSize="@dimen/size14" />
+    <ImageView android:layout_width="@dimen/size17"
+               android:id="@+id/sex_friends"
+               android:layout_toRightOf="@+id/friends_name"
+               android:layout_centerVertical="true"
+               android:layout_marginLeft="@dimen/size8"
+               android:src="@drawable/friends_boy"
+               android:layout_height="@dimen/size17"/>
+    <Button android:layout_width="@dimen/size60"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/size12"
+            android:textSize="@dimen/size14"
+            android:id="@+id/btn_addfriends"
+            android:textColor="#222222"
+            android:text="添加"
+            android:background="@drawable/btn_addfriends_selector"
+            android:layout_centerVertical="true"
+            android:layout_height="@dimen/size30"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <View android:id="@+id/separate_line"
+          android:layout_width="fill_parent"
+          android:layout_height="0.5dp"
+          android:layout_marginLeft="@dimen/size50"
+          android:layout_marginRight="@dimen/size15"
+          android:layout_below="@+id/ll_itemaddfriends"
+          android:background="#bbbbbb" />
+</RelativeLayout>

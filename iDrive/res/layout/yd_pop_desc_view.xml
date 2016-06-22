@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#95191919"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.ccpress.izijia.yd.view.RotationViewPager
+            android:id="@+id/rvp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size170"/>
+    <TextView
+            android:id="@+id/tv_desc"
+            android:visibility="gone"
+            android:padding="@dimen/size10"
+            android:textSize="@dimen/sp11"
+            android:textColor="#333"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <com.ccpress.izijia.yd.view.MaxGridView
+            android:id="@+id/mgv"
+            android:visibility="gone"
+            android:numColumns="2"
+            android:background="#fff"
+            android:padding="@dimen/size5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

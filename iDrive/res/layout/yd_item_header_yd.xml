@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/ll_head"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+        >
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <!-- 首页轮播效果ViewPager -->
+        <android.support.v4.view.ViewPager
+                android:id="@+id/vp_carousel"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"/>
+
+        <!--<ImageView-->
+        <!--android:id="@+id/iv_search"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:src="@drawable/dfy_search"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="@dimen/size10"-->
+        <!--android:layout_width="@dimen/size190"-->
+        <!--android:layout_height="@dimen/size21"/>-->
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/rl_search"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="@dimen/size10"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="@drawable/icon_search_border"-->
+        <!--android:layout_marginLeft="@dimen/size70"-->
+        <!--android:layout_marginRight="@dimen/size70"-->
+        <!--android:layout_height="@dimen/size25">-->
+        <!--<ImageView-->
+        <!--android:id="@+id/iv_search"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:src="@drawable/dfy_icon_search"-->
+        <!--android:layout_width="@dimen/size20"-->
+        <!--android:layout_height="@dimen/size20"/>-->
+        <!--<TextView-->
+        <!--android:layout_toRightOf="@id/iv_search"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="@color/dfy_fff"-->
+        <!--android:textSize="@dimen/size11"-->
+        <!--android:text="搜索"-->
+        <!--/>-->
+        <!--</RelativeLayout>-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_marginTop="@dimen/size5"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+                android:id="@+id/all"
+                android:layout_marginLeft="@dimen/size5"
+                style="@style/dfy_iDrive_out">
+
+            <RelativeLayout
+                    style="@style/dfy_iDrive_in">
+                <ImageView
+                        android:id="@+id/iv_all"
+                        android:src="@drawable/yd_icon_all"
+                        style="@style/dfy_iDrive_iv"/>
+                <TextView
+                        android:text="@string/dfy_all"
+                        android:id="@+id/tv_all"
+                        android:layout_toRightOf="@id/iv_all"
+                        style="@style/dfy_iDrive_text"/>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+                android:id="@+id/jingnei"
+                style="@style/dfy_iDrive_out">
+
+            <RelativeLayout
+                    style="@style/dfy_iDrive_in">
+                <ImageView
+                        android:id="@+id/iv_jingnei"
+                        android:src="@drawable/yd_icon_guonei"
+                        style="@style/dfy_iDrive_iv"/>
+                <TextView
+                        android:id="@+id/tv_jingnei"
+                        android:text="国内"
+                        android:layout_toRightOf="@id/iv_jingnei"
+                        style="@style/dfy_iDrive_text"/>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+                android:id="@+id/jingwai"
+                android:layout_marginRight="@dimen/size5"
+                style="@style/dfy_iDrive_out">
+
+            <RelativeLayout
+                    style="@style/dfy_iDrive_in">
+                <ImageView
+                        android:id="@+id/iv_jingwai"
+                        android:src="@drawable/yd_icon_haiwai"
+                        style="@style/dfy_iDrive_iv"/>
+                <TextView
+                        android:text="海外"
+                        android:id="@+id/tv_jingwai"
+                        android:layout_toRightOf="@id/iv_jingwai"
+                        style="@style/dfy_iDrive_text"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+            android:background="@color/dfy_f5f5f5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size6"/>
+
+    <com.ccpress.izijia.yd.view.RotationViewPager
+            android:id="@+id/vp_2"
+            android:layout_marginLeft="@dimen/size5"
+            android:layout_marginRight="@dimen/size5"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/size10"
+            android:layout_height="110dp"/>
+
+</LinearLayout>

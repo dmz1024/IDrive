@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge  xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/idive_light_grey">
+    <ScrollView android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="vertical"
+                android:id="@+id/scrollView"
+                android:background="@color/idive_light_grey">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:orientation="vertical">
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:background="@color/idrive_white"
+                          android:padding="@dimen/size8"
+                          android:id="@+id/Linear_summary"
+                          android:orientation="vertical">
+                <RelativeLayout android:layout_width="fill_parent"
+                                android:layout_height="wrap_content">
+                    <ImageView android:layout_width="fill_parent"
+                               android:layout_height="@dimen/size150"
+                               android:src="@drawable/cqsw_default_pic"
+                               android:scaleType="centerCrop"
+                               android:id="@+id/img_top"/>
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical"
+                                  android:padding="@dimen/size4"
+                                  android:layout_alignBottom="@+id/img_top"
+                                  android:background="@drawable/shape_list_shadow">
+                        <TextView android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="@dimen/size14"
+                                  android:textColor="@color/idrive_white"
+                                  android:text=""
+                                  android:id="@+id/title"
+                                  android:textStyle="bold"
+                                  android:maxLines="2"
+                                  android:visibility="gone"
+                                  android:ellipsize="end"/>
+                        <TextView android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="@dimen/size12"
+                                  android:layout_marginTop="@dimen/size2"
+                                  android:textColor="@color/idrive_white"
+                                  android:text=""
+                                  android:id="@+id/line"
+                                  android:maxLines="2"
+                                  android:ellipsize="end"
+                                  android:layout_below="@+id/title"/>
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal"
+                                  android:id="@+id/Linear_user"
+                                  android:layout_alignBottom="@+id/img_top"
+                                  android:background="@drawable/shape_list_shadow">
+                        <de.hdodenhof.circleimageview.CircleImageView
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/user_img"
+                                android:layout_width="@dimen/size32"
+                                android:layout_height="@dimen/size32"
+                                android:layout_marginRight="@dimen/size5"
+                                android:layout_margin="@dimen/size4"
+                                android:src="@drawable/cqsw_default_pic"
+                                app:border_width="1dp"
+                                app:border_color="@android:color/transparent"/>
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:text=""
+                                  android:textColor="@color/idrive_white"
+                                  android:textSize="@dimen/size14"
+                                  android:id="@+id/user_name"
+                                  android:layout_gravity="center_vertical"/>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="@dimen/size14"
+                          android:layout_marginTop="@dimen/size8"
+                          android:textColor="@color/detail_black"
+                          android:text=""
+                          android:id="@+id/desc_top"/>
+
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="0.5dip"
+                  android:background="@color/separator_grey"></View>
+
+            <View android:layout_width="fill_parent" android:layout_height="0.5dip"
+                  android:background="@color/separator_grey"
+                  android:layout_marginTop="@dimen/size8"></View>
+            <com.ccpress.izijia.view.InsideExpandableListView android:layout_width="fill_parent"
+                                                              android:layout_height="fill_parent"
+                                                              android:id ="@+id/expandableListView"
+                                                              android:cacheColorHint="#00000000"
+                                                              android:divider="#00000000"
+                                                              android:listSelector="@null"
+                                                              android:dividerHeight="0.5dip"
+                                                              android:childDivider="#00000000"
+                                                              android:childIndicator="@null"
+                                                              android:groupIndicator="@null"
+                                                              android:animateLayoutChanges="true">
+            </com.ccpress.izijia.view.InsideExpandableListView>
+            <include layout="@layout/layout_lines_desc"
+                     android:visibility="gone"></include>
+
+
+            <include layout="@layout/layout_choose_viewspot"
+                     android:visibility="gone"></include>
+
+            <include layout="@layout/layout_lines_middle"
+                     android:visibility="gone"></include>
+
+            <include layout="@layout/layout_destination_middle"
+                     android:visibility="gone"></include>
+
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:background="@color/idrive_white"
+                          android:layout_marginTop="@dimen/size10"
+                          android:layout_weight="1.0"
+                          android:layout_marginBottom="@dimen/size45">
+                <View android:layout_width="fill_parent" android:layout_height="0.5dip"
+                      android:background="@color/separator_grey"></View>
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:id="@+id/Linear_category"
+                              android:padding="@dimen/size8"
+                              android:visibility="visible">
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical"
+                                  android:id="@+id/lines_choose_localpoint"
+                                  android:visibility="gone">
+                        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                                  android:text="行程一"
+                                  android:textSize="@dimen/size15"
+                                  android:textStyle="bold"
+                                  android:id="@+id/txt_category1"
+                                  android:layout_marginTop="@dimen/size4"
+                                  android:gravity="center_horizontal"
+                                  android:textColor="@color/idrive_blue"
+                        android:drawableRight="@drawable/icon_off"/>
+                        <View android:layout_width="fill_parent" android:layout_height="@dimen/size4"
+                              android:background="@drawable/icon_blue_line"
+                              android:id="@+id/line_category"></View>
+                    </LinearLayout>
+
+                    <include layout="@layout/loading_layout"></include>
+                    <com.ccpress.izijia.view.InsideListView android:layout_width="fill_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:id="@+id/listview"
+                                                            android:cacheColorHint="#00000000"
+                                                            android:divider="#00000000"
+                                                            android:listSelector="@null"
+                                                            android:dividerHeight="0.5dip"
+                                                            android:animateLayoutChanges="true">
+
+                    </com.ccpress.izijia.view.InsideListView>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:id="@+id/Linear_travelnote"
+                              android:padding="@dimen/size8">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                              android:text="游记"
+                              android:textSize="@dimen/size15"
+                              android:textStyle="bold"
+                              android:layout_marginTop="@dimen/size4"
+                              android:gravity="center_horizontal"
+                              android:textColor="@color/idrive_blue"/>
+                    <View android:layout_width="fill_parent" android:layout_height="@dimen/size4"
+                          android:background="@drawable/icon_blue_line"></View>
+                    <LinearLayout android:layout_width="fill_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical"
+                                  android:id="@+id/Linear_travelnote_items">
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/bottom_bar_productdetail"
+            android:visibility="visible"></include>
+
+</merge >

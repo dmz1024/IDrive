@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/idrive_white">
+
+    <RelativeLayout android:id="@+id/tag_search_layout"
+                    android:layout_height="@dimen/size50"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/top_bar_bg">
+        <EditText android:id="@+id/search_edit"
+                  android:layout_width="fill_parent"
+                  android:layout_height="@dimen/size30"
+                  android:layout_marginLeft="@dimen/size15"
+                  android:layout_marginRight="@dimen/size15"
+                  android:layout_centerVertical="true"
+                  android:inputType="text"
+                  android:paddingLeft="@dimen/size35"
+                  android:hint="@string/key"
+                  android:textSize="14sp"
+                  android:background="@drawable/shape_search"/>
+
+        <ImageView android:layout_height="@dimen/size15"
+                   android:layout_width="@dimen/size15"
+                   android:layout_alignLeft="@id/search_edit"
+                   android:layout_marginLeft="@dimen/size10"
+                   android:layout_centerVertical="true"
+                   android:src="@drawable/icon_search"/>
+    </RelativeLayout>
+
+    <ScrollView android:layout_height="fill_parent"
+                android:layout_width="fill_parent">
+        <LinearLayout android:id="@+id/tag_list_layout"
+                      android:layout_height="wrap_content"
+                      android:layout_width="fill_parent"
+                      android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

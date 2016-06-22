@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 公共模块 -->
+    <string name="internet_unavailable">网络不给力，稍后再试</string>
+    <string name="data_parse_wrong">数据错误</string>
+    <string name="data_loading">数据加载中...</string>
+
+</resources>

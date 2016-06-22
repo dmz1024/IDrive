@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/dfy_fff"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <RelativeLayout
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/size10" android:paddingRight="@dimen/size10"
+            android:layout_width="match_parent" android:layout_height="@dimen/size17">
+        <TextView
+                android:id="@+id/tv_1"
+                android:textSize="@dimen/size10" android:textColor="@color/dfy_666"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/dfy_order_num"
+                />
+
+        <TextView
+                android:id="@+id/tv_order_num" android:layout_toRightOf="@id/tv_1"
+                android:textSize="@dimen/size10" android:textColor="@color/dfy_666"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                />
+        <TextView
+                android:id="@+id/tv_order_add_time"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size10"
+                android:textSize="@dimen/size10" android:textColor="@color/dfy_666"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                />
+
+        <TextView
+                android:id="@+id/tv_2"
+                android:layout_toLeftOf="@id/tv_order_add_time"
+                android:textSize="@dimen/size10" android:textColor="@color/dfy_666"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/dfy_order_add_time"
+                />
+    </RelativeLayout>
+
+    <ImageView android:layout_width="match_parent" android:layout_height="@dimen/size0.5"
+            android:src="@drawable/dfy_personal_order_dotted" android:scaleType="fitXY" android:layout_marginLeft="@dimen/size10" android:layout_marginRight="@dimen/size10"
+            />
+
+    <TextView
+            android:id="@+id/tv_order_name"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/size7"
+              android:layout_marginLeft="@dimen/size10" android:layout_marginRight="@dimen/size10"
+            android:textSize="@dimen/size13" android:textColor="@color/dfy_333"
+            />
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/tv_zjy" android:layout_marginLeft="@dimen/size10" android:layout_marginRight="@dimen/size10"
+                android:textSize="@dimen/size10" android:textColor="@color/dfy_666" android:layout_marginTop="@dimen/size11"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                />
+
+        <TextView
+                android:id="@+id/tv_go_time" android:layout_marginLeft="@dimen/size10"
+                android:textSize="@dimen/size10" android:textColor="@color/dfy_666" android:layout_alignBottom="@id/tv_zjy" android:layout_toRightOf="@id/tv_zjy"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                />
+
+        <TextView
+                android:id="@+id/tv_order_￥" android:layout_marginLeft="@dimen/size50"
+                android:textSize="@dimen/size8" android:textColor="@color/dfy_ef8619" android:layout_alignBottom="@id/tv_go_time" android:layout_toRightOf="@id/tv_go_time"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="￥"
+                />
+
+        <TextView
+                android:id="@+id/tv_order_money"
+                android:textSize="@dimen/size12" android:textColor="@color/dfy_ef8619" android:layout_alignBottom="@id/tv_go_time" android:layout_toRightOf="@id/tv_order_￥"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+
+                />
+
+    </RelativeLayout>
+
+    <View
+            android:background="@color/dfy_e5e5e5" android:layout_marginTop="@dimen/size8"
+            android:layout_width="match_parent" android:layout_height="@dimen/size0.5">
+
+    </View>
+
+
+    <RelativeLayout
+            android:paddingLeft="@dimen/size10" android:paddingRight="@dimen/size10"
+            android:layout_marginTop="@dimen/size10" android:gravity="center_vertical"
+            android:layout_width="match_parent" android:layout_height="@dimen/size27">
+
+        <TextView
+                android:id="@+id/tv_order_state"
+                android:textSize="@dimen/size10" android:textColor="@color/dfy_ea561d"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                />
+
+
+
+        <TextView
+                android:background="@drawable/dfy_personal_collect_del" android:gravity="center"
+                android:id="@+id/tv_right" android:layout_alignParentRight="true"
+                android:textSize="@dimen/size12" android:textColor="@color/dfy_333"
+                android:layout_width="@dimen/size44" android:layout_height="@dimen/size17"
+                android:text="付款"
+                />
+
+        <TextView
+                android:background="@drawable/dfy_personal_collect_del" android:gravity="center"
+                android:id="@+id/tv_left"
+                android:text="取消"
+                android:textSize="@dimen/size12" android:textColor="@color/dfy_333"
+                android:layout_width="@dimen/size44" android:layout_height="@dimen/size17"
+                android:layout_marginRight="18dp" android:layout_alignTop="@+id/tv_right"
+                android:layout_toLeftOf="@+id/tv_right"/>
+    </RelativeLayout>
+    <View
+            android:background="@color/dfy_f5f5f5"
+            android:layout_width="match_parent" android:layout_height="@dimen/size6"></View>
+
+
+
+</LinearLayout>

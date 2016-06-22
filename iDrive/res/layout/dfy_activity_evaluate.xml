@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:background="@color/dfy_fff"
+        >
+
+    <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.ccpress.izijia.dfy.view.TopView
+                android:id="@+id/top_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size44">
+        </com.ccpress.izijia.dfy.view.TopView>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size50">
+
+            <ImageView
+                    android:layout_marginTop="@dimen/size5"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:id="@+id/iv_thumb"
+                    android:src="@drawable/dfy_icon_de_2"
+                    android:scaleType="fitXY"
+                    android:layout_width="@dimen/size55"
+                    android:layout_height="@dimen/size42"/>
+
+            <TextView
+                    android:id="@+id/tv_goods_name"
+                    android:lineSpacingMultiplier="1.2"
+                    android:textColor="@color/dfy_333"
+                    android:textSize="@dimen/size12"
+                    android:layout_marginRight="@dimen/size70"
+                    android:layout_marginTop="@dimen/size12"
+                    android:layout_toRightOf="@id/iv_thumb"
+                    android:layout_marginLeft="@dimen/size13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    />
+
+            <View
+                    android:id="@+id/view1" android:layout_marginTop="@dimen/size10"
+                    android:background="@color/dfy_f0f0f0" android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/size66"
+                    android:layout_width="@dimen/size1" android:layout_height="@dimen/size30">
+            </View>
+
+            <TextView
+                    android:layout_centerVertical="true" android:textSize="@dimen/size9"
+                    android:textColor="@color/dfy_333"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/dfy_no_comment" android:layout_marginRight="@dimen/size10"
+
+                    />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+                android:layout_marginTop="@dimen/size8"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/tv_my" android:layout_centerInParent="true"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/dfy_my_comment" android:textSize="10sp" android:textColor="@color/dfy_333"
+                    />
+            <View
+                    android:layout_toLeftOf="@id/tv_my" android:background="@color/dfy_e5e5e5"
+                    android:id="@+id/v1" android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/size5"
+                    android:layout_width="match_parent" android:layout_height="@dimen/size0.5">
+
+            </View>
+            <View
+                    android:layout_toRightOf="@id/tv_my" android:background="@color/dfy_e5e5e5"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_width="match_parent" android:layout_height="@dimen/size0.5">
+
+            </View>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_marginLeft="@dimen/size10" android:layout_marginTop="@dimen/size25"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:id="@+id/tv_1" android:layout_centerVertical="true"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/dfy_route" android:textSize="@dimen/size14"
+                    android:textColor="@color/dfy_0b0e0a"
+                    />
+            <com.ccpress.izijia.dfy.view.RatingImageView
+                    android:id="@+id/iv_star_1"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_toRightOf="@id/tv_1"
+                    android:src="@drawable/dfy_star_1"
+                    android:layout_width="200dp"
+                    android:layout_height="@dimen/size25"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_marginLeft="@dimen/size10" android:layout_marginTop="@dimen/size25"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+
+                    android:id="@+id/tv_2" android:layout_centerVertical="true"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/dfy_accommodation" android:textSize="@dimen/size14"
+                    android:textColor="@color/dfy_0b0e0a"
+                    />
+            <com.ccpress.izijia.dfy.view.RatingImageView
+                    android:id="@+id/iv_star_2"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_toRightOf="@id/tv_2"
+                    android:src="@drawable/dfy_star_1"
+                    android:layout_width="200dp"
+                    android:layout_height="@dimen/size25"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_marginLeft="@dimen/size10" android:layout_marginTop="@dimen/size25"
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/tv_3" android:layout_centerVertical="true"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="@string/dfy_travel" android:textSize="@dimen/size14"
+                    android:textColor="@color/dfy_0b0e0a"
+                    />
+            <com.ccpress.izijia.dfy.view.RatingImageView
+                    android:id="@+id/iv_star_3"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_toRightOf="@id/tv_3"
+                    android:src="@drawable/dfy_star_1"
+                    android:layout_width="200dp"
+                    android:layout_height="@dimen/size25"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size30"
+                android:layout_marginLeft="@dimen/size5"
+                android:layout_marginRight="@dimen/size5"
+                android:background="@drawable/dfy_ping_text_border"
+                >
+            <EditText
+                    android:gravity="top"
+                    android:textSize="@dimen/size14"
+                    android:textColor="@color/dfy_999"
+                    android:hint="@string/dfy_comment_content"
+                    android:id="@+id/et_evaluate"
+                    android:background="@null"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size70"/>
+
+            <com.ccpress.izijia.dfy.view.UpLoadGridView
+                    android:id="@+id/upGrid"
+                    android:layout_marginTop="@dimen/size5"
+                    android:layout_below="@id/et_evaluate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+            </com.ccpress.izijia.dfy.view.UpLoadGridView>
+
+        </RelativeLayout>
+
+
+        <TextView
+                android:textColor="@color/dfy_fff" android:gravity="center"
+                android:id="@+id/tv_submit"
+                android:text="@string/dfy_submit_comment" android:textSize="@dimen/size12"
+                android:layout_marginTop="@dimen/size15" android:background="@drawable/dfy_call_bg"
+                android:layout_marginLeft="@dimen/size5" android:layout_marginRight="@dimen/size5"
+                android:layout_width="match_parent" android:layout_height="@dimen/size35"/>
+    </LinearLayout>
+</ScrollView>

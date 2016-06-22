@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:background="@color/idive_light_grey">
+    <include layout="@layout/top_bar_productdetail"></include>
+
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:scrollbars="vertical"
+            android:id="@+id/scrollView"
+            android:layout_marginTop="@dimen/top_bar_height">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:orientation="vertical"
+                      android:id="@+id/content"
+                      android:padding="@dimen/size8">
+
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/bottom_bar_productdetail"
+            android:visibility="gone"></include>
+
+</FrameLayout>

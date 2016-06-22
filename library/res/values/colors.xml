@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+
+    <!--common-->
+    <color name="background">#ffffff</color>
+    <color name="common_black">#000000</color>
+    <color name="common_write">#ffffff</color>
+    <color name="common_list_bg">#e4e4e4</color>
+    <color name="common_blue">#6cace6</color>
+    <color name="common_topview_bottom">#81000000</color>
+
+    <color name="list_selector_pressed">#7f000000</color>
+    <color name="list_selector_normal">#00000000</color>
+
+    <!--违章查询-->
+    <color name="violation_search_alert_text">#808080</color>
+    <color name="list_item_title">#000000</color>
+    <color name="list_item_summary">#222222</color>
+    <color name="list_item_date">#222222</color>
+    <color name="list_item_source">#222222</color>
+
+    <color name="tab_item_text_selected">#000000</color>
+    <color name="tab_item_text_normal">#ffffff</color>
+
+
+    <color name="cas_column_list_title">#0166b7</color>
+    <color name="cas_column_list_time">#e5e5e5</color>
+
+    <color name="common_title_text_color">#000000</color>
+    <color name="flignt_query_button_normal">#3cb355</color>
+    <color name="flignt_query_button_down">#559bda</color>
+
+    <color name="right_list_item_common">#6780b4</color>
+    <color name="right_list_item_click">#516ba1</color>
+
+    <color name="pull_to_refresh_text_color">#333333</color>
+    <color name="pull_to_refresh_sub_text_color">#555555</color>
+
+    <color name="web_view_bottom_button_normal">#00000000</color>
+    <color name="web_view_bottom_button_down">#7fffffff</color>
+
+    <color name="bg_subscribe_left_menu">#2d2e2d</color>
+
+    <!--cqsw-->
+    <color name="bg_common_title">#238b8b</color>
+</resources>

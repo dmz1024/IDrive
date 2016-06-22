@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/idrive_white">
+    <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:scaleType="centerCrop"
+               android:layout_marginTop="@dimen/size10"
+               android:id="@+id/product_detail_content_img"
+               android:background="@drawable/cqsw_default_pic"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/detail_black"
+              android:textSize="@dimen/size14"
+              android:layout_marginTop="@dimen/size2"
+              android:id="@+id/product_detail_content_txt"
+              android:text="自2010年1月4日迪拜塔的建成后，使得台推举第二高楼"/>
+    <View android:layout_width="fill_parent"
+          android:layout_height="1dip"
+          android:layout_marginTop="@dimen/size10"
+            android:background="#eeeeee"></View>
+</LinearLayout>

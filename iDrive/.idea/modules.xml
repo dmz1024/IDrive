@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../library/CircleImageView-library/CircleImageView-library.iml" filepath="$PROJECT_DIR$/../library/CircleImageView-library/CircleImageView-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/CommonJar-master/CommonJar-master.iml" filepath="$PROJECT_DIR$/../library/CommonJar-master/CommonJar-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/PagerSlidingTabStrip-library/PagerSlidingTabStrip-library.iml" filepath="$PROJECT_DIR$/../library/PagerSlidingTabStrip-library/PagerSlidingTabStrip-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/Pinterest-library/Pinterest-library.iml" filepath="$PROJECT_DIR$/../library/Pinterest-library/Pinterest-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/PullToRefresh-library/PullToRefresh-library.iml" filepath="$PROJECT_DIR$/../library/PullToRefresh-library/PullToRefresh-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/QuickReturnHeaderFooter-library/QuickReturnHeaderFooter-library.iml" filepath="$PROJECT_DIR$/../library/QuickReturnHeaderFooter-library/QuickReturnHeaderFooter-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/SlidingMenu-library/SlidingMenu-library.iml" filepath="$PROJECT_DIR$/../library/SlidingMenu-library/SlidingMenu-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/StickyListHeader-library/StickyListHeader-library.iml" filepath="$PROJECT_DIR$/../library/StickyListHeader-library/StickyListHeader-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/ViewPagerIndicator-library/ViewPagerIndicator-library.iml" filepath="$PROJECT_DIR$/../library/ViewPagerIndicator-library/ViewPagerIndicator-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/Zxing-master/Zxing-master.iml" filepath="$PROJECT_DIR$/../library/Zxing-master/Zxing-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/corp-master-lib1-library/corp-master-lib1-library.iml" filepath="$PROJECT_DIR$/../library/corp-master-lib1-library/corp-master-lib1-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/corp-master-lib2-library/corp-master-lib2-library.iml" filepath="$PROJECT_DIR$/../library/corp-master-lib2-library/corp-master-lib2-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/corp-master-library/corp-master-library.iml" filepath="$PROJECT_DIR$/../library/corp-master-library/corp-master-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iDrive.iml" filepath="$PROJECT_DIR$/iDrive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/library.iml" filepath="$PROJECT_DIR$/../library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/multi_image_selector/multi_image_selector.iml" filepath="$PROJECT_DIR$/../library/multi_image_selector/multi_image_selector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library/Pinterest-library/pinterest_base-library/pinterest_base-library.iml" filepath="$PROJECT_DIR$/../library/Pinterest-library/pinterest_base-library/pinterest_base-library.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:background="@color/bg_subscribe_left_menu">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/size48"
+            android:background="@drawable/bg_subscribe_menu_item_uncheck"
+            android:gravity="center_vertical">
+        <ImageButton
+                android:id="@+id/btn_subscribe"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size10"
+                android:background="@null"
+                android:src="@drawable/icon_menu_subscribe"/>
+
+        <View android:layout_width="0dp" android:layout_height="1dp"
+              android:layout_weight="1"/>
+        <ImageButton
+                android:id="@+id/btn_cancel_subscribe"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/icon_menu_cancel_subscribe"/>
+        <ImageButton
+                android:id="@+id/btn_setting"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size10"
+                android:layout_marginRight="@dimen/size10"
+                android:background="@null"
+                android:src="@drawable/icon_menu_setting"/>
+        <ImageButton
+                android:id="@+id/btn_ok"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size10"
+                android:layout_marginRight="@dimen/size10"
+                android:background="@null"
+                android:src="@drawable/icon_menu_ok"
+                android:visibility="gone"/>
+    </LinearLayout>
+
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.trs.view.checkable.CommonRadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+    </ScrollView>
+</LinearLayout>

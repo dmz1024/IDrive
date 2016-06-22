@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/idive_light_grey"
+              android:layout_marginTop="@dimen/size8"
+              android:layout_marginBottom="@dimen/size48"
+        android:id="@+id/layout_selfdrive_group">
+    <View android:layout_width="fill_parent"
+          android:layout_height="0.5dip"
+          android:background="@color/separator_grey"></View>
+
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/idrive_white">
+        <RadioGroup android:layout_width="fill_parent"
+                    android:layout_height="@dimen/size30"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+            <RadioButton android:layout_width="wrap_content"
+                         android:layout_height="fill_parent"
+                         android:text="线路简介"
+                         android:textColor="@color/rdbtn_info_detail_color"
+                         android:textSize="@dimen/size14"
+                         android:layout_weight="1.0"
+                         android:gravity="center"
+                         android:button="@null"
+                         android:checked="true"
+                         android:id="@+id/line_intro"/>
+            <RadioButton android:layout_width="wrap_content"
+                         android:layout_height="fill_parent"
+                         android:text="行程"
+                         android:textColor="@color/rdbtn_info_detail_color"
+                         android:textSize="@dimen/size14"
+                         android:layout_weight="1.0"
+                         android:gravity="center"
+                         android:button="@null"
+                         android:id="@+id/line_trip"/>
+            <RadioButton android:layout_width="wrap_content"
+                         android:layout_height="fill_parent"
+                         android:text="领队信息"
+                         android:textColor="@color/rdbtn_info_detail_color"
+                         android:textSize="@dimen/size14"
+                         android:layout_weight="1.0"
+                         android:gravity="center"
+                         android:button="@null"
+                         android:id="@+id/line_guide"/>
+        </RadioGroup>
+        <View android:layout_width="fill_parent"
+              android:layout_height="0.5dip"
+              android:background="@color/separator_grey"></View>
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="自2010年1月4日迪拜塔建成（828米）后，使得台北101退居世界第二高楼。"
+                  android:id="@+id/line_description"
+                  android:textSize="@dimen/size14"
+                  android:layout_margin="@dimen/size8"
+                  android:textColor="@color/detail_black"/>
+        <include layout="@layout/layout_guide"
+                android:visibility="gone"></include>
+        <View android:layout_width="fill_parent"
+              android:layout_height="0.5dip"
+              android:background="@color/separator_grey"></View>
+    </LinearLayout>
+
+    <View android:layout_width="fill_parent"
+          android:layout_height="0.5dip"
+          android:background="@color/separator_grey"
+            android:layout_marginTop="@dimen/size8"></View>
+
+    <com.ccpress.izijia.view.InsideExpandableListView android:layout_width="fill_parent"
+                                                      android:layout_height="wrap_content"
+                                                      android:id ="@+id/expandableListView"
+                                                      android:cacheColorHint="#00000000"
+                                                      android:divider="#00000000"
+                                                      android:listSelector="@null"
+                                                      android:dividerHeight="0.5dip"
+                                                      android:childDivider="#00000000"
+                                                      android:childIndicator="@null"
+                                                      android:groupIndicator="@null"
+                                                      android:animateLayoutChanges="true">
+    </com.ccpress.izijia.view.InsideExpandableListView>
+
+
+    <View android:layout_width="fill_parent"
+          android:layout_height="0.5dip"
+          android:background="@color/separator_grey"></View>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 东方盈-->
+    <color name="dfy_50bbdb">#50bcdb</color>
+    <color name="dfy_999">#999</color>
+    <color name="dfy_fff">#fff</color>
+    <color name="dfy_f0884a">#f0884a</color>
+    <color name="dfy_666">#666</color>
+    <color name="dfy_f1f1f1">#f1f1f1</color>
+    <color name="dfy_333">#333</color>
+    <color name="dfy_dadada">#dadada</color>
+    <color name="dfy_efefef">#efefef</color>
+    <color name="dfy_ea561f">#ea561f</color>
+    <color name="dfy_ef8619">#ef8619</color>
+    <color name="dfy_ebebeb">#ebebeb</color>
+    <color name="dfy_ededed">#ededed</color>
+    <color name="dfy_e5e5e5">#e5e5e5</color>
+    <color name="dfy_ea561d">#ea561d</color>
+    <color name="dfy_bebebe">#bebebe</color>
+    <color name="dfy_dbdbdb">#dbdbdb</color>
+    <color name="dfy_dcdcdc">#dcdcdc</color>
+    <color name="dfy_ddd">#ddd</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dfy_f6f6f6">#f6f6f6</color>
+    <color name="dfy_f5f5f5">#f5f5f5</color>
+    <color name="dfy_ccc">#ccc</color>
+    <color name="dfy_f0851a">#f0851a</color>
+    <color name="dfy_f0f0f0">#f0f0f0</color>
+    <color name="dfy_0b0e0a">#0b0e0a</color>
+
+    <!-- 支付方式窗口-->
+    <color name="colorTop">#50bcdb</color>
+    <color name="colorBj">#ebebeb</color>
+    <color name="colorTotal">#f29846</color>
+    <color name="colorDividerHeight">#dcdcdc</color>
+
+    <!-- 团购资讯电话-->
+    <color name="colorNumber">#50bbdb</color>
+    <color name="colorCancel">#e5e5e5</color>
+
+    <!--yd_颜色-->
+    <color name="yd_19d3a7">#19d3a7</color>
+    <color name="yd_fff">#fff</color>
+    <color name="yd_034058">#034058</color>
+    <color name="yd_333">#333</color>
+    <color name="yd_999">#999</color>
+    <color name="yd_ebebeb">#ebebeb</color>
+    <color name="yd_fefefe">#fefefe</color>
+    <color name="yd_0e6ca6">#0e6ca6</color>
+    <color name="yd_e4e4e4">#e4e4e4</color>
+    <color name="yd_eb541e">#eb541e</color>
+    <color name="yd_f1f1f1">#f1f1f1</color>
+    <color name="yd_a1b4cf">#40a1b4cf</color>
+    <color name="yd_bbb">#bbb</color>
+    <color name="yd_666">#666</color>
+    <color name="yd_de481c">#de481c</color>
+    <color name="yd_04405d">#04405d</color>
+    <color name="yd_003b55">#003b55</color>
+    <color name="yd_ddd">#ddd</color>
+    <color name="yd_bebebe">#bebebe</color>
+    <color name="yd_ea541e">#ea541e</color>
+    <color name="yd_50bbdd">#50bbdd</color>
+
+</resources>

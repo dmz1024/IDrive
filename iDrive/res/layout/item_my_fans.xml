@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_content"
+    android:layout_width="fill_parent"
+    android:layout_height="68dp" >
+
+    <com.froyo.commonjar.view.CircleImageView
+        android:id="@+id/iv_header"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/icon_default_header"
+         />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/iv_header"
+        android:textColor="#222222"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/tv_attention"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="关注"
+        android:textColor="#666666"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/fans_btn_bg"
+        android:gravity="center" />
+
+
+    <ImageView
+        android:id="@+id/iv_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+     	android:src="@drawable/icon_male"
+     	android:layout_toRightOf="@id/tv_title"
+     	android:layout_centerVertical="true"
+     />
+    
+      <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/iv_header"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="#666666"
+        android:textSize="13sp" />
+    
+	<View 
+	    android:layout_width="fill_parent"
+        android:layout_height="1px"
+	    android:layout_alignParentBottom="true"
+	    android:background="#CCCCCC"
+	    android:layout_alignLeft="@id/tv_title"
+	    android:layout_alignRight="@id/tv_attention"
+	    />
+</RelativeLayout>

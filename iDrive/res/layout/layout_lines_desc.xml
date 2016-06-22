@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/idrive_white"
+             android:id="@+id/mLayoutDescList">
+
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:text="@string/line_desc"
+                  android:textColor="@color/detail_black"
+                  android:textSize="@dimen/size14"
+                  android:id="@+id/title"
+                  android:drawablePadding="@dimen/size8"
+                android:layout_margin="@dimen/size8"/>
+    <View android:layout_width="fill_parent" android:layout_height="0.5dip"
+          android:background="@color/separator_grey"></View>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+
+    <ImageView
+            android:id="@+id/iv_arrow"
+            android:src="@drawable/dfy_indicator_arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/size35"
+            android:layout_width="@dimen/size10"
+            android:layout_height="@dimen/size20"
+            />
+
+    <ProgressBar
+            android:id="@+id/pb_rotate"
+            android:visibility="gone"
+            android:indeterminateDuration="1000"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/size35"
+            android:layout_width="@dimen/size20"
+            android:layout_height="@dimen/size20"/>
+
+    <RelativeLayout
+            android:padding="@dimen/size10"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/tv_state"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size11"
+                android:textColor="@color/dfy_666"
+                android:text="下拉刷新"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/size9"
+                  android:layout_centerHorizontal="true"
+                  android:id="@+id/tv_time"
+                  android:textColor="@android:color/darker_gray"
+                  android:text="最后刷新：" android:layout_below="@+id/tv_state" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+</LinearLayout>

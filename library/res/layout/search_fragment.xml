@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+    <EditText
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/search_keyword"
+            android:layout_margin="@dimen/size20"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:background="@drawable/bg_setting_search"/>
+
+    <View android:layout_width="fill_parent"
+          android:layout_height="1dp"
+          android:background="@color/common_list_bg"/>
+
+    <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/list_view"
+                style="@style/pull_to_refresh_list_view"
+                android:divider="#19000000"
+                android:dividerHeight="1dp"
+                app:ptrMode="both"
+                app:ptrOverScroll="false"
+                app:ptrShowIndicator="false"
+                app:ptrHeaderTextColor="@color/pull_to_refresh_text_color"
+                app:ptrHeaderSubTextColor="@color/pull_to_refresh_sub_text_color"
+                />
+
+        <ListView
+                android:id="@+id/history_search_keyword"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:divider="#19000000"
+                android:dividerHeight="1dp"
+                android:cacheColorHint="@null"
+                android:listSelector="@android:color/transparent"
+                android:overScrollMode="never"
+                android:fadingEdge="none"
+                />
+        <include layout="@layout/loading_layout"/>
+    </FrameLayout>
+</LinearLayout>

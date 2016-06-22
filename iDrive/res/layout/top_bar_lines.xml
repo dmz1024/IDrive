@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/top_bar_height"
+                android:background="@color/idrive_blue"
+                android:id="@+id/top_bar_productdetail">
+    <ImageView android:id="@+id/btn_location"
+               android:layout_width="@dimen/top_bar_height"
+               android:layout_height="@dimen/top_bar_height"
+               android:padding="@dimen/size8"
+               android:clickable="true"
+               android:onClick="onBtnBackClick"
+               android:src="@drawable/btn_back_drawable_idrive"/>
+    <RadioGroup android:layout_width="wrap_content"
+                android:layout_height="@dimen/top_bar_height"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+        <RadioButton android:layout_width="@dimen/size70"
+                     android:layout_height="@dimen/size30"
+                     android:id="@+id/rd_image_text"
+                     android:text="图文"
+                     android:gravity="center"
+                     android:textStyle="bold"
+                     android:textColor="@color/rdbtn_lines_color"
+                     android:textSize="@dimen/size14"
+                     android:layout_gravity="center_vertical"
+                     android:button="@null"
+                     android:checked="true"
+                     android:background="@drawable/rbbtn_image"/>
+        <RadioButton android:layout_width="@dimen/size70"
+                     android:layout_height="@dimen/size30"
+                     android:id="@+id/rd_map"
+                     android:text="地图"
+                     android:gravity="center"
+                     android:textStyle="bold"
+                     android:textColor="@color/rdbtn_lines_color"
+                     android:textSize="@dimen/size14"
+                     android:layout_gravity="center_vertical"
+                     android:button="@null"
+                     android:checked="false"
+                     android:background="@drawable/rdbtn_map"/>
+    </RadioGroup>
+
+
+
+    <TextView android:id="@+id/txt_joinin"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="@dimen/size8"
+              android:clickable="true"
+              android:layout_alignParentRight="true"
+              android:visibility="gone"
+              android:text="加入定制"
+              android:layout_marginTop="8dp"
+              android:textColor="@color/common_write"
+              android:textSize="11sp"/>
+
+
+
+
+</RelativeLayout>

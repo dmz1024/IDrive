@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:background="@drawable/shape_edit_comment">
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:layout_marginRight="@dimen/size30"
+                  android:layout_marginLeft="@dimen/size30"
+                  android:layout_marginTop="@dimen/size20">
+        <LinearLayout android:layout_width="@dimen/size70"
+                      android:layout_height="@dimen/size70"
+                      android:orientation="vertical"
+                      android:gravity="center"
+                      android:id="@+id/btn_wechat">
+            <ImageView android:layout_width="@dimen/size34"
+                       android:layout_height="@dimen/size30"
+                       android:src="@drawable/logo_wechat"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="微信好友"
+                      android:layout_marginTop="@dimen/size5"
+                      android:textColor="@color/detail_black"
+                      android:textSize="@dimen/size15"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="@dimen/size70"
+                      android:layout_height="@dimen/size70"
+                      android:orientation="vertical"
+                      android:gravity="center"
+                      android:layout_marginLeft="@dimen/size35"
+                      android:id="@+id/btn_wechatmoment">
+            <ImageView android:layout_width="@dimen/size30"
+                       android:layout_height="@dimen/size30"
+                       android:src="@drawable/logo_wechatmoments"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="朋友圈"
+                      android:layout_marginTop="@dimen/size5"
+                      android:textColor="@color/detail_black"
+                      android:textSize="@dimen/size15"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:layout_marginTop="@dimen/size20"
+                  android:layout_marginRight="@dimen/size30"
+                  android:layout_marginLeft="@dimen/size30"
+                  android:layout_marginBottom="@dimen/size20">
+        <LinearLayout android:layout_width="@dimen/size70"
+                      android:layout_height="@dimen/size70"
+                      android:orientation="vertical"
+                      android:gravity="center"
+                      android:id="@+id/btn_weibo">
+            <ImageView android:layout_width="@dimen/size34"
+                       android:layout_height="@dimen/size30"
+                       android:src="@drawable/logo_sinaweibo"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="新浪微博"
+                      android:layout_marginTop="@dimen/size5"
+                      android:textColor="@color/detail_black"
+                      android:textSize="@dimen/size15"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="@dimen/size70"
+                      android:layout_height="@dimen/size70"
+                      android:orientation="vertical"
+                      android:gravity="center"
+                      android:id="@+id/btn_share_inside"
+                android:layout_marginLeft="@dimen/size35">
+            <ImageView android:layout_width="@dimen/size30"
+                       android:layout_height="@dimen/size30"
+                       android:src="@drawable/icon_share_inside"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="站内"
+                      android:layout_marginTop="@dimen/size5"
+                      android:textColor="@color/detail_black"
+                      android:textSize="@dimen/size15"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.5dip"
+          android:background="@color/separator_grey"></View>
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="取消"
+              android:textSize="@dimen/size15"
+              android:padding="@dimen/size12"
+              android:gravity="center"
+              android:textColor="@color/bottom_bar_comment"
+              android:clickable="true"
+              android:id="@+id/btn_cancel"/>
+</LinearLayout>

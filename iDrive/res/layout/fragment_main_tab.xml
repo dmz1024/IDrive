@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/tab_content"
+                     android:layout_width="fill_parent"
+                     android:layout_weight="10"
+                     android:layout_height="0dp"
+                     android:background="@color/idrive_grey"/>
+
+        <LinearLayout android:id="@+id/bottomId"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size46"
+                android:background="@color/idrive_white">
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout android:id="@+id/photo_linear_layout_shelter"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:visibility="invisible"
+                    android:background="@color/shelter_black" />
+
+    <LinearLayout android:id="@+id/photo_linear_layout"
+                  android:orientation="vertical"
+                  android:visibility="invisible"
+                  android:layout_alignParentBottom="true"
+                  android:layout_width="fill_parent"
+                  android:layout_height="@dimen/size180">
+
+        <RelativeLayout android:id="@+id/btn_video"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/photo_linear_layout_grey">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/video"
+                      android:textColor="@color/idrive_black"
+                      android:layout_centerInParent="true" />
+            <View android:layout_width="fill_parent"
+                  android:layout_height="0.5dp"
+                  android:layout_alignParentBottom="true"
+                  android:background="@color/separator_grey" />
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/btn_photo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/photo_linear_layout_grey">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/take_photo"
+                      android:textColor="@color/idrive_black"
+                      android:layout_centerInParent="true" />
+            <View android:layout_width="fill_parent"
+                  android:layout_height="0.5dp"
+                  android:layout_alignParentBottom="true"
+                  android:background="@color/separator_grey" />
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/btn_upload"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/photo_linear_layout_grey">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/upload_from_local"
+                      android:textColor="@color/idrive_black"
+                      android:layout_centerInParent="true" />
+            <View android:layout_width="fill_parent"
+                  android:layout_height="0.5dp"
+                  android:layout_alignParentBottom="true"
+                  android:background="@color/separator_grey" />
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/btn_cancel"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/idrive_white">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/cancel"
+                      android:textColor="@color/idrive_black"
+                      android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

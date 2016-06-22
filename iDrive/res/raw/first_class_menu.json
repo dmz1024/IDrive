@@ -1,0 +1,29 @@
+﻿{
+  "type": "1001",
+  "channels": [
+    {
+      "title": "首页",
+      "type": "3001",
+      "img": "drawable://btn_tab_selector_home",
+      "url": "index_news.json"
+    },
+    {
+      "title": "我去",
+      "type": "4001",
+      "img": "drawable://btn_tab_selector_go",
+      "url": "index_subscribe.json"
+    },
+    {
+      "title": "地图",
+      "type": "5001",
+      "img": "drawable://btn_tab_selector_map",
+      "url": "index_home.json"
+    },
+    {
+      "title": "个人中心",
+      "type": "6001",
+      "img": "drawable://btn_tab_selector_usercenter",
+      "url": ""
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+            android:src="@drawable/dfy_icon_yk"
+            android:id="@+id/iv_head"
+            android:layout_width="@dimen/size11"
+            android:layout_height="@dimen/size11"/>
+
+    <TextView
+            android:id="@+id/tv_name" android:textColor="@color/dfy_333"
+            android:layout_width="wrap_content"  android:textSize="@dimen/size9"
+            android:layout_height="wrap_content" android:layout_marginLeft="@dimen/size5"
+            />
+
+</LinearLayout>

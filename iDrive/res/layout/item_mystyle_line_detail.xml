@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" 
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="8dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="风景最为秀丽的旅程"
+            android:textColor="#222222"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cb_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/line_check_box"
+            android:checked="false"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/iv_picture"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/icon_sanya"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="三亚湾度假区东起三亚港，二十里长的滨海大道依湾绵延，椰树成林西行延伸至天涯湾。人道十里银滩美，可比起这二十里椰林画廊，就小巫见大巫了！放眼望去，东、西玳瑁洲（玳瑁岛..."
+        android:textColor="#222222"
+        android:textSize="12sp" 
+        android:paddingBottom="10dp"/>
+
+</LinearLayout>

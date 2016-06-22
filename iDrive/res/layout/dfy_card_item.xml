@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/dfy_fff"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <TextView
+            android:padding="@dimen/size3"
+            android:id="@+id/tv_sfz"
+            android:textColor="#000"
+            android:textSize="@dimen/size9"
+            android:text="@string/dfy_idcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tv_jgz"
+            android:textColor="#000"
+            android:textSize="@dimen/size9"
+            android:padding="@dimen/size3"
+            android:text="@string/dfy_soldier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tv_hz"
+            android:textColor="#000"
+            android:textSize="@dimen/size9"
+            android:padding="@dimen/size3"
+            android:text="@string/dfy_passort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tv_gatxz"
+            android:textColor="#000"
+            android:textSize="@dimen/size9"
+            android:padding="@dimen/size3"
+            android:text="@string/dfy_gaCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

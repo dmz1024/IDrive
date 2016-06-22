@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#50bbdb"
+    android:layout_height="@dimen/size45">
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:src="@drawable/btn_back_drawable"
+        android:layout_centerVertical="true"
+        android:layout_width="@dimen/size45"
+        android:layout_height="@dimen/size45"
+        android:padding="@dimen/size8" />
+
+    <TextView
+        android:text="图片"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/commit"
+        android:background="@drawable/action_btn"
+        android:minHeight="1dp"
+        android:minWidth="1dp"
+        android:text="完成"
+        android:layout_marginRight="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/default_text_color"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

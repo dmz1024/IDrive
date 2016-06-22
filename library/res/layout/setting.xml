@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#ffffff"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:visibility="gone"
+            android:layout_width="fill_parent" android:layout_height="@dimen/setting_menu_item_height"
+            android:gravity="center">
+
+        <ImageView
+                android:id="@+id/search_keyword"
+                android:layout_marginLeft="@dimen/size20"
+                android:layout_marginRight="@dimen/size20"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:imeOptions="actionSearch"
+                android:src="@drawable/bg_setting_search"
+                android:scaleType="fitXY"/>
+    </LinearLayout>
+    <View android:layout_width="fill_parent"
+          android:layout_height="1dp"
+          android:background="@color/common_list_bg"/>
+
+    <LinearLayout
+            android:background="@color/common_write"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <!--夜间模式-->
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/setting_menu_item_height"
+                android:gravity="center">
+            <ImageView
+                    android:layout_marginLeft="@dimen/size20"
+                    android:src="@drawable/icon_setting_moon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="@string/setting_moon"
+                    android:layout_marginLeft="@dimen/size15"
+                    style="@style/setting_text_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+            <CheckBox
+                    android:id="@+id/night_mode_switch"
+                    android:layout_width="@dimen/size56" android:layout_height="@dimen/size25"
+                    android:button="@null"
+                    android:background="@drawable/icon_switch"
+                    android:layout_marginRight="@dimen/size10"/>
+
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:background="@color/common_list_bg"/>
+
+        <!--阅读字号-->
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/setting_menu_item_height"
+                android:gravity="center">
+            <ImageView
+                    android:src="@drawable/icon_setting_font"
+                    android:layout_marginLeft="@dimen/size20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="@string/setting_font"
+                    android:layout_marginLeft="@dimen/size15"
+                    style="@style/setting_text_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+            <RadioGroup
+                    android:id="@+id/setting_font"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <RadioButton
+                        android:id="@+id/setting_font_s"
+                        android:layout_width="@dimen/size30" android:layout_height="@dimen/size30"
+                        android:button="@drawable/bg_setting_font_size_s"/>
+                <RadioButton
+                        android:id="@+id/setting_font_m"
+                        android:layout_width="@dimen/size30" android:layout_height="@dimen/size30"
+                        android:button="@drawable/bg_setting_font_size_m"/>
+                <RadioButton
+                        android:id="@+id/setting_font_l"
+                        android:layout_width="@dimen/size30" android:layout_height="@dimen/size30"
+                        android:layout_marginRight="@dimen/size7"
+                        android:button="@drawable/bg_setting_font_size_l"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:background="@color/common_list_bg"/>
+
+        <!--社交分享设置-->
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="@dimen/setting_menu_item_height"
+                android:gravity="center">
+            <ImageView
+                    android:layout_marginLeft="@dimen/size20"
+                    android:src="@drawable/icon_setting_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="@string/setting_push"
+                    android:layout_marginLeft="@dimen/size15"
+                    style="@style/setting_text_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+            <CheckBox
+                    android:id="@+id/push_switch"
+                    android:layout_width="@dimen/size56" android:layout_height="@dimen/size25"
+                    android:button="@null"
+                    android:background="@drawable/icon_switch"
+                    android:layout_marginRight="@dimen/size10"/>
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:background="@color/common_list_bg"/>
+
+        <!--收藏管理-->
+        <LinearLayout
+                android:id="@+id/btn_collect"
+                android:layout_width="fill_parent"
+                      android:layout_height="@dimen/setting_menu_item_height"
+                android:gravity="center">
+            <ImageView
+                    android:layout_marginLeft="@dimen/size20"
+                    android:src="@drawable/icon_collection_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="@string/setting_collection"
+                    android:layout_marginLeft="@dimen/size15"
+                    style="@style/setting_text_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:background="@color/common_list_bg"/>
+
+        <!--离线管理-->
+        <LinearLayout
+                android:id="@+id/btn_offline"
+                android:layout_width="fill_parent"
+                      android:layout_height="@dimen/setting_menu_item_height"
+                android:gravity="center">
+            <ImageView
+                    android:layout_marginLeft="@dimen/size20"
+                    android:src="@drawable/icon_setting_download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="@string/setting_download"
+                    android:layout_marginLeft="@dimen/size15"
+                    style="@style/setting_text_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:background="@color/common_list_bg"/>
+
+        <!--二维码扫描-->
+        <LinearLayout
+                android:id="@+id/btn_scan"
+                android:layout_width="fill_parent"
+                      android:layout_height="@dimen/setting_menu_item_height"
+                android:gravity="center">
+            <ImageView
+                    android:layout_marginLeft="@dimen/size20"
+                    android:src="@drawable/icon_setting_two_dimension"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="@string/setting_two_dimension"
+                    android:layout_marginLeft="@dimen/size15"
+                    style="@style/setting_text_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:background="@color/common_list_bg"/>
+
+        <!--清除缓存-->
+        <LinearLayout
+                android:id="@+id/btn_clear_cache"
+                android:layout_width="fill_parent" android:layout_height="@dimen/setting_menu_item_height"
+                android:gravity="center">
+            <ImageView
+                    android:layout_marginLeft="@dimen/size20"
+                    android:src="@drawable/icon_cocah_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="@string/setting_cache"
+                    android:layout_marginLeft="@dimen/size15"
+                    style="@style/setting_text_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:id="@+id/cachetext"
+                    android:textColor="#000000"
+                    android:text="[25M]"
+                    android:layout_marginRight="@dimen/size20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:background="@color/common_list_bg"/>
+
+        <!--意见反馈-->
+        <LinearLayout
+                android:id="@+id/btn_feedback"
+                android:layout_width="fill_parent"
+                      android:layout_height="@dimen/setting_menu_item_height"
+                android:gravity="center"
+                android:visibility="gone">
+            <ImageView
+                    android:id="@+id/feedbackimgid"
+                    android:layout_marginLeft="@dimen/size20"
+                    android:src="@drawable/icon_setting_feedback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="@string/setting_feedback"
+                    android:layout_marginLeft="@dimen/size15"
+                    style="@style/setting_text_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:background="@color/common_list_bg"/>
+
+        <!--推荐好友-->
+        <LinearLayout
+                android:id="@+id/btn_recommend"
+                android:layout_width="fill_parent"
+                      android:layout_height="@dimen/setting_menu_item_height"
+                android:gravity="center">
+            <ImageView
+                    android:layout_marginLeft="@dimen/size20"
+                    android:src="@drawable/icon_setting_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="@string/setting_friend"
+                    android:layout_marginLeft="@dimen/size15"
+                    style="@style/setting_text_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:background="@color/common_list_bg"/>
+
+        <!--更新-->
+        <LinearLayout
+                android:id="@+id/btn_checkupdate"
+                android:layout_width="fill_parent"
+                      android:layout_height="@dimen/setting_menu_item_height"
+                android:gravity="center">
+            <ImageView
+                    android:layout_marginLeft="@dimen/size20"
+                    android:src="@drawable/icon_update_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="@string/setting_update"
+                    android:layout_marginLeft="@dimen/size15"
+                    style="@style/setting_text_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="1dp"
+              android:background="@color/common_list_bg"/>
+
+        <!--关于-->
+        <LinearLayout
+                android:id="@+id/btn_about"
+                android:layout_width="fill_parent"
+                      android:layout_height="@dimen/setting_menu_item_height"
+                android:gravity="center"
+                android:visibility="gone">
+            <ImageView
+                    android:layout_marginLeft="@dimen/size20"
+                    android:src="@drawable/icon_setting_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="@string/setting_about"
+                    android:layout_marginLeft="@dimen/size15"
+                    style="@style/setting_text_style"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/version"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="#eeeeee"/>
+</LinearLayout>

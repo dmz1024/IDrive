@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="@color/dfy_fff"
+                android:layout_height="match_parent">
+
+
+    <RelativeLayout
+            android:id="@+id/rl_top"
+            android:background="@color/dfy_50bbdb"
+            android:layout_width="match_parent" android:layout_height="@dimen/size44">
+        <ImageView android:layout_width="@dimen/size26" android:layout_height="@dimen/size26"
+                   android:id="@+id/iv_back"
+                   android:layout_centerVertical="true"
+                   android:src="@drawable/dfy_icon_back"
+                   android:layout_marginLeft="@dimen/size8"
+                />
+
+        <RelativeLayout
+                android:background="@drawable/dfy_detail_fes_bg" android:layout_toRightOf="@id/iv_back"
+                android:layout_height="@dimen/size25"  android:layout_marginRight="@dimen/size10"
+                android:layout_centerVertical="true" android:layout_marginLeft="@dimen/size20"
+                android:layout_width="wrap_content" >
+            <ImageView
+                    android:id="@+id/iv_search"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_centerVertical="true"
+                    android:layout_width="@dimen/size20"
+                    android:src="@drawable/dfy_icon_search"
+                    android:layout_height="@dimen/size20"/>
+
+            <EditText
+                    android:imeOptions="actionSearch"
+                    android:singleLine="true"
+                    android:id="@+id/et_search"
+                    android:layout_toRightOf="@id/iv_search"
+                     android:layout_marginLeft="@dimen/size3"
+                    android:layout_width="match_parent" android:layout_height="@dimen/size25"
+                    android:layout_marginRight="@dimen/size10" android:hint="@string/dfy_search_hint"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/size12" android:background="@null"
+                    />
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+            android:id="@+id/bottom"
+            android:visibility="gone"
+            android:background="@color/dfy_fff"
+            android:padding="@dimen/size5"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <RelativeLayout
+                android:id="@+id/rl_city"
+                style="@style/dfy_search_rl">
+            <ImageView
+                    android:id="@+id/city"
+                    android:src="@drawable/dfy_common_nav_city"
+                    style="@style/dfy_search_iv"/>
+            <TextView android:id="@+id/tv_city"
+                      android:layout_below="@id/city"
+                      android:text="@string/dfy_city"
+                      style="@style/dfy_search_tv"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/rl_days"
+                style="@style/dfy_search_rl">
+            <ImageView
+                    android:id="@+id/days"
+                    android:src="@drawable/dfy_common_nav_days"
+                    style="@style/dfy_search_iv"/>
+            <TextView android:id="@+id/tv_days"
+                      android:layout_below="@id/days"
+                      android:text="@string/dfy_days"
+                      style="@style/dfy_search_tv"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/rl_time"
+                style="@style/dfy_search_rl">
+            <ImageView
+                    android:id="@+id/time"
+                    android:src="@drawable/dfy_common_nav_time"
+                    style="@style/dfy_search_iv"/>
+            <TextView android:id="@+id/tv_time"
+                      android:layout_below="@id/time"
+                      android:text="@string/dfy_time"
+                      style="@style/dfy_search_tv"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/rl_xu"
+                style="@style/dfy_search_rl">
+            <ImageView
+                    android:id="@+id/xu"
+                    android:src="@drawable/dfy_common_nav_xu"
+                    style="@style/dfy_search_iv"/>
+            <TextView android:id="@+id/tv_xu"
+                      android:layout_below="@id/xu"
+                      android:text="@string/dfy_xu"
+                      style="@style/dfy_search_tv"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--android:layout_below="@id/top"-->
+    <FrameLayout
+
+            android:id="@+id/center_frame"
+            android:layout_marginTop="@dimen/size3"
+            android:layout_below="@id/rl_top"
+            android:layout_above="@id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ></FrameLayout>
+
+
+</RelativeLayout>

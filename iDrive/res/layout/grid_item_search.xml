@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+    <ImageView android:layout_width="@dimen/size30"
+    android:id="@+id/itemImage"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/gas_station"
+    android:layout_height="@dimen/size30"/>
+    <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#222222"
+    android:textSize="@dimen/size12"
+    android:textStyle="bold"
+    android:id="@+id/itemText"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/itemImage"
+    android:text="加油"
+    android:layout_marginTop="@dimen/size6"/>
+</RelativeLayout>

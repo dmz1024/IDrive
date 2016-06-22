@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="list_view"/>
+    <item type="id" name="loading_view"/>
+    <item type="id" name="img"/>
+    <item type="id" name="title"/>
+    <item type="id" name="date"/>
+    <item type="id" name="summary"/>
+
+    <item type="id" name="header_title"/>
+    <item type="id" name="fragment_container"/>
+
+    <item type="id" name="view_type"/>
+
+    <item type="id" name="tag_channel"/>
+</resources>

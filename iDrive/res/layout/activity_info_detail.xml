@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/idive_light_grey">
+    <include layout="@layout/top_bar_productdetail"></include>
+    <FrameLayout android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:layout_below="@+id/top_bar_productdetail">
+
+        <ScrollView android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scrollbars="vertical"
+                    >
+            <LinearLayout android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:orientation="vertical"
+                          >
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="horizontal"
+                              android:id="@+id/Linear_user"
+                              android:background="@color/idrive_white">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/user_img"
+                            android:layout_width="@dimen/size32"
+                            android:layout_height="@dimen/size32"
+                            android:layout_marginRight="@dimen/size5"
+                            android:layout_margin="@dimen/size8"
+                            app:border_width="1dp"
+                            app:border_color="@android:color/transparent"/>
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text=""
+                              android:textColor="@color/idrive_blue"
+                              android:textStyle="bold"
+                              android:textSize="@dimen/size15"
+                              android:id="@+id/user_name"
+                              android:layout_gravity="center_vertical"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:background="@color/idrive_white"
+                              android:layout_below="@+id/Linear_user"
+                              android:id="@+id/Linear_Img">
+
+                    <RelativeLayout android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/size8"
+                                    android:layout_marginRight="@dimen/size8">
+                        <android.support.v4.view.ViewPager
+                                android:id="@+id/pager"
+                                android:layout_width="fill_parent"
+                                android:layout_height="@dimen/size150"/>
+                        <LinearLayout android:layout_width="fill_parent"
+                                      android:layout_height="@dimen/size28"
+                                      android:background="@color/shelter_black"
+                                      android:orientation="horizontal"
+                                      android:gravity="center_vertical"
+                                      android:layout_alignParentBottom="true"
+                                      android:id="@+id/Linear_location">
+                            <ImageView android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:id="@+id/img_location"
+                                       android:src="@drawable/icon_address_small"
+                                       android:layout_marginLeft="@dimen/size6"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                      android:text=""
+                                      android:layout_marginLeft="@dimen/size8"
+                                      android:textColor="@color/idrive_white"
+                                      android:textSize="@dimen/size13"
+                                      android:id="@+id/txt_location"
+                                      android:layout_weight="1.0"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                      android:text=""
+                                      android:textColor="@color/idrive_white"
+                                      android:textSize="@dimen/size13"
+                                      android:id="@+id/txt_date"/>
+                            <ImageView android:layout_width="wrap_content"
+                                       android:layout_height="wrap_content"
+                                       android:src="@drawable/icon_go"
+                                       android:id="@+id/img_next"
+                                       android:visibility="gone"
+                                       android:layout_marginLeft="@dimen/size6"
+                                       android:layout_marginRight="@dimen/size6"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <com.viewpagerindicator.CirclePageIndicator
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/pager_indicator"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dip"
+                            android:layout_centerHorizontal="true"
+                            app:fillColor="#50bbdb"
+                            app:pageColor="@color/separator_grey"
+                            app:strokeWidth="0dp"
+                            app:snap="false"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/size5"
+                            android:layout_marginBottom="@dimen/size5"/>
+                    <TextView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:text=""
+                              android:id="@+id/description"
+                              android:textSize="@dimen/size14"
+                              android:layout_marginLeft="@dimen/size8"
+                              android:layout_marginRight="@dimen/size8"
+                              android:textColor="@color/detail_black"/>
+                    <View android:layout_width="fill_parent"
+                          android:layout_height="0.5dip"
+                          android:background="@color/separator_grey"
+                          android:layout_marginTop="@dimen/size10"></View>
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="fill_parent"
+                              android:layout_height="fill_parent"
+                              android:orientation="vertical"
+                              android:background="@color/idrive_white"
+                              android:layout_marginTop="@dimen/size10"
+                              android:layout_below="@+id/Linear_Img"
+                              android:layout_marginBottom="@dimen/size45">
+                    <View android:layout_width="fill_parent"
+                          android:layout_height="0.5dip"
+                          android:background="@color/separator_grey"
+                          android:layout_below="@+id/description"></View>
+                    <RadioGroup android:layout_width="fill_parent"
+                                android:layout_height="@dimen/size30"
+                                android:orientation="horizontal"
+                                android:gravity="center_vertical">
+                        <RadioButton android:layout_width="wrap_content"
+                                     android:layout_height="fill_parent"
+                                     android:text="评论"
+                                     android:textColor="@color/rdbtn_info_detail_color"
+                                     android:textSize="@dimen/size14"
+                                     android:layout_weight="1.0"
+                                     android:gravity="center"
+                                     android:button="@null"
+                                     android:checked="true"
+                                     android:id="@+id/info_comment"/>
+                        <RadioButton android:layout_width="wrap_content"
+                                     android:layout_height="fill_parent"
+                                     android:text="分享"
+                                     android:textColor="@color/rdbtn_info_detail_color"
+                                     android:textSize="@dimen/size14"
+                                     android:layout_weight="1.0"
+                                     android:gravity="center"
+                                     android:button="@null"
+                                     android:id="@+id/info_share"/>
+                        <RadioButton android:layout_width="wrap_content"
+                                     android:layout_height="fill_parent"
+                                     android:text="赞"
+                                     android:textColor="@color/rdbtn_info_detail_color"
+                                     android:textSize="@dimen/size14"
+                                     android:layout_weight="1.0"
+                                     android:gravity="center"
+                                     android:button="@null"
+                                     android:id="@+id/info_praise"/>
+                    </RadioGroup>
+                    <View android:layout_width="fill_parent"
+                          android:layout_height="0.5dip"
+                          android:background="@color/separator_grey"
+                          android:layout_below="@+id/description"></View>
+                    <ListView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:id="@+id/listview"
+                              android:cacheColorHint="#00000000"
+                              android:divider="@null">
+
+                    </ListView>
+
+                    <com.ccpress.izijia.view.InsideGridView android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:cacheColorHint="#00000000"
+                              android:id="@+id/grid_view"
+                            android:numColumns="4"
+                            android:visibility="gone">
+                    </com.ccpress.izijia.view.InsideGridView>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <include layout="@layout/loading_layout"></include>
+
+        <include layout="@layout/bottom_bar_productdetail"></include>
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/idrive_white"
+                android:id="@+id/relative_comment">
+    <include layout="@layout/top_bar_productdetail"></include>
+    <FrameLayout android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+            android:id="@+id/content"
+            android:layout_below="@+id/top_bar_productdetail"
+            android:layout_marginBottom="@dimen/size46">
+
+    </FrameLayout>
+
+    <View android:layout_width="fill_parent" android:layout_height="0.5dip"
+            android:background="@color/comment_date"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/bottom_bar_height"></View>
+
+    <include layout="@layout/bottom_bar_comment"></include>
+</RelativeLayout>

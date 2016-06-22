@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@color/idrive_white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <include layout="@layout/top_bar_city_list" />
+    <ListView android:id="@+id/city_list"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:divider="@null"
+              android:scrollbars="none"
+              android:layout_below="@+id/search_layout"
+              android:listSelector="@android:color/transparent" />
+
+    <LinearLayout
+            android:id="@+id/title_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/size20"
+            android:layout_below="@+id/search_layout"
+            android:background="#EEEEEE" >
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size16"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+    </LinearLayout>
+
+
+
+    <RelativeLayout android:id="@+id/search_layout"
+                    android:layout_height="@dimen/size45"
+                    android:layout_width="fill_parent"
+                    android:background="@color/idrive_white"
+                    android:layout_below="@+id/top_bar_city_list" >
+
+        <EditText android:id="@+id/search_edit"
+                  android:layout_width="fill_parent"
+                  android:layout_height="@dimen/size30"
+                  android:layout_marginLeft="@dimen/size15"
+                  android:layout_marginRight="@dimen/size15"
+                  android:layout_centerVertical="true"
+                  android:inputType="text"
+                  android:paddingLeft="@dimen/size35"
+                  android:hint="@string/search_city_hint"
+                  android:textSize="14sp"
+                  android:background="@drawable/shape_search" />
+
+        <ImageView android:layout_height="@dimen/size15"
+                   android:layout_width="@dimen/size15"
+                   android:layout_alignLeft="@id/search_edit"
+                   android:layout_marginLeft="@dimen/size10"
+                   android:layout_centerVertical="true"
+                   android:src="@drawable/icon_search" />
+
+        <View android:layout_height="0.5dp"
+              android:layout_width="fill_parent"
+              android:layout_alignParentBottom="true"
+              android:background="#CCCCCC" />
+    </RelativeLayout>
+
+    <com.ccpress.izijia.view.CitiyListSideBar
+            android:id="@+id/sidebar"
+            android:layout_width="@dimen/size30"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="@dimen/size90"
+            android:layout_marginBottom="@dimen/size90"
+            android:layout_alignParentRight="true" />
+
+    <include layout="@layout/loading_layout_material"/>
+</RelativeLayout>

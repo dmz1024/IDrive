@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#95191919"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <RelativeLayout
+            android:background="#fff"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:id="@+id/iv_camp"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size130"/>
+
+
+        <com.ccpress.izijia.yd.view.GridViewText1
+                android:id="@+id/gv_update"
+                android:layout_marginLeft="@dimen/size10"
+                android:layout_marginRight="@dimen/size10"
+                android:layout_marginBottom="@dimen/size10"
+                android:layout_below="@id/iv_camp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </com.ccpress.izijia.yd.view.GridViewText1>
+        <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="@dimen/size10"
+                android:layout_below="@id/gv_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:id="@+id/bt_cancle"
+                    android:text="取消"
+                    android:textColor="@color/yd_fefefe"
+                    android:textSize="@dimen/sp15"
+                    android:background="@drawable/yd_selector_50bbbb"
+                    android:layout_width="@dimen/size110"
+                    android:layout_height="@dimen/size27"
+                    />
+            <Button
+                    android:id="@+id/bt_ok"
+                    android:text="修改位置"
+                    android:layout_toRightOf="@id/bt_cancle"
+                    android:textColor="@color/yd_fefefe"
+                    android:textSize="@dimen/sp15"
+                    android:layout_marginLeft="@dimen/size10"
+                    android:background="@drawable/yd_selector_50bbbb"
+                    android:layout_width="@dimen/size110"
+                    android:layout_height="@dimen/size27"
+                    />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

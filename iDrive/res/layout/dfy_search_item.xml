@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@color/dfy_fff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+    <ImageView
+            android:layout_marginLeft="@dimen/size5"
+            android:id="@+id/iv_left"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    <ImageView
+            android:id="@+id/iv_type"
+            android:layout_marginLeft="@dimen/size5"
+            android:layout_width="@dimen/size30"
+            android:layout_height="@dimen/size30"
+            />
+
+    <LinearLayout
+            android:id="@+id/ll_root"
+            android:layout_toRightOf="@id/iv_left"
+            android:layout_marginLeft="@dimen/size7"
+            android:layout_marginRight="@dimen/size7"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4"
+            android:layout_height="@dimen/size100">
+
+        <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+            <TextView
+                    android:layout_alignParentRight="true"
+                    android:singleLine="true"
+                    android:id="@+id/tv_xc" android:textColor="@color/dfy_333"
+                    android:textSize="@dimen/size12"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_alignParentLeft="true"
+                    android:singleLine="true"
+                    android:layout_toLeftOf="@id/tv_xc"
+                    android:ellipsize="end"
+                    android:id="@+id/tv_name" android:textColor="@color/dfy_333"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/size12"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <TextView
+                android:layout_weight="1" android:singleLine="true"
+                android:id="@+id/tv_xingcheng" android:textColor="@color/dfy_333"
+                android:text="线路：南京-乌尔浩特-阿尔山-白狼村" android:textSize="@dimen/size12"
+                android:layout_width="wrap_content" android:layout_height="0dp"/>
+        <TextView
+                android:layout_weight="1"
+                android:id="@+id/tv_note"
+                android:text="海天佛国，南海圣境"
+                android:textSize="@dimen/size10"
+                android:singleLine="true" android:textColor="@color/dfy_999"
+                android:layout_width="wrap_content" android:layout_height="0dp"/>
+
+        <RelativeLayout
+                android:layout_marginBottom="@dimen/size5"
+                android:layout_weight="1"
+                android:layout_width="match_parent" android:layout_height="0dp">
+            <ImageView
+                    android:id="@+id/ren"
+
+                    android:src="@drawable/dfy_icon_ren"
+                    android:scaleType="fitXY"
+                    android:layout_width="@dimen/size13"
+                    android:layout_height="@dimen/size13"/>
+
+            <TextView
+                    android:textSize="@dimen/size10"
+                    android:id="@+id/brand_name"
+                    android:text="车游四海俱乐部"
+                    android:singleLine="true"
+                    android:layout_marginLeft="@dimen/size5"
+                    android:layout_marginRight="@dimen/size50"
+
+                    android:layout_toRightOf="@id/ren"
+                    android:textColor="@color/dfy_666"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="@string/￥"
+                        android:textColor="@color/dfy_ea561f"
+                        android:textSize="@dimen/size9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                <TextView
+                        android:text="1826"
+                        android:id="@+id/tv_price"
+                        android:textColor="@color/dfy_ea561f"
+                        android:textSize="@dimen/size13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                <TextView
+                        android:text="@string/price"
+                        android:textColor="@color/dfy_ea561f"
+                        android:textSize="@dimen/size9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+            android:layout_below="@id/ll_root"
+            android:background="@color/dfy_f5f5f5"
+            android:layout_width="match_parent" android:layout_height="@dimen/size6"></View>
+</RelativeLayout>

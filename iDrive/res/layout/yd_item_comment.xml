@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:paddingLeft="@dimen/size10"
+                android:paddingRight="@dimen/size10"
+                android:paddingTop="@dimen/size7">
+
+    <com.ccpress.izijia.yd.view.CircleImageView
+            android:id="@+id/iv_img"
+            android:src="@drawable/dfy_reg_bg"
+            android:layout_width="@dimen/size50"
+            android:layout_height="@dimen/size50"/>
+    <TextView
+            android:id="@+id/tv_name"
+            android:textColor="#333"
+            android:text="匿名ddddddd"
+            android:layout_alignLeft="@id/iv_img"
+            android:layout_alignRight="@id/iv_img"
+            android:layout_below="@id/iv_img"
+            android:textSize="@dimen/sp10"
+            android:gravity="center"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:id="@+id/tv_time"
+            android:text="2015-25-89"
+            android:layout_toRightOf="@id/iv_img"
+            android:layout_marginLeft="@dimen/size10"
+            android:textSize="@dimen/sp10"
+            android:textColor="#333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <com.ccpress.izijia.yd.view.StarImageView
+            android:id="@+id/siv_star"
+            android:layout_toRightOf="@id/tv_time"
+            android:background="@drawable/yd_star_0"
+            android:layout_marginLeft="@dimen/size10"
+            android:layout_width="@dimen/size60"
+            android:layout_height="@dimen/size10"/>
+
+    <TextView
+            android:id="@+id/tv_content"
+            android:textSize="@dimen/sp12"
+            android:textColor="#333"
+            android:text="ID覅偶的奇偶覅及偶滴"
+            android:lines="2"
+            android:layout_alignLeft="@id/tv_time"
+            android:layout_marginTop="@dimen/size10"
+            android:layout_below="@id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

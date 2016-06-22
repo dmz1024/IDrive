@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/idive_light_grey">
+
+
+    <TabHost android:id="@+id/tabhost" android:layout_width="fill_parent"
+             android:layout_height="fill_parent" android:layout_weight="1.0"
+             android:background="@color/idive_light_grey">
+        <LinearLayout android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+            <TabWidget android:id="@android:id/tabs"
+                       android:orientation="horizontal"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:visibility="gone"/>
+            <include layout="@layout/top_bar_lines"></include>
+            <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0" />
+        </LinearLayout>
+    </TabHost>
+    <!--<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+        <FrameLayout android:layout_width="fill_parent"
+                     android:layout_height="fill_parent"
+                     android:id="@+id/content"
+                     android:background="@color/idive_light_grey">
+
+        </FrameLayout>
+
+    </FrameLayout>-->
+
+    <include layout="@layout/loading_layout_material"></include>
+
+
+</merge>

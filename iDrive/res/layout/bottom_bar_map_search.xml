@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/size120"
+        android:background="@color/idrive_white"
+        android:gravity="center">
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="@dimen/size60"
+                  android:text="萤火虫咖啡"
+                  android:textColor="@color/detail_black"
+                  android:textStyle="bold"
+                  android:textSize="@dimen/size15"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:id="@+id/name"
+                  android:maxLines="2"
+                  android:ellipsize="end"/>
+
+   <View android:layout_width="fill_parent"
+          android:layout_height="2dip"
+          android:background="@color/separator_grey"></View>
+
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:text="确定"
+                  android:textColor="@color/bottom_bar_comment"
+                  android:textSize="@dimen/size14"
+                  android:id="@+id/route_show"
+                  android:gravity="center"
+                  android:layout_gravity="center"
+                  android:clickable="true"
+                  android:onClick="onOkClick"/>
+
+
+</LinearLayout>

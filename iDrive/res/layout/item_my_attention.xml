@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_content"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp" >
+
+    <com.froyo.commonjar.view.CircleImageView
+        android:id="@+id/iv_header"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/icon_default_header"
+         />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/iv_header"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/base_color"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+         />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@id/iv_header"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="#666666"
+        android:textSize="13sp"
+        android:maxLength="18"
+        android:gravity="top"
+         />
+
+    <ImageView
+        android:id="@+id/iv_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:src="@drawable/icon_next" />
+
+    <ImageView
+        android:id="@+id/iv_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/tv_title"
+        android:src="@drawable/icon_male"
+        android:layout_alignParentTop="true" 
+        android:layout_marginTop="15dp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_alignLeft="@id/tv_title"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@id/iv_next"
+        android:background="#CCCCCC"
+         />
+
+</RelativeLayout>

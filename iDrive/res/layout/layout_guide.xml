@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/idrive_white"
+              android:paddingBottom="@dimen/size8"
+              android:id="@+id/layout_guider">
+    <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/guide_avatar"
+            android:layout_width="@dimen/size40"
+            android:layout_height="@dimen/size40"
+            android:layout_marginRight="@dimen/size5"
+            android:background="@drawable/cqsw_default_pic"
+            android:layout_margin="@dimen/size12"
+            app:border_width="1dp"
+            android:visibility="gone"
+            app:border_color="@android:color/transparent"/>
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="@dimen/size8"
+            android:layout_marginLeft="@dimen/size8"
+            android:layout_marginRight="@dimen/size8">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="杜兮"
+                  android:textColor="@color/idrive_blue"
+                  android:textSize="@dimen/size14"
+                  android:id="@+id/guider_name"
+                  android:layout_gravity="center_vertical"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="杜兮"
+                  android:textColor="@color/detail_black"
+                  android:textSize="@dimen/size13"
+                  android:id="@+id/guider_year"
+                  android:layout_marginTop="@dimen/size10"
+                  android:layout_gravity="center_vertical"
+                android:visibility="gone"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="杜兮"
+                  android:textColor="@color/detail_black"
+                  android:textSize="@dimen/size13"
+                  android:id="@+id/guider_experience"
+                  android:layout_gravity="center_vertical"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="杜兮"
+                  android:textColor="@color/detail_black"
+                  android:textSize="@dimen/size13"
+                  android:id="@+id/guider_profile"
+                  android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+</LinearLayout>

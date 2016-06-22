@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+    <com.ccpress.izijia.dfy.view.TopView
+            android:id="@+id/top_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size44">
+    </com.ccpress.izijia.dfy.view.TopView>
+
+
+    <LinearLayout
+
+            android:id="@+id/ll_bottom" android:orientation="horizontal"
+            android:weightSum="4" android:layout_alignParentBottom="true"
+            android:layout_width="match_parent" android:layout_height="@dimen/size50">
+
+
+        <RelativeLayout
+                android:id="@+id/rl_collect"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:id="@+id/iv_collect" android:layout_centerHorizontal="true"
+                    android:src="@drawable/dfy_icon_collect" android:layout_marginTop="@dimen/size5"
+                    android:layout_width="@dimen/size70"
+                    android:scaleType="fitXY"
+                    android:layout_height="@dimen/size25"/>
+            <TextView
+                    android:textColor="@color/dfy_666"
+                     android:textSize="@dimen/size10"
+                    android:layout_below="@id/iv_collect" android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/tv_collect" android:text="@string/dfy_collect"
+                    />
+            <View
+                    android:background="@color/dfy_dadada"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="@dimen/size0.5" android:layout_height="match_parent">
+
+            </View>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/rl_call"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:id="@+id/iv_tel" android:layout_centerHorizontal="true"
+                    android:src="@drawable/dfy_icon_tel_02" android:layout_marginTop="@dimen/size5"
+                    android:layout_width="@dimen/size70"
+                    android:scaleType="fitXY"
+                    android:layout_height="@dimen/size25"/>
+            <TextView
+
+                    android:textColor="@color/dfy_666"
+                    android:textSize="@dimen/size10"
+                    android:layout_below="@id/iv_tel" android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/tv_tel" android:text="@string/dfy_call"
+                    />
+        </RelativeLayout>
+
+        <TextView
+
+                android:id="@+id/tv_apply" android:text="正在加载..."
+                android:textColor="@color/dfy_fff" android:gravity="center"
+                android:textSize="@dimen/size14"
+                android:layout_weight="2" android:background="@color/dfy_50bbdb"
+                android:layout_width="0dp" android:layout_height="match_parent"
+
+                />
+
+    </LinearLayout>
+
+    <WebView
+            android:id="@+id/webview"
+            android:layout_below="@id/top_view"
+            android:layout_above="@id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </WebView>
+
+</RelativeLayout>

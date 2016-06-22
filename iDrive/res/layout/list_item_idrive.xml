@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:paddingRight="@dimen/size8"
+                android:paddingLeft="@dimen/size8"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size115">
+
+    <ImageView android:id="@+id/idrive_list_img"
+               android:layout_width="fill_parent"
+               android:layout_height="@dimen/size115"
+               android:scaleType="centerCrop" />
+
+    <RelativeLayout android:id="@+id/shadow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/size25"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/shape_list_shadow">
+        <TextView android:id="@+id/title"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/idrive_white"
+                  android:textSize="14sp"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="@dimen/size8" />
+        <!--<TextView android:id="@+id/sub_title"-->
+                  <!--android:layout_width="wrap_content"-->
+                  <!--android:layout_height="wrap_content"-->
+                  <!--android:textColor="@color/idrive_white"-->
+                  <!--android:textSize="12sp"-->
+                  <!--android:layout_marginLeft="@dimen/size8"-->
+                  <!--android:layout_below="@id/title" />-->
+    </RelativeLayout>
+
+</RelativeLayout>

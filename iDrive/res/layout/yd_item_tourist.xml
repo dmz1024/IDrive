@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tool="http://schemas.android.com/apk/res-auto"
+        android:paddingBottom="@dimen/size8"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/tv_title"
+            android:textSize="@dimen/sp11"
+            android:textColor="#ea5221"
+            android:layout_marginTop="@dimen/size10"
+            android:layout_marginLeft="@dimen/size12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <com.ccpress.izijia.yd.view.TextEditView
+            android:id="@+id/tev_name"
+            android:layout_marginTop="@dimen/size5"
+            android:layout_marginLeft="@dimen/size35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tool:TextEditView_title="姓        名"/>
+
+    <RelativeLayout
+            android:layout_marginTop="@dimen/size5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/tv_card"
+                android:textColor="#333"
+                android:text="证件类型"
+                android:layout_marginLeft="@dimen/size35"
+                android:textSize="@dimen/sp14"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:id="@+id/mi"
+                android:layout_marginLeft="@dimen/size2"
+                android:layout_centerVertical="true"
+                android:text="*"
+                android:textColor="#f00"
+                android:layout_toRightOf="@id/tv_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <RelativeLayout
+                android:id="@+id/rl_type"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/size2"
+                android:layout_toRightOf="@id/mi"
+                android:background="@drawable/yd_icon_check"
+                android:layout_width="@dimen/size110"
+                android:layout_height="@dimen/size22">
+            <TextView
+                    android:id="@+id/tv_type"
+                    android:text="身份证"
+                    android:gravity="center"
+                    android:textSize="@dimen/sp11"
+                    android:textColor="#333"
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <View
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/yd_sort_drop"
+                    android:layout_width="@dimen/size12"
+                    android:layout_marginRight="@dimen/size3"
+                    android:layout_height="@dimen/size17"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.ccpress.izijia.yd.view.TextEditView
+            android:id="@+id/tev_card_num"
+            android:layout_marginTop="@dimen/size5"
+            android:layout_marginLeft="@dimen/size35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tool:TextEditView_title="证  件  号"/>
+
+    <com.ccpress.izijia.yd.view.OptionSelect
+            android:id="@+id/os_sex"
+            android:layout_below="@id/tev_name"
+            android:layout_marginTop="@dimen/size5"
+            android:layout_marginLeft="@dimen/size35"
+            tool:OptionSelect_tv_1="成人"
+            tool:OptionSelect_tv_2="儿童"
+            tool:OptionSelect_title="人        群"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/icon_titlebar_bg" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/title_bar_back" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/title_bg"
+            android:orientation="horizontal"
+            android:padding="1dp" >
+
+            <TextView
+                android:id="@+id/tv_view"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="所有城市"
+                android:textColor="@color/base_color"
+                android:textSize="16sp" 
+                android:layout_marginLeft="1dp"/>
+
+            <TextView
+                android:id="@+id/tv_line"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mystyle_title_right_bg"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="下载管理"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp" 
+                />
+        </LinearLayout>
+         <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:text="帮助"
+         />
+    </RelativeLayout>
+
+ 	<android.support.v4.view.ViewPager
+ 	    android:id="@+id/vp_pager"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_below="@+id/top"
+ 	    android:layout_marginTop="15dp" 
+ 	    android:layout_above="@+id/rl_bottom">
+ 	</android.support.v4.view.ViewPager>
+	<RelativeLayout 
+ 	    android:id="@+id/rl_bottom"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignParentBottom="true"
+ 	    >
+ 	    <ProgressBar 
+ 	        android:id="@+id/progress"
+ 	        android:layout_width="fill_parent"
+ 	        android:layout_height="10dp"
+ 	        style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+ 	        android:progress="20"
+ 	        android:max="100"
+ 	        />
+ 	    <LinearLayout 
+ 	        android:layout_width="fill_parent"
+ 	        android:layout_height="wrap_content"
+ 	        android:orientation="horizontal"
+ 	        android:gravity="center"
+ 	        android:layout_below="@id/progress"
+ 	        >
+ 	        <TextView 
+ 	            android:layout_width="wrap_content"
+ 	            android:layout_height="wrap_content"
+ 	            android:text="剩余 "
+ 	            android:textColor="#333333"
+ 	            android:textSize="16sp"
+ 	            />
+ 	        
+ 	        <TextView 
+ 	            android:id="@+id/tv_last"
+ 	            android:layout_width="wrap_content"
+ 	            android:layout_height="wrap_content"
+ 	            android:textColor="#50BBDB"
+				android:text="2.3G"
+ 	            android:textSize="16sp"
+ 	            />
+
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="#333333"
+					android:text=" / "
+					android:textSize="16sp"
+			/>
+ 	        <TextView 
+ 	            android:id="@+id/tv_total"
+ 	            android:layout_width="wrap_content"
+ 	            android:layout_height="wrap_content"
+ 	            android:textColor="#333333"
+				android:text="12.5G"
+ 	            android:textSize="16sp"
+ 	            />
+ 	    </LinearLayout>
+ 	</RelativeLayout>
+</RelativeLayout>

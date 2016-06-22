@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="LIBRARY_PROJECT" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="Android API 15 Platform" jdkType="Android SDK" />
+    <orderEntry type="library" exported="" name="libs" level="project" />
+    <orderEntry type="module" module-name="ViewPagerIndicator-library" exported="" />
+    <orderEntry type="module" module-name="pinterest_base-library" exported="" />
+    <orderEntry type="module" module-name="PagerSlidingTabStrip-library" exported="" />
+    <orderEntry type="module" module-name="PullToRefresh-library" exported="" />
+    <orderEntry type="module" module-name="QuickReturnHeaderFooter-library" exported="" />
+    <orderEntry type="module" module-name="Zxing-master" exported="" />
+    <orderEntry type="module" module-name="CircleImageView-library" exported="" />
+    <orderEntry type="module" module-name="corp-master-library" exported="" />
+    <orderEntry type="module" module-name="SlidingMenu-library" exported="" />
+    <orderEntry type="module" module-name="Pinterest-library" exported="" />
+    <orderEntry type="module" module-name="StickyListHeader-library" exported="" />
+    <orderEntry type="module" module-name="corp-master-lib1-library" exported="" />
+    <orderEntry type="module" module-name="corp-master-lib2-library" exported="" />
+    <orderEntry type="module" module-name="CommonJar-master" exported="" />
+    <orderEntry type="module" module-name="multi_image_selector" exported="" />
+    <orderEntry type="library" name="jpush-sdk-release1.8.2" level="project" />
+    <orderEntry type="library" name="AMap_Location_v1.4.1_20150917" level="project" />
+  </component>
+</module>

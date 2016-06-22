@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tool="http://schemas.android.com/apk/res-auto"
+                android:background="@color/dfy_f1f1f1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:id="@+id/rl_bottom"
+            android:background="#fff"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size50">
+        <TextView
+                android:id="@+id/tv_money"
+                android:text="商品总金额   ¥"
+                android:layout_marginLeft="@dimen/size5"
+                android:textSize="@dimen/sp13"
+                android:layout_centerVertical="true"
+                android:textColor="#ea5221"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tv_total_money"
+                android:text="0"
+                android:layout_toRightOf="@id/tv_money"
+                android:textSize="@dimen/sp13"
+                android:layout_centerVertical="true"
+                android:textColor="#ea5221"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/bt_order"
+                android:text="立即预定"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size6"
+                android:textColor="@color/yd_fefefe"
+                android:textSize="@dimen/sp15"
+                android:background="@drawable/yd_selector_50bbbb"
+                android:layout_width="@dimen/size100"
+                android:layout_height="@dimen/size27"/>
+    </RelativeLayout>
+
+    <ScrollView
+            android:id="@+id/sv_root"
+            android:layout_alignParentTop="true"
+            android:fillViewport="true"
+            android:layout_above="@id/rl_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:id="@+id/ll_root"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <FrameLayout
+                    android:background="#fff"
+                    android:id="@+id/fg_calen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+            </FrameLayout>
+            <com.ccpress.izijia.yd.view.ViewText
+                    tool:ViewText_title="优惠套餐"
+                    android:background="#fff"
+                    android:layout_marginTop="@dimen/size10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <com.ccpress.izijia.yd.view.MaxListView
+                    android:id="@+id/lv_tc"
+                    android:background="#fff"
+                    android:divider="#00000000"
+                    android:dividerHeight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <com.ccpress.izijia.yd.view.ViewText
+                    tool:ViewText_title="特色住宿"
+                    android:background="#fff"
+                    android:layout_marginTop="@dimen/size10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <com.ccpress.izijia.yd.view.MaxListView
+                    android:id="@+id/lv_zs"
+                    android:background="#fff"
+                    android:divider="#00000000"
+                    android:dividerHeight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            <com.ccpress.izijia.yd.view.ViewText
+                    android:background="#fff"
+                    tool:ViewText_title="帐篷营位"
+                    android:layout_marginTop="@dimen/size10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <com.ccpress.izijia.yd.view.MaxListView
+                    android:id="@+id/lv_yw"
+                    android:background="#fff"
+                    android:divider="#00000000"
+                    android:dividerHeight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <com.ccpress.izijia.yd.view.ViewText
+                    tool:ViewText_title="特色休闲"
+                    android:background="#fff"
+                    android:layout_marginTop="@dimen/size10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <com.ccpress.izijia.yd.view.MaxListView
+                    android:id="@+id/lv_xx"
+                    android:background="#fff"
+                    android:divider="#00000000"
+                    android:dividerHeight="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

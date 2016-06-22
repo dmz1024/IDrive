@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:background="@color/idrive_white"
+              android:layout_marginTop="@dimen/size10"
+              android:id="@+id/lines_middle">
+    <View android:layout_width="fill_parent" android:layout_height="0.5dip"
+          android:background="@color/separator_grey"></View>
+    <RadioGroup android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/size8"
+                android:gravity="center_vertical"
+                android:id="@+id/rg1">
+        <RadioButton
+                android:text="行程看点"
+                style="@style/middle_rdbutton"
+                android:drawableTop="@drawable/icon_kd"
+                android:id="@+id/rdbutton1"
+                android:checked="true"/>
+        <RadioButton style="@style/middle_rdbutton"
+                     android:text="玩法解析"
+                     android:drawableTop="@drawable/icon_play"
+                     android:id="@+id/rdbutton2"/>
+        <RadioButton style="@style/middle_rdbutton"
+                     android:text="沿途美食"
+                     android:drawableTop="@drawable/icon_food"
+                     android:id="@+id/rdbutton3"/>
+        <RadioButton style="@style/middle_rdbutton"
+                     android:text="住宿"
+                     android:drawableTop="@drawable/icon_hotel"
+                     android:id="@+id/rdbutton4"/>
+    </RadioGroup>
+    <RadioGroup android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/size8"
+                android:gravity="center_vertical"
+                android:id="@+id/rg2">
+        <RadioButton style="@style/middle_rdbutton"
+                     android:text="特产购物"
+                     android:drawableTop="@drawable/icon_goods"
+                     android:id="@+id/rdbutton5"/>
+        <RadioButton style="@style/middle_rdbutton"
+                     android:text="停车发呆地"
+                     android:drawableTop="@drawable/icon_park"
+                     android:id="@+id/rdbutton6"/>
+        <RadioButton style="@style/middle_rdbutton"
+                     android:text="途经目的地"
+                     android:drawableTop="@drawable/icon_city"
+                     android:id="@+id/rdbutton7"/>
+        <RadioButton style="@style/middle_rdbutton"
+                     android:text="延伸路线"
+                     android:drawableTop="@drawable/icon_extend"
+                     android:id="@+id/rdbutton8"/>
+    </RadioGroup>
+    <View android:layout_width="fill_parent" android:layout_height="0.5dip"
+          android:background="@color/separator_grey"></View>
+</LinearLayout>

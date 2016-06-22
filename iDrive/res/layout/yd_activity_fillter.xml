@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tool="http://schemas.android.com/apk/res-auto"
+              xmlns:app="http://schemas.android.com/apk/res/com.ccpress.izijia"
+              android:orientation="vertical"
+              android:background="@color/dfy_f1f1f1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:id="@+id/ll_filter"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size40">
+        <com.ccpress.izijia.yd.view.YdFilterView
+                android:id="@+id/yd_1"
+                android:layout_weight="1"
+                app:YdFilterView_title="推荐"
+                app:YdFilterView_show="true"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+
+        <com.ccpress.izijia.yd.view.YdFilterView
+                android:id="@+id/yd_2"
+                android:layout_weight="1"
+                app:YdFilterView_title="价格"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+
+        <com.ccpress.izijia.yd.view.YdFilterView
+                android:id="@+id/yd_3"
+                android:layout_weight="1"
+                app:YdFilterView_title="距离"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+        <com.ccpress.izijia.yd.view.YdFilterView
+                android:id="@+id/yd_4"
+                android:layout_weight="1"
+                app:YdFilterView_type="false"
+                app:YdFilterView_title="筛选"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <FrameLayout
+            android:id="@+id/fg_filter"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+
+    </FrameLayout>
+</LinearLayout>

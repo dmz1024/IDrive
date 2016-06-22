@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:padding="@dimen/size8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_interact_item_bg">
+   <!-- <com.daimajia.swipe.SwipeLayout
+                 android:id="@+id/swipe"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/icon_portrait"
+            app:border_width="1dp"
+            app:border_color="@android:color/transparent"
+            android:layout_height="@dimen/size35"
+            android:layout_width="@dimen/size35"/>
+
+    <TextView android:id="@+id/txt_name"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:layout_toRightOf="@id/icon_portrait"
+              android:layout_marginLeft="@dimen/size12"
+              android:textSize="16sp"
+              android:textColor="@color/idrive_blue"
+              android:text="林晓晓"/>
+
+    <ImageView android:id="@+id/icon_gender"
+               android:layout_height="@dimen/size18"
+               android:layout_width="@dimen/size18"
+               android:layout_toRightOf="@id/txt_name"
+               android:layout_marginLeft="@dimen/size8"
+               android:src="@drawable/icon_gender_male"/>
+
+    <ImageView android:id="@+id/list_delete"
+            android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/image_delete"
+               android:visibility="gone"
+               android:layout_alignParentRight="true"/>
+
+    <TextView android:id="@+id/txt_title"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:layout_below="@id/txt_name"
+              android:layout_alignLeft="@id/txt_name"
+              android:textSize="14sp"
+              android:textColor="#222222"
+              android:ellipsize="end"
+              android:maxLines="2"
+              android:text="好想去...一起结伴去旅行！"/>
+
+    <RelativeLayout android:id="@+id/summary_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txt_name"
+                    android:layout_below="@id/txt_title"
+                    android:padding="@dimen/size5"
+                    android:background="#eeeeee"
+                    android:layout_marginTop="@dimen/size5">
+
+        <ImageView android:id="@+id/img_summary"
+                   android:layout_centerVertical="true"
+                   android:layout_height="@dimen/size43"
+                   android:layout_width="@dimen/size43" />
+
+        <TextView android:id="@+id/txt_summary_title"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_centerVertical="true"
+                  android:layout_toRightOf="@id/img_summary"
+                  android:layout_marginLeft="@dimen/size8"
+                  android:text="雨中巴黎"
+                  android:textSize="12sp"
+                  android:lines="2"
+                  android:ellipsize="end"
+                  android:textColor="#666666"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/image_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txt_name"
+                    android:layout_below="@id/txt_title"
+                    android:layout_marginTop="@dimen/size5"
+                    android:visibility="gone" />
+
+    <RelativeLayout android:id="@+id/bottom_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/txt_name"
+                    android:layout_below="@id/summary_layout"
+                    android:layout_marginTop="@dimen/size10">
+
+        <ImageView android:id="@+id/icon_perfect"
+                   android:layout_height="@dimen/size18"
+                   android:layout_width="@dimen/size18"
+                   android:src="@drawable/icon_perfect_normal"/>
+        <TextView android:id="@+id/txt_perfect"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_toRightOf="@id/icon_perfect"
+                  android:layout_marginLeft="@dimen/size5"
+                  android:layout_centerVertical="true"
+                  android:text="12"
+                  android:textColor="#666666"
+                  android:textSize="12sp"/>
+
+        <View android:id="@+id/divide1"
+              android:layout_height="@dimen/size18"
+              android:layout_width="0.5dp"
+              android:layout_toRightOf="@id/txt_perfect"
+              android:layout_marginLeft="@dimen/size10"
+              android:layout_marginRight="@dimen/size10"
+              android:background="#666666"/>
+
+
+        <ImageView android:id="@+id/icon_comment"
+                   android:layout_height="@dimen/size18"
+                   android:layout_width="@dimen/size18"
+                   android:layout_toRightOf="@id/divide1"
+                   android:src="@drawable/icon_interact_comment"/>
+        <TextView android:id="@+id/txt_comment"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_toRightOf="@id/icon_comment"
+                  android:layout_marginLeft="@dimen/size5"
+                  android:layout_centerVertical="true"
+                  android:text="12"
+                  android:textColor="#666666"
+                  android:textSize="12sp"/>
+
+        <View android:id="@+id/divide2"
+              android:layout_height="@dimen/size18"
+              android:layout_width="0.5dp"
+              android:layout_toRightOf="@id/txt_comment"
+              android:layout_marginLeft="@dimen/size10"
+              android:layout_marginRight="@dimen/size10"
+              android:background="#666666"/>
+
+        <ImageView android:id="@+id/icon_forward"
+                   android:layout_height="@dimen/size18"
+                   android:layout_width="@dimen/size18"
+                   android:layout_toRightOf="@id/divide2"
+                   android:src="@drawable/icon_forward"/>
+        <TextView android:id="@+id/txt_forward"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_toRightOf="@id/icon_forward"
+                  android:layout_marginLeft="@dimen/size5"
+                  android:layout_centerVertical="true"
+                  android:text="12"
+                  android:textColor="#666666"
+                  android:textSize="12sp"/>
+
+       <!-- <View android:id="@+id/divide3"
+              android:layout_height="@dimen/size18"
+              android:layout_width="0.5dp"
+              android:layout_toRightOf="@id/txt_forward"
+              android:layout_marginLeft="@dimen/size10"
+              android:layout_marginRight="@dimen/size10"
+              android:background="#666666"/>
+
+        <ImageView android:id="@+id/icon_delelete"
+                   android:layout_height="@dimen/size18"
+                   android:layout_width="@dimen/size18"
+                   android:layout_toRightOf="@id/divide3"
+                   android:src="@drawable/icon_forward"/>
+        <TextView android:id="@+id/txt_delete"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_toRightOf="@id/icon_delelete"
+                  android:layout_marginLeft="@dimen/size5"
+                  android:layout_centerVertical="true"
+                  android:text="删除"
+                  android:textColor="#666666"
+                  android:textSize="12sp"/>-->
+
+
+        <TextView android:id="@+id/txt_date"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:textColor="#666666"
+                  android:textSize="14sp"
+                  android:text="2015/1/30"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:background="@drawable/top_bar_bg"
+                android:id="@+id/top_bar_home"
+                android:layout_height="@dimen/top_bar_height">
+
+    <ImageView android:id="@+id/btn_location"
+               android:layout_width="@dimen/top_bar_height"
+               android:layout_height="@dimen/top_bar_height"
+               android:padding="@dimen/size8"
+               android:visibility="invisible"
+               android:src="@drawable/icon_top_location"/>
+
+    <TextView android:id="@+id/txt_location"
+              android:layout_width="@dimen/size50"
+              android:layout_height="wrap_content"
+              android:layout_centerVertical="true"
+              android:gravity="left"
+              android:textSize="12sp"
+              android:textColor="@color/idrive_white"
+              android:layout_marginLeft="-8dp"
+              android:visibility="invisible"
+              android:layout_toRightOf="@id/btn_location" />
+
+    <LinearLayout android:id="@+id/home_top_radio_group"
+                  android:layout_width="wrap_content"
+                  android:layout_height="@dimen/top_bar_height"
+                  android:orientation="horizontal"
+                  android:layout_centerInParent="true">
+
+        <RelativeLayout android:id="@+id/rd_idrive"
+                        android:layout_width="@dimen/size90"
+                        android:layout_height="@dimen/size30"
+                        android:layout_gravity="center_vertical">
+
+            <TextView android:id="@+id/txt_idrive"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerInParent="true"
+                      android:text="@string/idrive"
+                      android:textSize="18sp"
+                      android:textColor="@color/idrive_white" />
+
+            <ImageView android:layout_width="@dimen/size6"
+                       android:layout_height="@dimen/size6"
+                       android:layout_alignParentBottom="true"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginRight="@dimen/size2"
+                       android:layout_marginBottom="@dimen/size3"
+                       android:src="@drawable/icon_triangle"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/rd_hd"
+                        android:layout_width="@dimen/size70"
+                        android:layout_height="@dimen/size30"
+                        android:layout_gravity="center_vertical">
+
+            <TextView android:id="@+id/txt_hd"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerInParent="true"
+                      android:text="@string/interact"
+                      android:textSize="18sp"
+                      android:textColor="@color/idrive_white" />
+
+            <ImageView android:layout_width="@dimen/size6"
+                       android:layout_height="@dimen/size6"
+                       android:layout_alignParentBottom="true"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginRight="@dimen/size2"
+                       android:layout_marginBottom="@dimen/size3"
+                       android:src="@drawable/icon_triangle"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView android:id="@+id/btn_take_photo"
+               android:layout_width="@dimen/top_bar_height"
+               android:layout_height="@dimen/top_bar_height"
+               android:src="@drawable/icon_top_take"
+               android:padding="@dimen/size8"
+               android:layout_alignParentRight="true"/>
+</RelativeLayout>

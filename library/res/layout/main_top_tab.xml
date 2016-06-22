@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include layout="@layout/common_title"/>
+
+    <RelativeLayout
+            android:layout_below="@id/title_layout"
+            android:id="@+id/extend_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+                android:id="@+id/extend_btn"
+                android:layout_alignParentRight="true"
+                android:layout_width="70dp"
+                android:layout_height="60dp">
+            <View
+                    android:background="#e83a3b"
+                    android:id="@+id/split"
+                    android:layout_width="@dimen/size2"
+                    android:layout_height="60dp"/>
+            <ImageView
+                    android:id="@+id/time_extend_imgid"
+                    android:onClick="BtnTimeClick"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:visibility="gone"
+                    android:id="@+id/extend_time_red"
+                    android:textSize="@dimen/size8"
+                    android:lines="1"
+                    android:background="@drawable/bg_special_9"
+                    android:layout_marginBottom="-8dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignBottom="@id/time_extend_imgid"
+                    android:layout_width="40dp"
+                    android:layout_height="15dp"/>
+
+            <TextView
+                    android:background="#e83a3b"
+                    android:id="@+id/popup_location_id"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="0.1dp"
+                    android:layout_height="0.1dp"/>
+        </RelativeLayout>
+
+        <HorizontalScrollView
+                android:id="@+id/topId_scroll"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/extend_btn"
+                android:layout_width="fill_parent"
+                android:scrollbars="none"
+                android:layout_height="wrap_content">
+                <RadioGroup
+                        android:layout_marginLeft="@dimen/size10"
+                        android:id="@+id/topId"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="60dp">
+                </RadioGroup>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+
+    <FrameLayout
+            android:layout_below="@id/extend_layout"
+            android:id="@+id/frameLayoutId"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    </FrameLayout>
+</RelativeLayout>

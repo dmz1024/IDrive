@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="horizontal" >
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+        <SurfaceView
+                android:id="@+id/surfaceview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <Button
+            android:textColor="#ffffff"
+            android:layout_marginBottom="@dimen/size10"
+            android:background="@drawable/bg_btn_shape"
+            android:layout_gravity="bottom|center_horizontal"
+            android:id="@+id/operaButton"
+            android:layout_width="120dp"
+            android:layout_height="50dp"/>
+
+    <Chronometer
+            android:format="%s"
+            android:id="@+id/time"
+            android:layout_marginLeft="@dimen/size20"
+            android:textSize="@dimen/size15"
+            android:textColor="#ffffff"
+            android:layout_marginTop="@dimen/size10"
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</FrameLayout>

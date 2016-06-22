@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                android:id="@+id/swipe"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/size45">
+    <!-- Bottom View Start-->
+    <RelativeLayout android:id="@+id/bottom_wrapper"
+                    android:background="#ff1818"
+                    android:layout_height="@dimen/size45"
+                    android:layout_width="@dimen/size50">
+
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_centerInParent="true"
+                  android:textColor="#ffffff"
+                  android:textSize="@dimen/size15"
+                  android:text="删除" />
+
+    </RelativeLayout>
+    <!-- Bottom View End-->
+
+<LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:paddingLeft="@dimen/size10"
+                android:paddingRight="@dimen/size10"
+                android:layout_height="wrap_content"
+               >
+<RelativeLayout android:layout_width="fill_parent"
+                android:layout_height="@dimen/size44"
+                android:layout_marginRight="@dimen/size10"
+                >
+    <TextView android:id="@+id/edit_group_name"
+              android:text="特别关注"
+              android:textStyle="bold"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerVertical="true"
+              android:textColor="#222222"
+              android:singleLine="true"
+              android:textSize="@dimen/size14" />
+
+    <TextView android:id="@+id/edit_group_num"
+              android:text="16"
+              android:layout_toRightOf="@id/edit_group_name"
+              android:layout_marginLeft="@dimen/size8"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerVertical="true"
+              android:textColor="#999999"
+              android:textSize="@dimen/size13" />
+
+    <ImageView android:layout_width="9dp"
+               android:layout_centerVertical="true"
+               android:layout_alignParentRight="true"
+               android:src="@drawable/editgroupnext"
+               android:layout_height="14dp"/>
+</RelativeLayout>
+    <View android:id="@+id/separate_line"
+          android:layout_width="fill_parent"
+          android:layout_height="0.5dp"
+          android:background="#cccccc" />
+</LinearLayout>
+
+</com.daimajia.swipe.SwipeLayout>

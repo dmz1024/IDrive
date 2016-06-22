@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:descendantFocusability="blocksDescendants"
+                android:layout_height="wrap_content">
+    <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/rl_list_top_popup"
+                    android:layout_height="@dimen/size45">
+    <TextView android:id="@+id/channel_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:textColor="@color/idrive_white"
+              android:textSize="16sp" />
+
+    <View android:id="@+id/separate_line"
+          android:layout_width="@dimen/size140"
+          android:layout_height="1dp"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:background="@color/popup_separator_grey" />
+    </RelativeLayout>
+    <Button android:layout_width="140dp"
+              android:text="编辑我的分组"
+              android:layout_marginTop="@dimen/size8"
+              android:layout_marginBottom="@dimen/size8"
+              android:layout_gravity="center_horizontal"
+              android:visibility="gone"
+              android:id="@+id/edit_group"
+              android:textColor="#fffefe"
+              android:textSize="@dimen/size15"
+              android:gravity="center"
+              android:background="@drawable/shape_editgroup"
+              android:layout_height="35dp"/>
+</LinearLayout>

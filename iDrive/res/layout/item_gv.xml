@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res/com.ccpress.izijia"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:layout_width="@dimen/size50"
+                android:layout_height="@dimen/size72">
+    <FrameLayout   android:layout_width="@dimen/size50"
+                   android:layout_height="@dimen/size72">
+        <RelativeLayout   android:layout_width="@dimen/size50"
+                          android:layout_height="@dimen/size72">
+    <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img_friends"
+            android:layout_width="@dimen/size50"
+            android:layout_centerHorizontal="true"
+            android:layout_height="@dimen/size50"
+            app:border_width="1dp"
+            app:border_color="@android:color/transparent"
+            android:src="@drawable/cqsw_default_pic"
+            />
+
+  <TextView android:layout_width="wrap_content"
+            android:text="红房子"
+            android:textColor="#222222"
+            android:textSize="@dimen/size12"
+            android:layout_below="@+id/img_friends"
+            android:singleLine="true"
+            android:id="@+id/name_friends"
+            android:layout_marginTop="@dimen/size6"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </FrameLayout>
+    <ImageView android:layout_width="@dimen/size20"
+               android:layout_alignParentRight="true"
+               android:src="@drawable/delete_img"
+               android:visibility="visible"
+               android:id="@+id/delete_friendsimg"
+               android:layout_height="@dimen/size20"/>
+</RelativeLayout>

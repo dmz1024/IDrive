@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:background="@color/idive_light_grey">
+    <include layout="@layout/top_bar_report_list"></include>
+
+
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="@dimen/size160"
+            android:hint="请输入举报原因"
+            android:gravity="top"
+            android:id="@+id/edit_text"
+            android:textColorHint="@color/separator_grey"
+            android:textSize="@dimen/size14"
+            android:textColor="@color/detail_black"
+            android:background="@drawable/shape_edit_text"
+            android:padding="@dimen/size10"/>
+</LinearLayout>

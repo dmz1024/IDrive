@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        android:background="@color/idive_light_grey">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/top_bar_height"
+            android:background="@color/idrive_blue"
+            android:id="@+id/top_bar">
+        <ImageView android:id="@+id/btn_location"
+                   android:layout_width="@dimen/top_bar_height"
+                   android:layout_height="@dimen/top_bar_height"
+                   android:padding="@dimen/size8"
+                   android:src="@drawable/icon_top_location"/>
+
+        <TextView android:id="@+id/txt_location"
+                  android:layout_width="@dimen/size50"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true"
+                  android:gravity="left"
+                  android:textSize="12sp"
+                  android:textColor="@color/idrive_white"
+                  android:layout_marginLeft="-8dp"
+                  android:layout_toRightOf="@id/btn_location"/>
+        <RadioGroup android:layout_width="wrap_content"
+                    android:layout_height="@dimen/top_bar_height"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+            <RadioButton android:layout_width="@dimen/size70"
+                         android:layout_height="@dimen/size30"
+                         android:id="@+id/rd_lines"
+                         android:text="线路"
+                         android:gravity="center"
+                         android:textStyle="bold"
+                         android:textColor="@color/rdbtn_lines_color"
+                         android:textSize="@dimen/size14"
+                         android:layout_gravity="center_vertical"
+                         android:button="@null"
+                         android:checked="true"
+                         android:background="@drawable/rbbtn_image"/>
+            <RadioButton android:layout_width="@dimen/size70"
+                         android:layout_height="@dimen/size30"
+                         android:id="@+id/rd_destination"
+                         android:text="目的地"
+                         android:gravity="center"
+                         android:textStyle="bold"
+                         android:textColor="@color/rdbtn_lines_color"
+                         android:textSize="@dimen/size14"
+                         android:layout_gravity="center_vertical"
+                         android:button="@null"
+                         android:checked="false"
+                         android:background="@drawable/rdbtn_map"/>
+        </RadioGroup>
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+            android:id="@+id/content"
+            android:layout_below="@+id/top_bar">
+
+    </FrameLayout>
+
+
+</RelativeLayout>

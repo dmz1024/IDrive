@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/il_top"
+        layout="@layout/layout_title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edit_bg"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <EditText
+            android:id="@+id/et_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="top|left"
+            android:hint="添加照片描述"
+            android:minHeight="105dp"
+            android:padding="5dp"
+            android:textColor="#222222"
+            android:textColorHint="#999999"
+            android:textSize="14sp"
+            android:textCursorDrawable="@drawable/icon_cursor" >
+         <requestFocus />
+            
+        </EditText>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp" >
+
+            <com.ccpress.izijia.view.CustomNetworkImageView
+                android:id="@+id/iv_thumb"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                />
+           
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

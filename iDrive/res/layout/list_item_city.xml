@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+
+    <LinearLayout
+            android:id="@+id/sort_key_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/size20"
+            android:visibility="gone"
+            android:background="#EEEEEE" >
+
+        <TextView
+                android:id="@+id/sort_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size16"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+            android:id="@+id/name_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/size45" >
+
+        <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/size16"
+                android:textColor="#222222"
+                android:textSize="14sp" />
+
+        <ImageView android:id="@+id/icon_city_checked"
+                   android:layout_height="@dimen/size20"
+                   android:layout_width="@dimen/size20"
+                   android:layout_centerVertical="true"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="@dimen/size16"
+                   android:src="@drawable/icon_city_checked" />
+
+        <View android:layout_height="0.5dp"
+              android:layout_width="fill_parent"
+              android:layout_marginRight="@dimen/size16"
+              android:layout_marginLeft="@dimen/size16"
+              android:layout_alignParentBottom="true"
+              android:background="#CCCCCC" />
+
+    </RelativeLayout>
+
+</LinearLayout>

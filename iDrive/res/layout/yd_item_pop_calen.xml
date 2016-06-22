@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0000000"
+    android:orientation="vertical">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b0000000"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_time"
+            android:gravity="center"
+            android:background="@color/yd_f1f1f1"
+            android:textSize="@dimen/sp12"
+            android:textColor="@color/yd_333"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size30" />
+
+        <LinearLayout
+            android:id="@+id/ll_week"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size26"
+            android:background="@color/yd_bebebe"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <TextView
+                style="@style/dfy_tv_week"
+                android:text="日" />
+
+            <TextView
+                style="@style/dfy_tv_week"
+                android:text="一" />
+
+            <TextView
+                style="@style/dfy_tv_week"
+                android:text="二" />
+
+            <TextView
+                style="@style/dfy_tv_week"
+                android:text="三" />
+
+            <TextView
+                style="@style/dfy_tv_week"
+                android:text="四" />
+
+            <TextView
+                style="@style/dfy_tv_week"
+                android:text="五" />
+
+            <TextView
+                style="@style/dfy_tv_week"
+                android:text="六" />
+
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_day"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size250"
+            android:layout_below="@id/ll_week"
+            android:background="@color/yd_f1f1f1">
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/idrive_white">
+    <LinearLayout android:id="@+id/recommend_linear_layout"
+                  android:orientation="vertical"
+                  android:layout_alignParentBottom="true"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+        <LinearLayout android:id="@+id/btn_recommend"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center_vertical"
+                      android:padding="@dimen/size12"
+                      android:orientation="horizontal"
+                      android:background="@color/idrive_white">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1.0"
+                      android:text="推荐线路"
+                      android:textColor="@color/idrive_blue"
+                      android:textSize="@dimen/size15"
+                      android:layout_centerInParent="true"
+                      android:textStyle="bold"/>
+            <ImageView android:layout_width="@dimen/size9"
+                       android:layout_height="@dimen/size14"
+                       android:src="@drawable/editgroupnext"></ImageView>
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="0.5dp"
+              android:background="@color/separator_grey"
+              android:layout_marginLeft="@dimen/size12"
+              android:layout_marginRight="@dimen/size12"/>
+        <LinearLayout android:id="@+id/btn_avoid_Congestion"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:background="@color/idrive_white"
+                      android:gravity="center_vertical"
+                      android:padding="@dimen/size12"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="躲避拥堵"
+                      android:textColor="@color/idrive_blue"
+                      android:textSize="@dimen/size15"
+                      android:layout_centerInParent="true"
+                      android:layout_weight="1.0"
+                      android:textStyle="bold"/>
+            <ImageView android:layout_width="@dimen/size9"
+                       android:layout_height="@dimen/size14"
+                       android:src="@drawable/editgroupnext"></ImageView>
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="0.5dp"
+              android:background="@color/separator_grey"
+              android:layout_marginLeft="@dimen/size12"
+              android:layout_marginRight="@dimen/size12"/>
+
+        <LinearLayout android:id="@+id/btn_NoExpressways"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:background="@color/idrive_white"
+                      android:gravity="center_vertical"
+                      android:padding="@dimen/size12"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="不走高速"
+                      android:textColor="@color/idrive_blue"
+                      android:textSize="@dimen/size15"
+                      android:id="@+id/txt_joinin"
+                      android:layout_centerInParent="true"
+                      android:layout_weight="1.0"
+                      android:textStyle="bold"/>
+            <ImageView android:layout_width="@dimen/size9"
+                       android:layout_height="@dimen/size14"
+                       android:src="@drawable/editgroupnext"></ImageView>
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="0.5dp"
+              android:background="@color/separator_grey"
+              android:layout_marginLeft="@dimen/size12"
+              android:layout_marginRight="@dimen/size12"/>
+
+        <LinearLayout android:id="@+id/btn_SaveMoney"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:background="@color/idrive_white"
+                      android:gravity="center_vertical"
+                      android:padding="@dimen/size12"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="避免收费"
+                      android:textColor="@color/idrive_blue"
+                      android:textSize="@dimen/size15"
+                      android:layout_centerInParent="true"
+                      android:layout_weight="1.0"
+                      android:textStyle="bold"/>
+            <ImageView android:layout_width="@dimen/size9"
+                       android:layout_height="@dimen/size14"
+                       android:src="@drawable/editgroupnext"></ImageView>
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+              android:layout_height="0.5dp"
+              android:background="@color/separator_grey"
+              android:layout_marginLeft="@dimen/size12"
+              android:layout_marginRight="@dimen/size12"/>
+        <LinearLayout android:id="@+id/btn_shortDistance"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:background="@color/idrive_white"
+                      android:gravity="center_vertical"
+                      android:padding="@dimen/size12"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="距离最短"
+                      android:layout_weight="1.0"
+                      android:textColor="@color/idrive_blue"
+                      android:textSize="@dimen/size15"
+                      android:layout_centerInParent="true"
+                      android:textStyle="bold"/>
+            <ImageView android:layout_width="@dimen/size9"
+                       android:layout_height="@dimen/size14"
+                       android:src="@drawable/editgroupnext"></ImageView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

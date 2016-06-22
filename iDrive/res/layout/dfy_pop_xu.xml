@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@color/dfy_fff" android:layout_marginLeft="@dimen/size11"
+              android:layout_weight="3" android:orientation="vertical"
+              android:weightSum="5"
+              android:paddingLeft="@dimen/size11"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/size180">
+
+    <RelativeLayout android:id="@+id/rl_1" android:layout_width="match_parent" android:layout_weight="1"
+                    android:layout_height="0dp">
+
+        <TextView
+                android:id="@+id/tv_1"
+                android:text="@string/dfy_xu1"
+                android:textColor="@color/dfy_50bbdb"
+                style="@style/dfy_xu_tv"
+                />
+
+        <ImageView
+                android:id="@+id/iv_1"
+                style="@style/dfy_xu_iv"
+                android:visibility="visible"
+                />
+
+        <View
+                style="@style/dfy_xu_view"
+                ></View>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/rl_2" android:layout_width="match_parent" android:layout_weight="1"
+                    android:layout_height="0dp">
+
+        <TextView
+                android:id="@+id/tv_2"
+                android:text="@string/dfy_xu2"
+                style="@style/dfy_xu_tv"
+                />
+
+        <ImageView
+                android:id="@+id/iv_2"
+                style="@style/dfy_xu_iv"
+                />
+
+        <View
+                style="@style/dfy_xu_view"
+                ></View>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/rl_3" android:layout_width="match_parent" android:layout_weight="1"
+                    android:layout_height="0dp">
+
+        <TextView
+                android:id="@+id/tv_3"
+                android:text="@string/dfy_xu3"
+                style="@style/dfy_xu_tv"
+                />
+
+        <ImageView
+                android:id="@+id/iv_3"
+                style="@style/dfy_xu_iv"
+                />
+
+        <View
+                style="@style/dfy_xu_view"
+                ></View>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/rl_4" android:layout_width="match_parent" android:layout_weight="1"
+                    android:layout_height="0dp">
+
+        <TextView
+                android:id="@+id/tv_4"
+                android:text="@string/dfy_xu4"
+                style="@style/dfy_xu_tv"
+                />
+
+        <ImageView
+                android:id="@+id/iv_4"
+                style="@style/dfy_xu_iv"
+                />
+
+        <View
+                style="@style/dfy_xu_view"
+                ></View>
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/rl_5" android:layout_width="match_parent" android:layout_weight="1"
+                    android:layout_height="0dp">
+
+        <TextView
+                android:id="@+id/tv_5"
+                android:text="@string/dfy_xu5"
+                style="@style/dfy_xu_tv"
+                />
+
+        <ImageView
+                android:id="@+id/iv_5"
+                style="@style/dfy_xu_iv"
+                />
+
+        <View
+                style="@style/dfy_xu_view"
+                ></View>
+    </RelativeLayout>
+</LinearLayout>

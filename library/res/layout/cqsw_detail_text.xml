@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:lineSpacingExtra="@dimen/size9"
+        android:layout_marginRight="@dimen/size7"
+        android:layout_marginLeft="@dimen/size11"
+        android:layout_marginTop="@dimen/size15"
+        android:textColor="#000000"
+        android:textSize="@dimen/size14"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+

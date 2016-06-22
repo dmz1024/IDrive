@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title_bar" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="8dp"
+        android:background="#CCCCCC" />
+
+    <RelativeLayout
+        android:id="@+id/rl_myinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/white"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" >
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_default_header" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/view_line"
+            android:layout_toRightOf="@id/iv_avatar"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="12dp"
+            android:text="时光旅行者"
+            android:textColor="@color/settings_text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/white"
+            android:drawableRight="@drawable/icon_next"
+            android:textColor="@color/settings_text_color"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/tv_code"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@id/tv_next"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_act_active" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#CCCCCC" />
+
+    <TextView
+        android:id="@+id/tv_change_pass"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:drawableRight="@drawable/icon_next"
+        android:gravity="center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="12dp"
+        android:text="修改密码"
+        android:textColor="@color/settings_text_color"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#CCCCCC" />
+
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:drawableRight="@drawable/icon_next"
+        android:gravity="center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="12dp"
+        android:text="关于我们"
+        android:textColor="@color/settings_text_color"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#CCCCCC" />
+
+    <TextView
+        android:id="@+id/tv_feedback"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:drawableRight="@drawable/icon_next"
+        android:gravity="center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="12dp"
+        android:text="意见反馈"
+        android:textColor="@color/settings_text_color"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#CCCCCC" />
+
+    <TextView
+        android:id="@+id/et_invite"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:drawableRight="@drawable/icon_next"
+        android:gravity="center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="12dp"
+        android:text="版本更新"
+        android:textColor="@color/settings_text_color"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#CCCCCC" />
+
+    <RelativeLayout
+        android:id="@+id/rl_invite"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="12dp"
+            android:text="邀请注册"
+            android:textColor="@color/settings_text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_invite"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/icon_next"
+            android:gravity="center_vertical"
+            android:textColor="@color/settings_text_color"
+            android:textSize="14sp" 
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#CCCCCC" />
+
+    <RelativeLayout
+        android:id="@+id/rl_clear_cache"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="24dp"
+            android:text="清除缓存"
+            android:textColor="@color/settings_text_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_cache_size"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/icon_next"
+            android:gravity="center_vertical"
+            android:textColor="@color/settings_text_color"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#CCCCCC"
+        android:paddingRight="12dp" />
+
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/login_btn_bg"
+        android:gravity="center"
+        android:text="退出登录"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

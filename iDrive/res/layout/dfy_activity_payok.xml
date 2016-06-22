@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/dfy_f6f6f6"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.ccpress.izijia.dfy.view.TopView
+            android:id="@+id/top_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size44"></com.ccpress.izijia.dfy.view.TopView>
+
+    <RelativeLayout
+
+            android:background="@color/dfy_fff"
+            android:layout_width="match_parent" android:layout_height="@dimen/size40">
+
+        <RelativeLayout
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="@dimen/size15" android:layout_height="@dimen/size15"
+                       android:src="@drawable/dfy_icon_pay_ok"
+                       android:id="@+id/iv_ok" android:layout_centerVertical="true"
+                    />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textColor="@color/dfy_50bbdb" android:textSize="11sp" android:text="@string/dfy_pay_ok"
+                      android:layout_toRightOf="@id/iv_ok" android:layout_marginLeft="@dimen/size20"
+                      android:layout_centerVertical="true"
+                    />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+            android:background="@color/dfy_fff"
+            android:orientation="vertical"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <View android:layout_marginTop="@dimen/size5"
+              android:background="@color/dfy_dcdcdc" android:layout_width="match_parent"
+              android:layout_height="0.5dp"></View>
+
+        <RelativeLayout
+                android:background="@color/dfy_fff"
+                android:layout_marginTop="@dimen/size5"
+
+                android:layout_width="match_parent" android:layout_height="@dimen/size50">
+            <LinearLayout
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/size20"
+                    android:layout_width="wrap_content" android:layout_height="@dimen/size50">
+                <TextView
+                        android:layout_weight="1" android:gravity="center"
+                        android:layout_width="wrap_content" android:layout_height="0dp"
+                        android:text="@string/dfy_tourist_name" android:textColor="@color/dfy_333"
+                        android:textSize="@dimen/size11"
+                        />
+                <TextView
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="wrap_content" android:layout_height="0dp"
+                        android:text="商品名称" android:textColor="@color/dfy_333" android:textSize="@dimen/size11"
+                        />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:weightSum="2"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/size20"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/size10"
+                    android:layout_width="wrap_content" android:layout_height="@dimen/size50">
+                <TextView
+                        android:id="@+id/tv_tourist_name"
+                        android:layout_weight="1" android:gravity="center"
+                        android:layout_width="wrap_content" android:layout_height="0dp"
+                        android:text="罗小小" android:textColor="@color/dfy_333" android:textSize="@dimen/size11"
+                        android:layout_gravity="right"/>
+                <TextView
+                        android:id="@+id/tv_goods_name"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="right"
+                        android:layout_width="wrap_content" android:layout_height="0dp"
+                        android:text="云南落地自驾行摄7天之旅" android:textColor="@color/dfy_333" android:textSize="@dimen/size11"
+                        />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View android:background="@color/dfy_ddd"
+              android:layout_marginTop="@dimen/size5"
+              android:layout_marginLeft="@dimen/size10" android:layout_marginRight="@dimen/size10"
+              android:layout_width="match_parent"
+              android:layout_height="0.5dp"></View>
+
+        <RelativeLayout
+                android:background="@color/dfy_fff"
+                android:layout_marginTop="@dimen/size10"
+
+                android:layout_width="match_parent" android:layout_height="@dimen/size75">
+            <LinearLayout
+                    android:weightSum="3"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/size20"
+                    android:layout_width="wrap_content" android:layout_height="@dimen/size75">
+                <TextView
+                        android:layout_weight="1" android:gravity="center"
+                        android:layout_width="wrap_content" android:layout_height="0dp"
+                        android:text="@string/dfy_pay_type" android:textColor="@color/dfy_333" android:textSize="@dimen/size11"
+                        />
+                <TextView
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:layout_width="wrap_content" android:layout_height="0dp"
+                        android:text="@string/dfy_pay_order" android:textColor="@color/dfy_333" android:textSize="@dimen/size11"
+                        />
+                <TextView
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:layout_width="wrap_content" android:layout_height="0dp"
+                        android:text="@string/dfy_pay_time" android:textColor="@color/dfy_333" android:textSize="@dimen/size11"
+                        />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:weightSum="3"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical"
+                    android:layout_marginRight="@dimen/size20"
+                    android:layout_width="wrap_content" android:layout_height="@dimen/size75">
+                <TextView
+                        android:id="@+id/tv_pay_type"
+                        android:layout_weight="1" android:gravity="center"
+                        android:layout_width="wrap_content" android:layout_height="0dp"
+                        android:text="农业银行-储蓄卡(尾号1718)" android:textColor="@color/dfy_333" android:textSize="@dimen/size11"
+                        android:layout_gravity="right"/>
+                <TextView
+                        android:id="@+id/tv_pay_order"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="right"
+                        android:layout_width="wrap_content" android:layout_height="0dp"
+                        android:text="12458745444554485554668" android:textColor="@color/dfy_333"
+                        android:textSize="@dimen/size11"
+                        />
+                <TextView
+                        android:id="@+id/tv_pay_time"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_gravity="right"
+                        android:layout_width="wrap_content" android:layout_height="0dp"
+                        android:text="2015-12-29 15:28:36" android:textColor="@color/dfy_333" android:textSize="@dimen/size11"
+                        />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View android:background="@color/dfy_ddd"
+              android:layout_marginTop="@dimen/size5"
+              android:layout_marginLeft="@dimen/size10" android:layout_marginRight="@dimen/size10"
+              android:layout_width="match_parent"
+              android:layout_height="0.5dp"></View>
+
+        <RelativeLayout
+                android:background="@color/dfy_fff"
+                android:layout_marginTop="@dimen/size10"
+                android:layout_marginRight="@dimen/size20"
+                android:layout_width="match_parent" android:layout_height="@dimen/size40">
+
+
+            <TextView
+
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size20"
+                    android:text="@string/dfy_pay_money" android:textColor="@color/dfy_333" android:textSize="@dimen/size11"
+                    />
+
+            <TextView
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/tv_pay_money"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/size20"
+                    android:text="5980.44元" android:textColor="@color/dfy_333" android:textSize="@dimen/size11"
+                    />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/tv_pay_tishi"
+            android:text="@string/dfy_pay_tishi"
+            android:textSize="@dimen/size11"
+            android:lineSpacingExtra="@dimen/size5"
+            android:layout_marginTop="@dimen/size20"
+            android:layout_marginRight="@dimen/size20"
+            android:layout_marginLeft="@dimen/size20"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+
+    <TextView
+            android:id="@+id/tv_back_buy"
+            android:background="@drawable/dfy_pay_ok_back"
+            android:layout_marginTop="@dimen/size40"
+            android:layout_marginLeft="@dimen/size25"
+            android:layout_marginRight="@dimen/size25"
+            android:text="@string/dfy_back_buy"
+            android:textStyle="bold"
+            android:gravity="center" android:textSize="@dimen/size20"
+            android:textColor="@color/dfy_50bbdb"
+            android:layout_width="match_parent" android:layout_height="@dimen/size35"/>
+
+</LinearLayout>

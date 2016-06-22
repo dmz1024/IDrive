@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="imageSelector">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/android-multiple-images-selector-master/demo/src/main/gen" />
+      <root url="file://$USER_HOME$/Downloads/android-multiple-images-selector-master/demo/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/android-multiple-images-selector-master/multiple-images-selector/src/androidTest/java" />
+      <root url="file://$USER_HOME$/Downloads/android-multiple-images-selector-master/multiple-images-selector/src/main/gen" />
+      <root url="file://$USER_HOME$/Downloads/android-multiple-images-selector-master/multiple-images-selector/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/android-multiple-images-selector-master/multiple-images-selector/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

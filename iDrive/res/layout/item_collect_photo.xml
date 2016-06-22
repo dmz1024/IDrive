@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_content"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+    android:background="#eeeeee"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+     >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/iv_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+         />
+    <CheckBox
+        android:id="@+id/cb_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/line_check_box"
+        android:button="@null" 
+        android:checked="false"
+        android:layout_gravity="bottom|right"/>
+
+</RelativeLayout>

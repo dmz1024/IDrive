@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/photo_linear_layout"
+                  android:orientation="vertical"
+                  android:layout_alignParentBottom="true"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+        <RelativeLayout android:id="@+id/btn_takephoto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/size45"
+                        android:background="@color/photo_linear_layout_grey">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="拍照"
+                      android:textColor="@color/detail_black"
+                      android:textSize="@dimen/size15"
+                      android:layout_centerInParent="true"
+                    />
+            <View android:layout_width="fill_parent"
+                  android:layout_height="0.5dp"
+                  android:layout_alignParentBottom="true"
+                  android:background="@color/separator_grey"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/btn_photo_fromcamara"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/size45"
+                        android:background="@color/photo_linear_layout_grey">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="从相机获取"
+                      android:textColor="@color/detail_black"
+                      android:textSize="@dimen/size15"
+                      android:layout_centerInParent="true"/>
+            <View android:layout_width="fill_parent"
+                  android:layout_height="0.5dp"
+                  android:layout_alignParentBottom="true"
+                  android:background="@color/separator_grey"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout android:id="@+id/btn_cancel"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/size45"
+                        android:background="@color/idrive_white">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/cancel"
+                      android:textColor="@color/popupview_txt_pressed_color"
+                      android:textSize="@dimen/size15"
+                      android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

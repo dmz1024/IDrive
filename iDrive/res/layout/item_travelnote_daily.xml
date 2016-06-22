@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/common_write"
+              android:padding="@dimen/size8">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="@dimen/size14"
+                      android:textColor="@color/detail_black"
+                      android:text="三亚度假区东起三亚港"
+                      android:id="@+id/desc_travelnote_item"
+                      android:singleLine="true"
+                      android:layout_weight="1.0"
+                      android:ellipsize="end"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="2015/05/18"
+                      android:id="@+id/date"
+                      android:textSize="@dimen/size11"
+                      android:textColor="@color/comment_date"
+                      android:layout_marginLeft="@dimen/size6"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:id="@+id/Linear_travelnote_item"
+                      android:layout_marginTop="@dimen/size4"/>
+
+
+
+        </LinearLayout>

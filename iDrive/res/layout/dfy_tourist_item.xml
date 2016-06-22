@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/mi1"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/dfy_mi" android:textSize="@dimen/size9"
+                android:textColor="@color/dfy_50bbdb" android:layout_marginTop="@dimen/size13"
+                />
+
+        <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/dfy_name" android:textSize="@dimen/size11"
+                android:layout_marginLeft="@dimen/size5"
+                android:textColor="@color/dfy_333" android:layout_marginTop="@dimen/size10"
+                android:layout_toRightOf="@id/mi1"
+                />
+
+        <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent" android:layout_height="@dimen/size16"
+                android:hint="必填" android:textSize="@dimen/size11" android:textColorHint="@color/dfy_ccc"
+                android:background="@null" android:layout_alignBottom="@id/tv_name"
+                android:layout_toRightOf="@id/tv_name"
+                android:layout_marginLeft="@dimen/size7"
+                android:singleLine="true"
+                />
+        <View android:layout_width="match_parent" android:layout_height="@dimen/size0.5"
+              android:background="@color/dfy_dadada" android:layout_alignLeft="@id/mi1"
+              android:layout_below="@id/et_name"
+              android:id="@+id/view1"
+              android:layout_marginRight="@dimen/size10"
+              android:layout_marginTop="@dimen/size5"
+                ></View>
+
+        <TextView
+                android:id="@+id/mi2"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_below="@id/view1" android:text="@string/dfy_mi" android:textSize="@dimen/size9"
+                android:textColor="@color/dfy_50bbdb" android:layout_marginTop="@dimen/size12"
+                android:layout_alignLeft="@id/mi1"
+                />
+
+        <TextView
+                android:id="@+id/tv_card"
+                android:layout_marginLeft="@dimen/size5"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/mi2" android:text="@string/dfy_card_type" android:textSize="@dimen/size11"
+                android:textColor="@color/dfy_333" android:layout_marginTop="@dimen/size10"
+                android:layout_toRightOf="@id/mi1"
+                />
+
+        <TextView android:layout_width="wrap_content"
+                 android:layout_height="@dimen/size16"
+                 android:id="@+id/tv_card_type"
+                 android:text="身份证"
+                 android:textColor="#000"
+                 android:textSize="@dimen/size10"
+                 android:gravity="center"
+                 android:background="@drawable/dfy_detail_day_border"
+                 android:layout_marginTop="@dimen/size5"
+                 android:layout_alignBottom="@id/tv_card"
+                 android:layout_toRightOf="@id/tv_card"
+                 android:layout_marginLeft="@dimen/size5"
+                />
+
+        <EditText
+                android:id="@+id/et_card"
+                android:layout_width="match_parent" android:layout_height="@dimen/size16"
+                android:hint="必填" android:textSize="@dimen/size11" android:textColorHint="@color/dfy_ccc"
+                android:background="@null" android:layout_alignBottom="@id/tv_card_type"
+                android:layout_toRightOf="@id/tv_card_type"
+                android:layout_marginLeft="@dimen/size7"
+                android:singleLine="true"
+
+                />
+
+        <View android:layout_width="match_parent" android:layout_height="@dimen/size0.5"
+              android:background="@color/dfy_dadada" android:layout_alignLeft="@id/mi1"
+              android:layout_below="@id/tv_card"
+              android:layout_marginRight="@dimen/size10"
+              android:layout_marginTop="@dimen/size5"
+                ></View>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

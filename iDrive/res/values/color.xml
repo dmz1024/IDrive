@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="idrive_black">#000000</color>
+    <color name="idrive_white">#ffffff</color>
+    <color name="idrive_blue">#50bbdb</color>
+    <color name="idrive_grey">#777777</color>
+
+    <color name="idive_light_grey">#eeeeee</color>
+
+    <color name="photo_linear_layout_grey">#f5f5f5</color>
+    <color name="shelter_black">#40000000</color>
+    <color name="separator_grey">#cccccc</color>
+
+    <color name="popup_separator_grey">#666666</color>
+    <color name="popup_list_background">#D0121a22</color>
+    <color name="popup_list_selected_font">#FF6000</color>
+
+    <color name="detail_black">#222222</color>
+    <color name="detail_txt_pressed">#0267cf</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="comment_date">#999999</color>
+
+    <color name="bottom_bar_comment">#007aff</color>
+
+    <color name="shelter">#80000000</color>
+
+    <color name="time">#555555</color>
+
+    <color name="taobao_black">#333333</color>
+    <color name="offline_down_size">#777777</color>
+    <color name="gray_lite">#c5c5c5</color>
+    <color name="progress_background">#ededed</color>
+    <color name="blue">#4c90f9</color>
+    <color name="gary">#898989</color>
+
+</resources>

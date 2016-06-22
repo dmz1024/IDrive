@@ -1,0 +1,219 @@
+{
+	"summary" : {
+		"title" : "成都",
+		"line" : "成都，四川省省会",
+		"desc" : "成都位于中国华西地区东部，成都平原腹地，古为蜀国地，秦并巴、蜀为蜀郡并建城，汉因织锦业发达专设锦官管理，故有“锦官城”之称，五代蜀时遍种芙蓉，故别称“芙蓉城”，简称“蓉”。",
+		"image" : "http://hiphotos.baidu.com/lvpics/pic/item/0eb30f2442a7d933f3057fbbad4bd11372f0014c.jpg",
+		"type" : 1,
+		"lid" : 1003,
+		"url" : ""
+	},
+
+	"extras" : [
+	  {
+		"title" : "城市气质",
+		"desc" : "成都是很悠闲的城市，文化底蕴深厚，生活节奏慢，周边有很多好玩的景点。成都的美食实在是让人流连忘返，最最最推荐的就是吃，宽窄巷子很多好吃的，走饿了可以吃吃小吃和正宗的川菜。"
+	  },
+	  {
+		"title" : "历史文化",
+		"desc" : "关于成都一名的来历，据《太平环宇记》记载，是借用西周建都的历史经过，取周王迁岐“一年而所居成聚，二年成邑，三年成都”而得名成都。蜀语“成都”二字的读音就是蜀都。“‘成’者‘毕也’‘终也’”，成都的含义“就是蜀国‘终了的都邑’，或者说‘  成都天际线最后的都邑’。五代十国时，后蜀皇帝孟昶偏爱芙蓉花，命百姓在城墙上种植芙蓉树，花开时节，成都“四十里为锦绣”，故成都又被称为芙蓉城，简称“蓉城”。"
+	  },
+	  {
+		"title" : "自然形态",
+		"desc" : "成都具有春早、夏热、秋凉、冬暖的气候特点（亚热带季风气候），年平均气温16℃，年降雨量1000mm左右。成都气候的另一个显著特点是多云雾，日照时间短。民间谚语中的“蜀犬吠日”正是这一气候特征的形象描述。成都气候的另一个显著特点是空气潮湿，因此，夏天虽然气温不高（最高温度一般不超过35℃），却显得闷热；冬天气温平均在5℃以上，阴天多，空气相对干燥。成都的雨水集中在七、八两月，冬春两季干旱少雨，极少冰雪。"
+	  },
+	  {
+		"title" : "最佳旅游季",
+		"desc" : "春秋季节。成都地处盆地，夏季炎热，冬季寒冷，春秋两季最佳适宜。"
+	  }
+	],
+
+	"trip" : [
+		{
+			"tripid" : 101,
+			"tripname" : "休闲娱乐热门TOP10"
+		},
+		{
+			"tripid" : 102,
+			"tripname" : "历史古迹热门TOP10"
+		},
+		{
+			"tripid" : 103,
+			"tripname" : "自然景观热门TOP10"
+		},
+		{
+			"tripid" : 104,
+			"tripname" : "怀旧人文热门TOP10"
+		},
+		{
+			"tripid" : 105,
+			"tripname" : "悠远古镇热门TOP10"
+		}
+	],
+
+
+	
+	"food" : [
+		{
+			"name" : "砂锅雅鱼",
+			"desc" : "雅鱼是中亚高原山区特有的品种,又称“丙穴鱼”。产于青衣江雅安段的周公河,故称雅鱼。",
+			"image" : "http://hiphotos.baidu.com/lvpics/abpic/item/5beeba0fbda31c81aa645762.jpg"
+		},
+		{
+			"name" : "挞挞面",
+			"desc" : "挞挞面又名手工宽面,已有100多年历史。其特点是手工制作,主要经过调、和、揉、挞等几道工序来完成,其“挞”堪称一绝,故称“挞挞面”。种类多,主要有牛肉、杂酱、大肉、排骨等10多种口味,配以考究的佐料,色、香、味俱全,入口香脆。",
+			"image" : "http://hiphotos.baidu.com/lvpics/abpic/item/9c16fdfaaf51f3decb519ebf94eef01f3b29790d.jpg"
+		},
+		{
+			"name" : "双椒臭豆腐",
+			"desc" : "椒臭豆腐需要将臭豆腐清洗干净切块摆盘,放少许豆豉酱和青椒末和红椒末,出锅后滴几滴香油再品尝。入口香酥,味道极好。",
+			"image" : "http://hiphotos.baidu.com/lvpics/abpic/item/c8177f3e6709c93ddc2e292c9f3df8dcd0005408.jpg"
+		},
+		{
+			"name" : "阴酱鸡",
+			"desc" : "阴酱鸡选用山水秀丽雅安乡间农夫家养土鸡,配以独特自制酱料,精心炮制,具有酱香浓郁,回味微甜,色泽红亮的特点。",
+			"image" : "http://hiphotos.baidu.com/lvpics/abpic/item/37d12f2eb9389b501b40faa88435e5dde6116e88.jpg"
+		}	
+	],
+
+	"special" : [
+		{
+			"name" : "鸳鸯火锅",
+			"desc" : "鸳鸯火锅，是以传统毛肚火锅的红汤卤和宴席菊花火锅的清汤卤，两者合并改制而成的四川创新火锅。此品原名“双味火锅”。",
+			"image" : "http://hiphotos.baidu.com/lvpics/abpic/item/838ba61ea8d3fd1f163ecb87304e251f95ca5f53.jpg"
+		},
+		{
+			"name" : "夫妻肺片",
+			"desc" : "成都地区人人皆知的一款风味名菜。相传在30年代，成都少城附近，有一男子名郭朝华，与其妻一道以制售凉拌牛肺片为业，他们夫妻俩亲自操作，走街串巷，提篮叫卖。",
+			"image" : "http://hiphotos.baidu.com/lvpics/abpic/item/3792cb39c2dbe89f3b87ceed.jpg"
+		},
+		{
+			"name" : "川北凉粉",
+			"desc" : "清朝末年创立于南充。创始人谢天禄在南充渡口搭棚卖凉粉，其凉粉细嫩清爽，佐料香辣味浓，逐渐卖出了名气，谢家便世代相传专卖凉粉，后正式办起川北凉粉店。",
+			"image" : "http://hiphotos.baidu.com/lvpics/abpic/item/7ab514d15c2a20bf562c84c5.jpg"
+		},
+		{
+			"name" : "钵钵鸡",
+			"desc" : "“钵钵”其实就是瓦罐，钵外面是画着红黄相间的瓷质龙纹，钵内盛放配以麻辣为主的佐料，菜品在特珠殊加工后用钵钵鸡签串制，晾冷浸于各种口味的佐料中，除味道悠长外更添情趣盎然。",
+			"image" : "http://hiphotos.baidu.com/lvpics/abpic/item/a9d3fd1f4134970a2f78b01b94cad1c8a7865dfe.jpg"
+		}	
+	],
+
+	"yule" : [
+		{
+			"name" : "泡酒吧",
+			"desc" : "九眼桥、少陵路、芳草街以及锦里宽窄巷子，都是能觅到酒吧的踪影。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/54fbb2fb43166d22ea99b2a0472309f79052d21c.jpg"
+		},
+		{
+			"name" : "国际桃花节",
+			"desc" : "天府春来第一花，非龙泉桃花莫属。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/4bed2e738bd4b31cf959328f86d6277f9e2ff899.jpg"
+		},
+		{
+			"name" : "天彭牡丹会",
+			"desc" : "成都人爱打麻将是远近闻名的，大街小巷，搓麻将的声音不绝于耳，这与成都这座城市的闲适气氛非常吻合。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/8c1001e93901213f5255e9e855e736d12f2e95a4.jpg"
+		},
+		{
+			"name" : "看川剧",
+			"desc" : "彭州市位于成都北部，古称天彭，是西南地区最大的牡丹花培育基地。为沿袭唐宋以来的民俗，彭州市于每年四、五月举办牡丹盛会。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/ae51f3deb48f8c546b5c631b3b292df5e0fe7f73.jpg"
+		}
+	],
+
+	"shopping" : [
+		{
+			"name" : "蜀锦蜀绣",
+			"desc" : "蜀绣又叫做“川绣”，与湘绣、苏绣、粤绣并称为中国的四大名绣。成都的自然条件使其盛产丝帛，因此蜀绣的制作与生产均“冠绝天下”。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/aa64034f78f0f736f123e1350b55b319ebc41320.jpg"
+		},
+		{
+			"name" : "摩尔百盛",
+			"desc" : "位于天府广场，与成都百货相毗邻，为综合性商场，以中高档服饰及鞋类、休闲用品、化妆品为主。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/0b55b319ebc4b74521251822cefc1e178a821554.jpg"
+		},
+		{
+			"name" : "王府井",
+			"desc" : "位于总府路，与春熙路毗邻，是个综合的娱乐，美食，购物的场所。乘坐28路，6路都可到达。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/9d82d158ccbf6c818feb83dcbd3eb13533fa4021.jpg"
+		},
+		{
+			"name" : "春熙路",
+			"desc" : "成都的春熙路，整一个超级购物广场，店铺林立、人流如织，集休闲，购物，美食于一体。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/7aec54e736d12f2e5ecb01544ec2d5628535683c.jpg"
+		}	
+	],
+
+	"refway" : [
+		{
+			"title" : "不真实的美-马尔代夫",
+			"line" : "海口---泰国---马尔代夫",
+			"image" : "http://b.hiphotos.baidu.com/image/w%3D2048/sign=1b73ab26bc096b6381195950380b8644/0dd7912397dda144bc0100bbb0b7d0a20cf486aa.jpg",
+			"type" : 2,
+			"lid" : 1002,
+			"url" : "" 
+		},
+		{
+			"title" : "女儿国的前世今生",
+			"line" : "成都---雅安---西昌",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/0eb30f2442a7d933f3057fbbad4bd11372f0014c.jpg",
+			"type" : 3,
+			"lid" : 1003,
+			"url" : "" 
+		},
+		{
+			"title" : "最后的香格里拉，艳遇的天堂",
+			"line" : "丽江---大理---香格里拉",
+			"image" : "http://c.hiphotos.baidu.com/image/w%3D2048/sign=c318ce33324e251fe2f7e3f893bec817/38dbb6fd5266d0168b08f221952bd40735fa35a1.jpg",
+			"type" : 4,
+			"lid" : 1004,
+			"url" : "" 
+		}
+	],
+	"parking" : [
+	  {
+		"name" : "(冰川观光游 赠篝火烤羊晚会+红石公园+雅家情海)",
+		"desc" : "欣赏中国最美冰川、中国十大最美名山——海拔7556米之贡嘎山，沐浴海螺沟天然温泉，领略康巴藏族风情，超高性价比黄金旅游线路。",
+		"image" : "http://img1.qunarzz.com/p/tts3/201404/27/86fd4c15aae16ac6c8d65eac.jpg_r_390x260x90_cd4867cb.jpg"
+	  },
+	  {
+		"name" : "成都周边游~玩转碧峰峡（动+景）",
+		"desc" : "雅安碧峰峡景区是国家AAAA级旅游区，包括风景区和野生动物园。碧峰峡的女娲文化，世界首屈一指的大熊猫保护基地",
+		"image" : "http://img1.qunarzz.com/p/tts4/1412/9e/9e54024a2e8e0abdcdb.jpg_r_390x260x90_82e3a759.jpg"
+	  },
+	  {
+		"name" : "《川西民俗之旅》【周公山、邛崃酒庄、上里古镇二日体验之旅】",
+		"desc" : "品名酒，杀年猪，逛古镇，买地道年货，泡温泉，十足的川西风味",
+		"image" : "http://img1.qunarzz.com/vc/15/ae/b5/72e38eb052976f3a8c4050966e.jpg_92.jpg"
+	  }
+	],
+
+	"culture" : [
+		{
+			"name" : "掏耳朵",
+			"desc" : "四川掏耳朵乃是中华一绝，与扬州三把刀并列传统民间绝技之一。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/d043ad4bd11373f0d953c8aba50f4bfbfbed0491.jpg"
+		},
+		{
+			"name" : "逛茶馆",
+			"desc" : "在最悠闲的时光里，坐在茶馆里，埋在藤椅上，捧着一壶碗茶，看着街道发发呆，把自己的时光挥霍在这悠闲的茶馆里，这样的生活才是真正的成都慢生活，来成都游玩的孩子们，一定要抽个下午，慢慢品茶，慢慢回忆，慢慢偷着乐。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/8c1001e93901213f5255e9e855e736d12f2e95a4.jpg"
+		},
+		{
+			"name" : "打麻将",
+			"desc" : "成都人爱打麻将是远近闻名的，大街小巷，搓麻将的声音不绝于耳，这与成都这座城市的闲适气氛非常吻合。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/8c1001e93901213f5255e9e855e736d12f2e95a4.jpg"
+		},
+		{
+			"name" : "看川剧",
+			"desc" : "川剧，是四川文化的一大特色。成都，是戏剧之乡。早在唐代就有“蜀戏冠天下”的说法。川剧在本地车灯戏基础上，吸收融汇苏、赣、皖、鄂、陕、甘各地声腔，形成含有高腔、胡琴、昆腔、灯戏、弹戏五种声腔的用四川话演唱的“川剧”。变脸是川剧表演的特技之一，是川剧表演中重要的组成部分，也是历代川剧艺人共同创造并传承下来的艺术瑰宝。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/8644ebf81a4c510f638f452e6159252dd42aa5bf.jpg"
+		},
+		{
+			"name" : "都江堰放水节",
+			"desc" : "都江堰水利工程是成都平原的生命线，因此每年春耕前的放水被当地居民视为神圣的节日。",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/241f95cad1c8a786ef7fec3a6609c93d70cf50a8.jpg"
+		}
+	]
+}

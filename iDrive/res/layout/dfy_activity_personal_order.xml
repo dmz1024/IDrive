@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/dfy_f1f1f1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <RelativeLayout
+            android:id="@+id/rl_top"
+            android:background="@color/dfy_50bbdb"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size44">
+        <ImageView android:layout_width="@dimen/size26"
+                   android:layout_height="@dimen/size26"
+                   android:id="@+id/iv_left"
+                   android:layout_centerVertical="true"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/dfy_icon_back"
+                   android:layout_marginLeft="@dimen/size8"
+                />
+
+
+        <LinearLayout android:id="@+id/home_top_radio_group"
+                      android:layout_width="wrap_content"
+                      android:layout_height="@dimen/size45"
+                      android:orientation="horizontal"
+                      android:layout_centerInParent="true"
+                >
+
+            <RelativeLayout android:id="@+id/rl_idrive"
+                            android:layout_width="@dimen/size90"
+                            android:layout_height="@dimen/size30"
+                            android:layout_gravity="center_vertical">
+
+                <TextView android:id="@+id/tv_zjt"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_centerInParent="true"
+                          android:text="自驾团"
+                          android:textSize="18sp"
+                          android:textColor="@color/dfy_fff" />
+
+                <ImageView android:layout_width="@dimen/size6"
+                           android:layout_height="@dimen/size6"
+                           android:layout_alignParentBottom="true"
+                           android:layout_alignParentRight="true"
+                           android:layout_marginRight="@dimen/size2"
+                           android:layout_marginBottom="@dimen/size3"
+                           android:src="@drawable/icon_triangle"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout android:id="@+id/rl_yd"
+                            android:layout_width="@dimen/size70"
+                            android:layout_height="@dimen/size30"
+                            android:layout_gravity="center_vertical">
+
+                <TextView android:id="@+id/tv_yd"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_centerInParent="true"
+                          android:text="营地"
+                          android:textSize="18sp"
+                          android:textColor="@color/dfy_fff" />
+
+                <ImageView android:layout_width="@dimen/size6"
+                           android:layout_height="@dimen/size6"
+                           android:layout_alignParentBottom="true"
+                           android:layout_alignParentRight="true"
+                           android:layout_marginRight="@dimen/size2"
+                           android:layout_marginBottom="@dimen/size3"
+                           android:src="@drawable/icon_triangle"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.ccpress.izijia.dfy.view.NoScrollViewPager
+            android:id="@+id/vp_order"
+            android:layout_below="@id/rl_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

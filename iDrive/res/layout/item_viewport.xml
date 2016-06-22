@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/idrive_white">
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/size14"
+                  android:layout_marginTop="@dimen/size8"
+                  android:textColor="@color/detail_black"
+                  android:text="三亚度假区东起三亚港；；；"
+                  android:id="@+id/name_viewport_item"
+                  android:layout_weight="1.0"
+                  android:singleLine="true"
+                  android:ellipsize="end"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:id="@+id/collect_image"
+                   android:src="@drawable/icon_collect_gray"/>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_vertical"
+                   android:id="@+id/collect_cart"
+                   android:visibility="gone"
+                   android:src="@drawable/icon_cart"
+                android:layout_marginLeft="@dimen/size4"/>
+    </LinearLayout>
+
+    <ImageView android:layout_width="fill_parent"
+               android:layout_height="@dimen/size150"
+               android:background="@drawable/cqsw_default_pic"
+               android:scaleType="centerCrop"
+               android:id="@+id/img_viewport_item"
+               android:layout_marginTop="@dimen/size8"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/size14"
+              android:layout_marginTop="@dimen/size8"
+              android:textColor="@color/detail_black"
+              android:text="三亚度假区东起三亚港；；；"
+              android:id="@+id/desc_viewport_item"/>
+
+    <View android:layout_width="fill_parent" android:layout_height="0.5dip"
+          android:background="@color/separator_grey"
+          android:layout_marginTop="@dimen/size8"></View>
+</LinearLayout>

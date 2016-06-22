@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/img_travelnote_item"
+               android:scaleType="centerInside"
+               android:adjustViewBounds="true"
+               android:layout_marginTop="@dimen/size4"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/size14"
+              android:layout_marginTop="@dimen/size8"
+              android:textColor="@color/detail_black"
+              android:text=""
+              android:id="@+id/desc_travelnote_item"
+              android:layout_marginBottom="@dimen/size8"/>
+    <View android:layout_width="fill_parent" android:layout_height="0.5dip"
+          android:background="@color/separator_grey"
+            android:visibility="gone"></View>
+</LinearLayout>

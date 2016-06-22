@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@color/idive_light_grey"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include layout="@layout/top_bar_post_edit"/>
+
+    <RelativeLayout android:id="@+id/edit_bg_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/size150"
+                    android:layout_margin="@dimen/size10"
+                    android:layout_below="@+id/top_bar_post_edit"
+                    android:background="@drawable/shape_post_edit">
+
+        <ImageView android:id="@+id/vid_thumbnail"
+                   android:layout_height="@dimen/size100"
+                   android:layout_width="@dimen/size150"
+                   android:scaleType="centerCrop"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="@dimen/size10"
+                   android:layout_marginTop="@dimen/size10"/>
+
+        <EditText android:id="@+id/post_edit"
+                  android:layout_width="fill_parent"
+                  android:layout_height="@dimen/size150"
+                  android:layout_toLeftOf="@id/vid_thumbnail"
+                  android:layout_marginLeft="@dimen/size10"
+                  android:layout_marginTop="@dimen/size10"
+                  android:layout_marginRight="@dimen/size10"
+                  android:gravity="left|top"
+                  android:textSize="16sp"
+                  android:hint="@string/post_edit_say_something"
+                  android:scrollbars="vertical"
+                  android:background="@null"/>
+    </RelativeLayout>
+
+    <GridView android:id="@+id/post_grid_view"
+              android:padding="@dimen/size1"
+              android:stretchMode="columnWidth"
+              android:numColumns="4"
+              android:visibility="gone"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/edit_bg_layout"
+              android:layout_marginRight="@dimen/size10"
+              android:layout_marginLeft="@dimen/size10"
+              android:cacheColorHint="#00000000"
+              android:fadingEdge="none"
+              android:fastScrollEnabled="false"
+              android:smoothScrollbar="true"
+              android:listSelector="@android:color/transparent"
+              android:background="@drawable/shape_post_edit"/>
+
+    <RelativeLayout android:id="@+id/post_tag"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/size45"
+                    android:layout_below="@id/post_grid_view"
+                    android:layout_margin="@dimen/size10"
+                    android:background="@drawable/shape_post_edit">
+
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:textSize="16sp"
+                  android:textColor="#222222"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="@dimen/size10"
+                  android:text="@string/post_tag"/>
+
+        <ImageView android:id="@+id/post_tag_icon"
+                   android:layout_height="@dimen/size15"
+                   android:layout_width="@dimen/size15"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="@dimen/size10"
+                   android:layout_marginLeft="@dimen/size10"
+                   android:layout_centerVertical="true"
+                   android:src="@drawable/icon_tag"/>
+
+        <TextView android:id="@+id/tag_value"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:text="@string/default_wd"
+                  android:textSize="16sp"
+                  android:textColor="#999999"
+                  android:layout_toLeftOf="@id/post_tag_icon"
+                  android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/video_play_layout"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:visibility="gone"
+                    android:background="@color/idrive_black">
+        <VideoView android:id="@+id/video_play_view"
+                   android:layout_height="@dimen/size300"
+                   android:layout_width="fill_parent"
+                   android:layout_centerInParent="true"/>
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_below="@id/video_play_view"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="@dimen/size10"
+                  android:textColor="@color/idrive_white"
+                  android:textSize="16sp"
+                  android:text="@string/click_quit"/>
+    </RelativeLayout>
+</RelativeLayout>

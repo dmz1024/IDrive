@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <View
+            android:id="@+id/view"
+            android:layout_centerVertical="true"
+            android:background="@drawable/yd_icon_hava"
+            android:layout_width="@dimen/size12"
+            android:layout_height="@dimen/size12"/>
+    <TextView
+            android:id="@+id/tv_content"
+            android:layout_centerVertical="true"
+            android:textColor="#666"
+            android:text="空调"
+            android:layout_marginLeft="@dimen/size5"
+            android:layout_toRightOf="@id/view"
+            android:textSize="@dimen/sp11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  这个是加入的代码 -->
+    <style name="mypopwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/dfy_popshow_anim</item>
+        <!-- 指定显示的动画xml -->
+
+        <item name="android:windowExitAnimation">@anim/dfy_pophidden_anim</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+
+
+    <style name="FeelyouWindowAnimTheme" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/dfy_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/dfy_out_from_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/dfy_in_from_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/dfy_out_from_right</item>
+    </style>
+
+
+    <style name="dfy_NNotitleBar" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/FeelyouWindowAnimTheme</item>
+    </style>
+
+
+    <style name="dfy_iDrive_out">
+        <item name="android:layout_marginLeft">@dimen/size5</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/dfy_icon_sort</item>
+        <item name="android:layout_width">@dimen/size115</item>
+        <item name="android:layout_height">@dimen/size31</item>
+    </style>
+
+    <style name="dfy_iDrive_in">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="dfy_iDrive_iv">
+        <item name="android:layout_width">@dimen/size22</item>
+        <item name="android:layout_height">@dimen/size22</item>
+    </style>
+
+    <style name="dfy_iDrive_text">
+        <item name="android:layout_marginLeft">@dimen/size5</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/size14</item>
+        <item name="android:textColor">@color/dfy_999</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="dfy_iDrive_price">
+        <item name="android:textSize">@dimen/size10</item>
+        <item name="android:layout_marginTop">@dimen/size3</item>
+        <item name="android:textColor">@color/dfy_fff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="dfy_text_title">
+        <item name="android:layout_marginRight">@dimen/size12</item>
+        <item name="android:paddingLeft">@dimen/size9</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/dfy_fff</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size24</item>
+    </style>
+
+
+    <style name="dfy_search_rl">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="dfy_search_iv">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/size30</item>
+    </style>
+
+    <style name="dfy_search_tv">
+        <item name="android:textSize">@dimen/size10</item>
+        <item name="android:textColor">@color/dfy_333</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="dfy_tv_week">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/size26</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/dfy_333</item>
+    </style>
+
+    <style name="dfy_order_detail_Title">
+        <item name="android:textSize">@dimen/size12</item>
+        <item name="android:textColor">@color/dfy_333</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/size9</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="dfy_order_detail_information">
+        <item name="android:textSize">@dimen/size11</item>
+        <item name="android:textColor">@color/dfy_333</item>
+        <item name="android:layout_marginTop">@dimen/size12</item>
+        <item name="android:layout_marginLeft">@dimen/size18</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="dfy_vertical_view">
+        <item name="android:layout_height">@dimen/size13</item>
+        <item name="android:layout_width">@dimen/size2</item>
+        <item name="android:background">@color/dfy_50bbdb</item>
+        <item name="android:layout_marginLeft">@dimen/size7</item>
+    </style>
+
+
+    <style name="dfy_hor_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size0.5</item>
+        <item name="android:background">@color/dfy_dbdbdb</item>
+    </style>
+
+    <style name="dfy_wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="dfy_tv_rili_cr" parent="dfy_wrap_content">
+        <item name="android:textSize">@dimen/size13</item>
+    </style>
+
+    <style name="dfy_tv_rili_price" parent="dfy_tv_rili_cr">
+        <item name="android:text">￥0</item>
+        <item name="android:textColor">@color/dfy_f0884a</item>
+        <item name="android:layout_marginLeft">@dimen/size8</item>
+    </style>
+
+
+    <style name="dfy_tv_rili_count" parent="dfy_tv_rili_price">
+        <item name="android:text">0</item>
+        <item name="android:textColor">@color/dfy_fff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="dfy_rl_rili" parent="dfy_wrap_content">
+        <item name="android:layout_marginTop">@dimen/size9</item>
+        <item name="android:layout_marginLeft">@dimen/size17</item>
+    </style>
+
+
+    <style name="dfy_rl_jj">
+        <item name="android:background">@drawable/dfy_icon_jj</item>
+        <item name="android:layout_below">@id/rl_chengren</item>
+        <item name="android:layout_marginBottom">@dimen/size8</item>
+        <item name="android:layout_marginTop">@dimen/size5</item>
+        <item name="android:layout_width">@dimen/size90</item>
+        <item name="android:layout_height">@dimen/size25</item>
+    </style>
+
+    <style name="dfy_xu_tv" parent="dfy_tv_rili_cr">
+        <item name="android:textSize">@dimen/size18</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/dfy_333</item>
+
+    </style>
+
+
+    <style name="dfy_xu_iv">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/size10</item>
+        <item name="android:layout_width">@dimen/size20</item>
+        <item name="android:layout_height">@dimen/size20</item>
+        <item name="android:src">@drawable/dfy_sort_choose_xu</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="dfy_xu_view">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginTop">@dimen/size5</item>
+        <item name="android:background">@color/dfy_dadada</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size0.5</item>
+    </style>
+
+    <style name="dfy_write_rl">
+        <item name="android:layout_margin">@dimen/size10</item>
+        <item name="android:paddingBottom">@dimen/size11</item>
+        <item name="android:background">@drawable/dfy_write_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="dfy_write_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/size11</item>
+        <item name="android:textColor">@color/dfy_333</item>
+        <item name="android:layout_marginTop">@dimen/size12</item>
+    </style>
+
+    <style name="dfy_write_tv_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/size10</item>
+        <item name="android:layout_marginLeft">@dimen/size10</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/dfy_333</item>
+        <item name="android:textSize">@dimen/size15</item>
+    </style>
+
+
+    <style name="dfy_write_view_vertical">
+        <item name="android:layout_width">@dimen/size2</item>
+        <item name="android:layout_height">@dimen/size13</item>
+        <item name="android:background">@color/dfy_50bbdb</item>
+        <item name="android:layout_marginLeft">@dimen/size7</item>
+        <item name="android:layout_marginTop">@dimen/size10</item>
+    </style>
+
+
+    <style name="dfy_write_view_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size0.5</item>
+        <item name="android:background">@color/dfy_dadada</item>
+        <item name="android:layout_marginRight">@dimen/size10</item>
+        <item name="android:layout_marginTop">@dimen/size5</item>
+    </style>
+
+    <style name="dfy_write_tv_mi">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/dfy_mi</item>
+        <item name="android:textSize">@dimen/size10</item>
+        <item name="android:layout_marginTop">@dimen/size13</item>
+        <item name="android:textColor">@color/dfy_50bbdb</item>
+    </style>
+
+
+    <style name="dfy_write_view_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size0.5</item>
+        <item name="android:background">@color/dfy_dadada</item>
+        <item name="android:layout_marginTop">@dimen/size10</item>
+    </style>
+
+    <style name="dfy_write_et">
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size16</item>
+        <item name="android:hint">必填</item>
+        <item name="android:textSize">@dimen/size11</item>
+        <item name="android:textColorHint">@color/dfy_ccc</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginLeft">@dimen/size7</item>
+    </style>
+</resources>

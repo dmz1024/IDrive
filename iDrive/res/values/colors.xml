@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 背景色基调 -->
+    <color name="main_bg">#EEEEEE</color>
+    <!-- 线条背景 -->
+    <color name="line_color">#AFAFAF</color>
+    <color name="base_color">#50BBDB</color>
+    <color name="tips_text_color">#999999</color>
+    <color name="settings_text_color">#222222</color>
+
+    <!-- Zxing -->
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    
+    <!-- bottomBar alpha 85% -->
+    <color name="bottom_bar_blue">#D950BBDB</color>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/idrive_white"
+              android:paddingLeft="@dimen/size12"
+              android:paddingRight="@dimen/size12">
+<RelativeLayout android:layout_width="match_parent"
+
+                android:layout_height="@dimen/size44">
+    <ImageView android:layout_width="@dimen/size15"
+               android:id="@+id/img_search_location"
+               android:layout_alignParentLeft="true"
+               android:layout_centerVertical="true"
+               android:src="@drawable/img_search_location"
+               android:layout_height="@dimen/size20"/>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="@dimen/size12"
+                  android:layout_toRightOf="@id/img_search_location"
+                  android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+                  android:textSize="@dimen/size13"
+                  android:id="@+id/title"
+                  android:text="lalala"
+                  android:textColor="#222222"
+                  android:singleLine="true"
+                  android:layout_height="wrap_content"/>
+        <TextView android:layout_width="wrap_content"
+                  android:textSize="@dimen/size13"
+                  android:id="@+id/address"
+                  android:text="lalala"
+                  android:textColor="#666666"
+                  android:singleLine="true"
+                  android:layout_height="wrap_content"/>
+                  </LinearLayout>
+    <ImageView android:layout_width="@dimen/size12"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:src="@drawable/img_goingto"
+               android:layout_height="@dimen/size12"/>
+                </RelativeLayout>
+    <View android:layout_width="fill_parent"
+          android:layout_height="0.5dp"
+          android:background="#cccccc"/>
+
+</LinearLayout>

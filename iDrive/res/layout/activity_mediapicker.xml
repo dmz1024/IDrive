@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/background"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent">
+
+    <include layout="@layout/top_bar_mediapicker" />
+
+    <GridView android:id="@+id/picker_grid_view"
+              android:stretchMode="columnWidth"
+              android:numColumns="3"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:cacheColorHint="#00000000"
+              android:fadingEdge="none"
+              android:fastScrollEnabled="false"
+              android:smoothScrollbar="true"
+              android:listSelector="@android:color/transparent"
+              android:background="@color/idive_light_grey"/>
+
+</LinearLayout>

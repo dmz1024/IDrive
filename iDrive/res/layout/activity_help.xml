@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+
+              android:background="@color/common_list_bg"
+              android:layout_height="match_parent">
+    <include layout="@layout/top_bar_help"></include>
+
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:background="@drawable/shape_help"
+                    android:layout_margin="@dimen/size8"
+                    android:layout_height="85dp">
+         <EditText android:layout_width="fill_parent"
+                   android:hint="我需要帮助"
+                   android:textSize="@dimen/size14"
+                   android:id="@+id/content_help"
+                   android:background="@null"
+                   android:gravity="top"
+                   android:layout_marginTop="@dimen/size10"
+                   android:textColor="#999999"
+                   android:layout_marginLeft="@dimen/size10"
+                   android:layout_height="fill_parent"/>
+        </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:background="@drawable/shape_help"
+                    android:layout_marginLeft="@dimen/size8"
+                    android:layout_marginRight="@dimen/size8"
+                    android:layout_height="@dimen/size45">
+        <EditText android:layout_width="fill_parent"
+                  android:hint="请输入你的手机号"
+                  android:textSize="@dimen/size14"
+                  android:background="@null"
+                  android:id="@+id/phonenum_help"
+                  android:layout_centerVertical="true"
+                  android:textColor="#999999"
+                  android:layout_marginLeft="@dimen/size10"
+                  android:layout_height="fill_parent"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:visibility="visible"
+                    android:id="@+id/rl_take_photo"
+                    android:background="@drawable/shape_help"
+                    android:layout_marginTop="@dimen/size8"
+                    android:layout_marginLeft="@dimen/size8"
+                    android:layout_marginRight="@dimen/size8"
+                    android:layout_height="@dimen/size80">
+        <RelativeLayout android:layout_width="@dimen/size70"
+                        android:layout_marginTop="@dimen/size5"
+                        android:id="@+id/updateImg"
+                        android:background="#dddddd"
+                        android:layout_marginLeft="@dimen/size8"
+                        android:layout_height="@dimen/size70">
+            <ImageView android:layout_width="@dimen/size40"
+                       android:layout_centerInParent="true"
+
+                       android:src="@drawable/update_img"
+                       android:layout_height="@dimen/size40"/>
+        </RelativeLayout>
+
+        <TextView android:layout_width="wrap_content"
+                  android:hint="上传图片"
+                  android:textSize="@dimen/size14"
+                  android:background="@null"
+                  android:layout_alignParentBottom="true"
+                  android:layout_toRightOf="@+id/updateImg"
+                  android:textColor="#999999"
+                  android:layout_marginBottom="@dimen/size5"
+                  android:layout_marginLeft="@dimen/size10"
+                  android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <GridView android:id="@+id/post_grid_view"
+              android:padding="@dimen/size1"
+              android:layout_marginTop="@dimen/size10"
+              android:stretchMode="columnWidth"
+              android:numColumns="3"
+              android:visibility="gone"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginRight="@dimen/size10"
+              android:layout_marginLeft="@dimen/size10"
+              android:cacheColorHint="#00000000"
+              android:fadingEdge="none"
+              android:fastScrollEnabled="false"
+              android:smoothScrollbar="true"
+              android:listSelector="@android:color/transparent"
+              android:background="@drawable/shape_post_edit"/>
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:background="@drawable/shape_help"
+                    android:layout_marginTop="@dimen/size8"
+                    android:layout_marginLeft="@dimen/size8"
+                    android:layout_marginRight="@dimen/size8"
+                    android:layout_height="@dimen/size45">
+
+            <ImageView android:layout_width="@dimen/size10"
+                       android:layout_centerVertical="true"
+                       android:id="@+id/location_now"
+                       android:layout_marginLeft="@dimen/size10"
+                       android:src="@drawable/location_map"
+                       android:layout_height="@dimen/size15"/>
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:hint="北京市海淀区昆明湖东路11号"
+                  android:textSize="@dimen/size14"
+                  android:id="@+id/geo"
+                  android:background="@null"
+                  android:layout_centerVertical="true"
+                  android:layout_toRightOf="@+id/location_now"
+                  android:textColor="#999999"
+                  android:layout_marginBottom="@dimen/size5"
+                  android:layout_marginLeft="@dimen/size10"
+                  android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:id="@+id/time_settings"
+                    android:background="@drawable/shape_help"
+                    android:layout_marginTop="@dimen/size8"
+                    android:layout_marginLeft="@dimen/size8"
+                    android:layout_marginRight="@dimen/size8"
+                    android:layout_height="@dimen/size45">
+        <TextView android:layout_width="wrap_content"
+                  android:text="设定时效性"
+                  android:textColor="#222222"
+                  android:textSize="@dimen/size15"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="@dimen/size10"
+                  android:layout_height="wrap_content"/>
+        <TextView android:layout_width="wrap_content"
+                  android:text="2小时"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="@dimen/size27"
+                  android:textSize="@dimen/size14"
+                  android:background="@null"
+                  android:id="@+id/txt_time"
+                  android:layout_centerVertical="true"
+                  android:textColor="#999999"
+                  android:layout_marginLeft="@dimen/size10"
+                  android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="9dp"
+                   android:layout_centerVertical="true"
+                   android:layout_marginRight="@dimen/size10"
+                   android:layout_alignParentRight="true"
+                   android:src="@drawable/editgroupnext"
+                   android:layout_height="14dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

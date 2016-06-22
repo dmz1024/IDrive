@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TRSBaseProject</string>
+    <string name="first_class_menu_url">http://www.baidu.com/</string>
+
+    <!--common-->
+    <string name="common_sure">确定</string>
+    <string name="common_search">查询</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_empty"></string>
+
+    <string name="summary_default">  暂无简介</string>
+
+
+    <!--设置-->
+    <!--<string name="setting_moon">夜间模式</string>-->
+    <!--<string name="setting_font">阅读字号</string>-->
+    <!--<string name="setting_push">社交分享设置</string>-->
+    <!--<string name="setting_collection">收藏管理</string>-->
+    <!--<string name="setting_download">离线管理</string>-->
+    <!--<string name="setting_cache">清除缓存</string>-->
+    <!--<string name="setting_update">更新</string>-->
+    <!--<string name="setting_about">关于</string>-->
+
+    <!--设置-->
+    <string name="setting_collection">我的收藏</string>
+    <string name="setting_cache">清除缓存</string>
+    <string name="setting_push">推送设置</string>
+    <string name="setting_friend">推荐给朋友</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_update">检查更新</string>
+    <string name="setting_two_dimension">扫一扫</string>
+    <string name="setting_moon">夜间模式</string>
+    <string name="setting_font">显示字体</string>
+    <string name="setting_download">离线下载</string>
+    <string name="setting_about">关于</string>
+    <string name="search_url">http://m.vtibet.com/search/Mobile?Type=0</string>
+</resources>

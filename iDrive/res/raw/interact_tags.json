@@ -1,0 +1,26 @@
+{
+	"datas": [
+		{
+			"title": "全部",
+			"tid": "0",
+			"url" : "interact_"
+		},
+		{
+			"title": "美食",
+			"tid": "1",
+			"url" : "interact_"
+		},
+		{
+			"title": "结伴",
+			"tid": "2",
+			"url" : "interact_"
+		},
+		{
+			"title": "美景",
+			"tid": "3",
+			"url" : "interact_"
+		}
+	],
+	"message": "获取侧边栏标签成功",
+	"code": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/common_list_bg"
+              android:layout_height="match_parent">
+    <include layout="@layout/topbar_addfriends"></include>
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:background="@drawable/shape_newgroupdialog"
+                    android:id="@+id/rl_friendgroup"
+                    android:layout_marginTop="@dimen/size8"
+                    android:layout_marginRight="@dimen/size15"
+                    android:layout_marginLeft="@dimen/size15"
+                    android:layout_height="@dimen/size30">
+         <EditText android:layout_width="fill_parent"
+                   android:hint="搜索好友"
+                   android:id="@+id/search_keyword"
+                   android:background="@null"
+                   android:textSize="@dimen/size13"
+                   android:layout_alignParentLeft="true"
+                   android:layout_marginLeft="@dimen/size8"
+                   android:layout_centerVertical="true"
+                   android:layout_height="wrap_content"/>
+        <ImageView android:layout_width="22dp"
+                   android:id="@+id/friends_search"
+                   android:src="@drawable/jh_setting_search"
+                   android:layout_centerVertical="true"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="@dimen/size8"
+                   android:layout_height="22dp"/>
+    </RelativeLayout>
+
+    <ListView android:id="@+id/friends_list"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:layout_centerHorizontal="true"
+              android:divider="@null"
+              android:layout_marginTop="@dimen/size12"
+              android:paddingTop="@dimen/size8"
+              android:listSelector="@android:color/transparent"
+              android:background="@color/idrive_white" />
+    <include layout="@layout/loading_layout" />
+</LinearLayout>

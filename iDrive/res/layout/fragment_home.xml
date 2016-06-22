@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/idive_light_grey">
+
+    <include layout="@layout/top_bar_home"/>
+
+    <FrameLayout android:id="@+id/pager_content"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:layout_below="@+id/top_bar_home"/>
+
+    <FrameLayout
+
+            android:id="@+id/pager_dfy"
+            android:visibility="gone"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:layout_below="@+id/top_bar_home"/>
+
+    <RelativeLayout android:id="@+id/top_popup_shelter"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:visibility="invisible"
+                    android:background="#00000000"/>
+
+    <ListView android:id="@+id/top_popup_list"
+              android:paddingTop="@dimen/size5"
+              android:layout_width="@dimen/size180"
+              android:layout_height="260dp"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="@dimen/size40"
+              android:divider="@null"
+              android:listSelector="@android:color/transparent"
+              android:visibility="invisible"
+              android:background="@drawable/shape_top_popup_list_bg"/>
+
+    <include layout="@layout/loading_layout_material"/>
+</RelativeLayout>

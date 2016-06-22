@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+
+    <!--common-->
+    <color name="common_black">#000000</color>
+    <color name="common_write">#ffffff</color>
+    <color name="common_list_bg">#e4e4e4</color>
+    <color name="common_blue">#6cace6</color>
+
+    <!--违章查询-->
+    <color name="violation_search_alert_text">#808080</color>
+</resources>

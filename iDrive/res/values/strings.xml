@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">爱自驾</string>
+    <string name="exit_app">确定退出应用么</string>
+    <string name="please_connnect_network">请连接网络</string>
+
+    <string name="video">小视频</string>
+    <string name="take_photo">拍照</string>
+    <string name="upload_from_local">从相册上传</string>
+    <string name="cancel">取消</string>
+
+    <string name="photo">照片</string>
+    <string name="confirm">确定</string>
+
+    <string name="idrive">爱自驾</string>
+    <string name="interact">互动</string>
+    <string name="channels_download_fail">频道列表下载失败</string>
+    <string name="edit_group_fail">编辑分组加载失败</string>
+
+    <string name="no_network_location">请连接网络或通过左上角按钮手动设置位置信息</string>
+    <string name="no_configuration_location">当前手机无网络定位配置项，请通过左上角按钮手动设置位置信息</string>
+    <string name="location_fail">获取位置信息失败，请通过左上角按钮手动设置位置信息</string>
+
+    <string name="city_fail">获取城市列表失败</string>
+    <string name="city_list">城市列表</string>
+    <string name="nearby">附近</string>
+    <string name="gps_location">GPS定位</string>
+    <string name="search_city_hint">搜索地市 (中文/拼音)</string>
+    <string name="search_province_hint">搜索省 (中文/拼音)</string>
+
+    <string name="tts_app_id">输入您讯飞的appid</string>
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_title_tts_pitch">语调</string>
+    <string name="preference_default_tts_pitch">50</string>
+    
+    <string name="most_ten_items">最多只能选择9个</string>
+    <string name="picker_select">选择</string>
+
+    <string name="post_edit">编辑</string>
+    <string name="send">发送</string>
+    <string name="post_edit_say_something">说点什么吧</string>
+    <string name="post_tag">标签</string>
+    <string name="click_quit">轻触退出</string>
+    <string name="record_video_title">小视频</string>
+    <string name="no_camera">本机没有摄像头</string>
+    <string name="record_length_hint">录制时间不能短于1秒</string>
+    <string name="camera_busy">摄像头已被占用</string>
+    <string name="default_wd">默认</string>
+
+    <string name="key">关键词</string>
+
+    <string name="line_desc">线路概述</string>
+    <string name="background">人文背景</string>
+    <string name="nature_ecology">自然生态</string>
+    <string name="best_travel_season">最佳旅游季节</string>
+    <string name="recommend_equip">推荐装备</string>
+    <string name="special_tips">特别提示</string>
+
+    <string name="city_temperament">城市气质</string>
+    <string name="history_culture">历史文化</string>
+    <string name="nature_form">自然形态</string>
+    
+      <string name="protocal">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;翻译国际贸易合同除了外语和汉语功底好、具备一定的翻译能力之外，还需要了解有关合同本身的专业知识和国际贸易、国际汇总、会计学、运输学、保险学、法学等 方面知识。要想成为合格的合同翻译者，译员必须认真研究学习合同范本和相关知识，并进行大量的合同翻译实践。</string>
+
+    <string name="share_content">分享自爱自驾</string>
+
+    <string name="province">省</string>
+    <string name="city">市</string>
+    <string name="district">区/县</string>
+    <string name="all_offline">所有城市</string>
+    <string name="download_offline">下载管理</string>
+    <string name="city_name">城市名称</string>
+    <string name="city_size">城市大小</string>
+    <string name="download_progress">0%</string>
+    <string name="my_city">当前城市</string>
+</resources>

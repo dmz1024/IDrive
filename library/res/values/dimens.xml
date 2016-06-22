@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left_drawer_width">@dimen/size240</dimen>
+    <dimen name="right_drawer_width">@dimen/size240</dimen>
+    <dimen name="tab_height">@dimen/size45</dimen>
+
+
+    <dimen name="left_menu_img_width">@dimen/size30</dimen>
+    <dimen name="left_menu_img_height">@dimen/left_menu_img_width</dimen>
+    <dimen name="left_menu_txt_size">@dimen/size20</dimen>
+
+    <dimen name="left_menu_title_height">@dimen/size45</dimen>
+    <dimen name="left_menu_item_height">@dimen/size45</dimen>
+    <dimen name="left_menu_item_text_size">@dimen/size14</dimen>
+    <dimen name="top_bar_height">@dimen/size45</dimen>
+    <dimen name="addfriendsimg">@dimen/size40</dimen>
+
+    <dimen name="tab_text_size">@dimen/size12</dimen>
+    <dimen name="submit_message_user_name">@dimen/size12</dimen>
+    <dimen name="submit_message_time">@dimen/size14</dimen>
+    <dimen name="submit_message_content">@dimen/size12</dimen>
+    <dimen name="submit_message_reply_title">@dimen/size12</dimen>
+    <dimen name="submit_message_type">@dimen/size8</dimen>
+    <dimen name="bottom_bar_height">@dimen/size45</dimen>
+    <dimen name="collect_item_title">@dimen/size14</dimen>
+    <dimen name="collect_item_date">@dimen/size12</dimen>
+    <dimen name="submit_picture_img_height">@dimen/size165</dimen>
+    <dimen name="type_view_width">35dp</dimen>
+
+    <dimen name="setting_menu_item_height">@dimen/size54</dimen>
+
+
+    <dimen name="web_view_bottom_button_padding">@dimen/size7</dimen>
+    <dimen name="web_view_bottom_button_text_size">@dimen/size10</dimen>
+    <dimen name="web_view_bottom_button_text_margin">@dimen/size6</dimen>
+</resources>

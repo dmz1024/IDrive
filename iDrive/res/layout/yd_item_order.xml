@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#fff"
+        android:paddingBottom="@dimen/size5"
+        android:paddingTop="@dimen/size5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+            android:id="@+id/rl_root"
+            android:paddingRight="@dimen/size10" android:paddingLeft="@dimen/size10" android:background="#fff"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/tv_sn" android:textSize="@dimen/sp11" android:textColor="#999"
+
+                />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/tv_add_time" android:textSize="@dimen/sp11" android:textColor="#999"
+                  android:layout_alignParentRight="true"
+                />
+        <View android:layout_width="match_parent" android:layout_height="@dimen/size0.5"
+              android:layout_below="@id/tv_sn" android:background="#ebebeb" android:id="@+id/v_1"
+              android:layout_marginTop="@dimen/size3"
+                />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/tv_title" android:textSize="@dimen/sp14" android:textColor="#333"
+                  android:layout_below="@id/v_1" android:layout_marginTop="@dimen/size7"
+                />
+        <com.ccpress.izijia.yd.view.MaxListView
+                android:id="@+id/lv_goods"
+                android:divider="#00000000"
+                android:layout_below="@id/tv_title"
+                android:dividerHeight="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </com.ccpress.izijia.yd.view.MaxListView>
+
+        <View android:layout_width="match_parent" android:layout_height="@dimen/size0.5"
+              android:layout_below="@id/lv_goods" android:background="#ebebeb" android:id="@+id/v_2"
+              android:layout_marginTop="@dimen/size3"
+                />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/tv_time" android:textSize="@dimen/sp11" android:textColor="#999"
+                  android:layout_below="@id/v_2" android:layout_marginTop="@dimen/size7"
+                />
+        <TextView android:text="1250" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/tv_price" android:textSize="@dimen/sp13" android:textColor="#ea541e"
+                  android:layout_alignParentRight="true" android:layout_alignBottom="@id/tv_time"
+                />
+        <View android:layout_width="match_parent" android:layout_height="@dimen/size0.5"
+              android:layout_below="@id/tv_time" android:background="#ebebeb" android:id="@+id/v_3"
+              android:layout_marginTop="@dimen/size3"
+                />
+
+
+        <RelativeLayout
+                android:layout_below="@id/v_3" android:id="@+id/rl_staut"
+                android:layout_marginTop="@dimen/size5" android:gravity="center_vertical"
+                android:layout_width="match_parent" android:layout_height="@dimen/size27">
+
+            <TextView
+                    android:id="@+id/tv_order_state"
+                    android:textSize="@dimen/size10" android:textColor="@color/dfy_ea561d"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    />
+
+
+            <TextView
+                    android:background="@drawable/dfy_personal_collect_del" android:gravity="center"
+                    android:id="@+id/tv_right" android:layout_alignParentRight="true"
+                    android:textSize="@dimen/size12" android:textColor="@color/dfy_333"
+                    android:layout_width="@dimen/size44" android:layout_height="@dimen/size17"
+                    android:text="付款"
+                    />
+
+            <TextView
+                    android:background="@drawable/dfy_personal_collect_del" android:gravity="center"
+                    android:id="@+id/tv_left"
+                    android:text="取消"
+                    android:textSize="@dimen/size12" android:textColor="@color/dfy_333"
+                    android:layout_width="@dimen/size44" android:layout_height="@dimen/size17"
+                    android:layout_marginRight="18dp" android:layout_alignTop="@+id/tv_right"
+                    android:layout_toLeftOf="@+id/tv_right"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View
+            android:background="@color/dfy_f5f5f5" android:layout_below="@id/rl_root"
+            android:layout_width="match_parent" android:layout_height="@dimen/size8"></View>
+
+
+</RelativeLayout>

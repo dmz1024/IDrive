@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@color/dfy_fff"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size50">
+
+    <ImageView
+            android:layout_marginLeft="@dimen/size5"
+            android:id="@+id/iv_left"
+            android:scaleType="fitXY"
+            android:src="@drawable/dfy_icon_de_2"
+            android:layout_width="@dimen/size50"
+            android:layout_height="@dimen/size50"/>
+
+    <TextView
+            android:id="@+id/tv_goods_name"
+            android:singleLine="true"
+            android:layout_marginRight="@dimen/size70"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_left"
+            android:layout_marginLeft="@dimen/size10"
+            style="@style/dfy_order_detail_information"
+            />
+    
+    <TextView
+            android:textColor="#777"
+            android:gravity="center"
+            android:textSize="@dimen/size8"
+            android:text="@string/dfy_cancle_collecy"
+            android:id="@+id/tv_cancle"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/size9"
+            android:background="@drawable/dfy_personal_collect_del"
+            android:layout_alignParentRight="true"
+            android:layout_width="@dimen/size50"
+            android:layout_height="@dimen/size20"/>
+
+</RelativeLayout>

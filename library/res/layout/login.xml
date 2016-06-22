@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#eeeeee">
+        <include
+                layout="@layout/common_sub_title"/>
+
+        <EditText
+                android:id="@+id/user_name"
+                style="@style/input"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size21"
+                android:layout_marginLeft="@dimen/size26"
+                android:layout_marginRight="@dimen/size26"
+                android:inputType="text"
+                android:hint="用户名"/>
+
+        <EditText
+                android:id="@+id/password"
+                style="@style/input"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/size5"
+                android:layout_marginLeft="@dimen/size26"
+                android:layout_marginRight="@dimen/size26"
+                android:inputType="textPassword"
+                android:hint="密码"/>
+
+        <LinearLayout
+                android:layout_marginTop="@dimen/size17"
+                android:layout_marginLeft="@dimen/size26"
+                android:layout_marginRight="@dimen/size26"
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/size40">
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/size40"
+                    android:text="登录"
+                    android:background="#6cace6"
+                    android:textSize="@dimen/size16"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="5dp"
+                    android:onClick="onBtnLoginClick"/>
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="@dimen/size40"
+                    android:text="注册"
+                    android:background="#3cb355"
+                    android:textSize="@dimen/size16"
+                    android:textColor="#ffffff"
+                    android:onClick="onBtnRegisterClick"/>
+
+        </LinearLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/size25"
+                  android:layout_marginLeft="@dimen/size26"
+                  android:layout_marginRight="@dimen/size26"
+                  android:textSize="@dimen/size14"
+                  android:textColor="#6dabdc"
+                  android:text="本系统已与论坛集成，可使用银川新闻网豆包社区帐号登录本系统，在本系统注册的帐号也可在豆包社区登录"
+                  android:gravity="center"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/loading_layout"/>
+</FrameLayout>

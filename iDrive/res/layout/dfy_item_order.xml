@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/tv_name"
+            style="@style/dfy_order_detail_information"
+            android:text="@string/dfy_name"
+            />
+
+    <TextView
+            android:id="@+id/tv_card"
+            style="@style/dfy_order_detail_information"
+            android:text="@string/dfy_card_num"
+            />
+
+    <TextView
+            android:id="@+id/tv_tel"
+            style="@style/dfy_order_detail_information"
+            android:text="@string/dfy_order_tel"
+            />
+    <View
+            android:layout_marginLeft="@dimen/size18"
+            android:layout_marginRight="@dimen/size25"
+            style="@style/dfy_hor_view" android:layout_marginTop="@dimen/size5"
+            ></View>
+
+</LinearLayout>

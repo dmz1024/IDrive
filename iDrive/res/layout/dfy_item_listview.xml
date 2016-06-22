@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:background="@color/dfy_fff"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.ccpress.izijia.dfy.view.RefreshListView
+            android:id="@+id/dfy_lv"
+            android:visibility="gone"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </com.ccpress.izijia.dfy.view.RefreshListView>
+
+        <RelativeLayout
+                android:id="@+id/rl_load" android:layout_centerInParent="true"
+                android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ProgressBar
+                    android:id="@+id/pb_load"
+                    android:layout_width="@dimen/size25"
+                    android:layout_height="@dimen/size25"/>
+
+            <TextView
+                    android:id="@+id/tv_load"
+                    android:textSize="@dimen/size14"
+                    android:layout_toRightOf="@id/pb_load"
+                    android:text="@string/nowload"
+                    android:textColor="@color/dfy_333"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" android:layout_centerVertical="true"
+                    />
+
+            <Button
+                    android:id="@+id/bt_agin"
+                    android:visibility="gone"
+                    android:layout_centerInParent="true" android:text="重新加载"
+                    android:textSize="@dimen/size10" android:textColor="@color/dfy_333"
+                    android:layout_width="@dimen/size70" android:layout_height="@dimen/size35"
+
+                    />
+
+            <TextView
+                    android:id="@+id/tv_nodata"
+                    android:visibility="gone"
+                    android:textSize="@dimen/size14"
+                    android:layout_toRightOf="@id/pb_load"
+                    android:text="暂无数据"
+                    android:textColor="@color/dfy_333"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" android:layout_centerVertical="true"
+                    />
+        </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.trs.view.TopBar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/topbar"
+
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/top_bar_height"
+        app:leftIcon="@drawable/icon_jh_subscribe_back"
+        app:leftIconOnClickAction="onBtnBackClick"
+        app:titleTextColor="#000000"
+        app:titleTextSize="@dimen/size15"
+        android:background="@drawable/bg_login_title" />

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title_bar" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="8dp"
+        android:background="@color/line_color" />
+
+ <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:hint="原密码"
+        android:paddingLeft="24dp"
+        android:textColor="@color/tips_text_color"
+        android:textSize="14sp"
+        android:inputType="textPassword" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#CCCCCC" />
+    <EditText
+        android:id="@+id/et_new_pass"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:hint="新密码"
+        android:paddingLeft="24dp"
+        android:textColor="@color/tips_text_color"
+        android:textSize="14sp" 
+         android:inputType="textPassword"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#CCCCCC" />
+
+    <EditText
+        android:id="@+id/et_repass"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:hint="重复密码"
+        android:paddingLeft="24dp"
+        android:textColor="@color/tips_text_color"
+        android:textSize="14sp" 
+         android:inputType="textPassword"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="密码长度最少六位,为了保证安全性,不要过于简单"
+        android:textColor="@color/tips_text_color"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/login_btn_bg"
+        android:gravity="center"
+        android:text="完成"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBj"
+                tools:context="com.example.myapplication.MainActivity">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--选择支付方式-->
+                <com.ccpress.izijia.dfy.view.TopView
+                        android:id="@+id/top_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size44">
+                </com.ccpress.izijia.dfy.view.TopView>
+
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size48"
+                        android:background="#fff">
+
+                        <TextView
+                                android:id="@+id/tv_total"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:paddingLeft="27dp"
+                                android:text="@string/textTotal"
+                                android:textColor="@color/colorTotal"
+                                android:textSize="@dimen/size13"/>
+
+                        <TextView
+                                android:id="@+id/tv_money"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/size15"
+                                android:layout_toRightOf="@id/tv_total"
+                                android:text="@string/textMoney"
+                                android:textColor="@color/colorTotal"
+                                android:textSize="@dimen/size13"/>
+                </RelativeLayout>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size13"/>
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size48"
+                        android:background="#fff">
+
+                        <ImageView
+                                android:layout_width="29dp"
+                                android:layout_height="29dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="26dp"
+                                android:src="@drawable/dfy_icon_pay_zhi"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="70dp"
+                                android:text="@string/textZhi"/>
+
+                        <ImageView
+                                android:id="@+id/iv_zfb"
+                                android:layout_width="@dimen/size20"
+                                android:layout_height="@dimen/size20"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/size11"
+                                android:src="@drawable/dfy_icon_zhi_dian"/>
+                        <ImageView
+                                android:src="@drawable/dfy_icon_jian"
+                                android:layout_alignParentRight="true"
+                                android:layout_width="@dimen/size25"
+                                android:layout_height="@dimen/size25"/>
+                </RelativeLayout>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size0.5"
+                        android:background="@color/colorDividerHeight"/>
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size48"
+                        android:background="@color/dfy_fff">
+
+                        <ImageView
+                                android:layout_width="@dimen/size29"
+                                android:layout_height="@dimen/size29"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/size26"
+                                android:src="@drawable/dfy_icon_pay_wei"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/size70"
+                                android:text="@string/textWei"/>
+
+                        <ImageView
+                                android:id="@+id/iv_wx"
+                                android:layout_width="@dimen/size20"
+                                android:layout_height="@dimen/size20"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/size11"
+                                android:src="@drawable/dfy_icon_zhi_circle"/>
+                </RelativeLayout>
+
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size0.5"
+                        android:background="@color/colorDividerHeight"/>
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size48"
+                        android:background="@color/dfy_fff">
+
+                        <ImageView
+                                android:layout_width="29dp"
+                                android:layout_height="29dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="26dp"
+                                android:src="@drawable/dfy_icon_pay_yin"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="@dimen/size70"
+                                android:text="@string/textYin"/>
+
+                        <ImageView
+                                android:id="@+id/iv_yl"
+                                android:layout_width="@dimen/size20"
+                                android:layout_height="@dimen/size20"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/size11"
+                                android:src="@drawable/dfy_icon_zhi_circle"/>
+                </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size48"
+                android:layout_alignParentBottom="true"
+                android:background="#fff"
+
+                android:paddingLeft="@dimen/size27"
+                >
+                <TextView
+                        android:id="@+id/tv_zhifu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="支付："
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/colorTotal"
+                        android:textSize="@dimen/size13"/>
+                <TextView
+                        android:id="@+id/tv_total_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textMoney"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/tv_zhifu"
+                        android:textSize="@dimen/size13"
+                        android:textColor="@color/colorTotal"
+                        />
+                <TextView
+                        android:id="@+id/tv_countdown"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/textCountdown"
+                        android:layout_below="@id/tv_zhifu"
+                        />
+                <TextView
+                        android:gravity="center"
+                        android:id="@+id/tv_Payment"
+                        android:layout_width="@dimen/size93"
+                        android:layout_height="@dimen/size33"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/size10"
+                        android:text="@string/textPayment"
+                        android:textSize="13sp"
+                        android:background="@color/dfy_50bbdb"
+                        />
+
+        </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,264 @@
+{
+	"docid" : 20012,
+	"title" : "台北101大楼",
+	"desc"  : "台北101大楼，位于台北市信义区，是台北最显眼的地标性建筑，其曾于2004年12月31日~2010年1月4日间，成为“世界第一高楼”。台北101大楼分为地上101层和地下5层。其中B1至4楼共有5层楼的购物中心， 86至88楼为观景餐厅，89楼为室内观景层，91楼为室外观景台，观景台面积约761坪。这里拥有许多精品旗舰店，如BALLY、LV、Prada、Gucci、Cartier、DIOR及FENDI等。这里还是美食的天堂，聚集着代官山居食屋、晶汤匙泰式料理、随意鸟地方、九如浙江美食、川滇食尚等各国风味餐厅。",
+	"geo" : "116.481763,39.989614",
+	"date" : "2015/02/12",
+	"medias" : [
+		{
+			"isvideo" : 0,
+			"image" : "http://d.hiphotos.baidu.com/zhidao/pic/item/10dfa9ec8a1363279181cf9e918fa0ec08fac72b.jpg"
+		},
+		{
+			"isvideo" : 1,
+			"image" : "http://www.fansimg.com/uploads2009/11/userid249760time20091113135652at43.jpg",
+			"srcurl" : "http://mp41.mtvxz.cc/群星-咱们三班有力量-国语[www.mtvxz.cn].mp4"
+		},
+		{
+			"image" : "http://pic.baike.soso.com/p/20140727/20140727170743-70470296.jpg"
+		}
+	],		
+	"user" : {
+		"name" : "林潇潇",
+		"sex" : 1,
+		"uid" : 50001,
+		"avatar" : "http://img4.duitang.com/uploads/item/201409/19/20140919213708_rrWBN.png"
+	},
+	
+	"commments_c" : 38,
+
+	"share_c" : 126,
+
+	"favour_c" : 22,
+
+	"comments" : [
+		{
+			"date" : "2015/1/30",
+			"content" : "从台大大门走5分钟到捷运松山新店线（绿）‘公馆’站，到中正纪念堂站转捷运淡水信义线（红）到‘台北101/世贸’站。",
+			"user" : {
+				"name" : "大肚皮",
+				"sex" : 0,
+				"uid" : 50106,
+				"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+			}
+		},
+		{
+			"date" : "2015/1/30",
+			"content" : "http://tbdt.8684.cn/list_map 这是台北捷运地图以便查找，台湾大学是再公馆站（绿色的），101就在红色的线上。",
+			"user" : {
+				"name" : "Lucky Dog M",
+				"sex" : 1,
+				"uid" : 50109,
+				"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+			}
+		},
+		{
+			"date" : "2015/1/30",
+			"content" : "从台大大门走5分钟到捷运松山新店线（绿）‘公馆’站，到中正纪念堂站转捷运淡水信义线（红）到‘台北101/世贸’站。",
+			"user" : {
+				"name" : "大肚皮",
+				"sex" : 0,
+				"uid" : 50106,
+				"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+			}
+		}		
+	],
+	
+	"share" : [
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},		
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},		
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		}
+	],
+
+	"favour" : [
+		{
+			"name" : "AKniht",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},
+		{
+			"name" : "奇葩女神",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://tb.himg.baidu.com/sys/portrait/item/0d5d865c?t=1429801411"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},		
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},		
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},		
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		},
+		{
+			"name" : "大肚皮",
+			"sex" : 0,
+			"uid" : 50106,
+			"avatar" : "http://file29.mafengwo.net/M00/01/8E/wKgBpVVHI9WAL1f8AAJIk3lizcE93.head.w48.jpeg"
+		},
+		{
+			"name" : "Lucky Dog M",
+			"sex" : 1,
+			"uid" : 50109,
+			"avatar" : "http://file27.mafengwo.net/M00/D5/56/wKgB6lPeGX-AfFCLAAG16FYx9mo90.head.w48.jpeg"
+		}		
+	]
+}

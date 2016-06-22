@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#95191919"
+        >
+    <RelativeLayout
+            android:layout_centerInParent="true"
+            android:id="@+id/rl_seat"
+            android:background="#fff"
+            android:padding="@dimen/size10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/tv_seat"
+                android:textSize="@dimen/size12"
+                android:text="位置："
+                android:layout_marginBottom="@dimen/size15"
+                android:textColor="@color/dfy_333"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:id="@+id/tv_content"
+                android:layout_toRightOf="@id/tv_seat"
+                android:layout_marginLeft="@dimen/size5"
+                android:lineSpacingMultiplier="1.5"
+                android:textSize="@dimen/size12"
+                android:layout_marginBottom="@dimen/size15"
+                android:textColor="@color/dfy_50bbdb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:id="@+id/bt_clear"
+                android:text="清空"
+                android:visibility="gone"
+                android:layout_below="@id/tv_content"
+                android:textColor="#999"
+                android:textSize="@dimen/sp13"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/yd_icon_check"
+                android:layout_width="@dimen/size40"
+                android:layout_height="@dimen/size18"/>
+
+        <Button
+                android:id="@+id/bt_update"
+                android:text="修改位置"
+                android:visibility="gone"
+                android:layout_below="@id/tv_content"
+                android:layout_marginRight="@dimen/size6"
+                android:textColor="@color/dfy_50bbdb"
+                android:textSize="@dimen/sp13"
+                android:layout_toLeftOf="@id/bt_clear"
+                android:background="@drawable/fans_btn_bg"
+                android:layout_width="@dimen/size70"
+                android:layout_height="@dimen/size18"/>
+        <com.ccpress.izijia.yd.view.CountTextView
+                android:id="@+id/tv_count"
+                android:layout_below="@id/tv_content"
+                android:text="0"
+                android:textSize="@dimen/sp14"
+                android:gravity="center"
+                android:background="@drawable/yd_count_bj"
+                android:layout_width="@dimen/size75"
+                android:layout_height="@dimen/size21"/>
+
+    </RelativeLayout>
+</RelativeLayout>

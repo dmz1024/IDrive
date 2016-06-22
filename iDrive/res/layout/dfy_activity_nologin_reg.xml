@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/main_bg">
+
+        <com.ccpress.izijia.dfy.view.TopView
+                android:id="@+id/top_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+        </com.ccpress.izijia.dfy.view.TopView>
+
+        <ImageView
+                android:id="@+id/iv_avator"
+                android:layout_below="@id/top_view"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/dfy_reg_bg"/>
+
+
+        <LinearLayout
+            android:layout_below="@id/iv_avator"
+            android:layout_marginLeft="@dimen/size20"
+            android:layout_marginTop="@dimen/size20"
+            android:layout_marginRight="@dimen/size20"
+            android:id="@+id/ll_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <EditText
+                android:id="@+id/et_tel"
+                android:layout_marginTop="@dimen/size10"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/dfy_write_bg"
+                android:gravity="center_vertical"
+                android:hint="请输入手机号"
+                android:inputType="number"
+                android:paddingLeft="12dp"
+                android:textColor="@color/tips_text_color"
+                android:textSize="14sp"/>
+
+
+            <LinearLayout
+                    android:layout_marginTop="@dimen/size20"
+                    android:orientation="horizontal" android:weightSum="3"
+                    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                    <EditText
+                            android:layout_weight="1"
+                            android:id="@+id/et_reg_code"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/dfy_write_bg"
+                            android:gravity="center_vertical"
+                            android:hint="验证码"
+                            android:paddingLeft="12dp"
+                            android:textColor="@color/tips_text_color"
+                            android:textSize="14sp"
+                            android:inputType="number"/>
+
+                    <Button
+                            android:layout_weight="2"
+                            android:id="@+id/btn_reg_code"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/login_btn_bg"
+                            android:gravity="center"
+                            android:text="点击获取验证码"
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp"/>
+
+
+            </LinearLayout>
+
+
+        <Button
+                android:id="@+id/btn_reg"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/login_btn_bg"
+                android:gravity="center"
+                android:text="去预定"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

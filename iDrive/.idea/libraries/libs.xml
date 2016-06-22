@@ -1,0 +1,48 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/AndroidSwipeLayout-v1.1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/eventbus.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/pinyin4j-2.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/Android_Map_V2.7.20151124.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/Baidu-Frontia-Android-2.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/butterknife-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/DBHelper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/GestureImageView.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/java-json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/jmimemagic-0.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/jsoup-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/MapApiServices.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/MobCommons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/MobTools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/Msc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/ShareSDK-Core-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/ShareSDK-QQ-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/ShareSDK-SinaWeibo-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/ShareSDK-Wechat-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/ShareSDK-Wechat-Core-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/ShareSDK-Wechat-Favorite-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/ShareSDK-Wechat-Moments-2.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/umeng-update-v2.6.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/umeng_sdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/universal-image-loader-1.8.6-with-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/volley.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/Zxing-master/libs/core.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../library/libs/gson-2.2.4-javadoc.jar!/" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../library/libs/armeabi" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../library/libs/gson-2.2.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/java-json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../library/libs/universal-image-loader-1.8.6-with-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

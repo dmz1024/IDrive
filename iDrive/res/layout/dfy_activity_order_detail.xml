@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <com.ccpress.izijia.dfy.view.TopView
+            android:id="@+id/top_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    </com.ccpress.izijia.dfy.view.TopView>
+    <ScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@color/dfy_ededed"
+            >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent">
+
+            <RelativeLayout
+                    android:id="@+id/rl_godetail"
+                    android:background="@color/dfy_fff"
+                    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/tv_goods_name"
+                        android:background="@color/dfy_fff"
+                        android:layout_width="match_parent" android:layout_height="@dimen/size50"
+                        android:lineSpacingExtra="@dimen/size5"
+                        android:layout_marginRight="@dimen/size35"
+                        android:paddingTop="@dimen/size10" android:textColor="@color/dfy_333"
+                        android:paddingLeft="@dimen/size5"
+                        android:textSize="@dimen/size12"
+                        />
+
+                <ImageView
+                        android:id="@+id/iv_goDetail"
+                        android:src="@drawable/dfy_detail_date_ch"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/size10"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="@dimen/size17" android:layout_height="@dimen/size17"/>
+            </RelativeLayout>
+
+            <View style="@style/dfy_hor_view"
+                  android:focusable="true"
+                  android:focusableInTouchMode="true"
+                    ></View>
+
+
+            <RelativeLayout
+                    android:layout_marginTop="@dimen/size12"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+                <View
+                        android:id="@+id/a"
+                        style="@style/dfy_vertical_view"></View>
+
+                <TextView
+                        android:layout_toRightOf="@id/a"
+                        android:text="@string/dfy_order_information"
+                        style="@style/dfy_order_detail_Title"
+                        />
+            </RelativeLayout>
+
+
+            <TextView
+                    android:id="@+id/tv_order_id"
+                    style="@style/dfy_order_detail_information"
+                    android:text="@string/dfy_order_id"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_start_city"
+                    style="@style/dfy_order_detail_information"
+                    android:text="@string/dfy_start_city"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_start_time"
+                    style="@style/dfy_order_detail_information"
+                    android:text="@string/dfy_start_time"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_end_time"
+                    style="@style/dfy_order_detail_information"
+                    android:text="@string/dfy_end_time"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_person_count"
+                    style="@style/dfy_order_detail_information"
+                    android:text="@string/dfy_person_count"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_house_count"
+                    style="@style/dfy_order_detail_information"
+                    android:text="@string/dfy_house_count"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_order_state"
+                    style="@style/dfy_order_detail_information"
+                    android:text="@string/dfy_order_state"
+                    />
+            <View style="@style/dfy_hor_view" android:layout_marginTop="@dimen/size15"
+                    ></View>
+
+            <RelativeLayout
+                    android:layout_marginTop="@dimen/size12"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+                <View
+                        android:id="@+id/b"
+                        style="@style/dfy_vertical_view"></View>
+
+                <TextView
+                        android:layout_toRightOf="@id/b"
+                        android:text="@string/dfy_money_detail"
+                        style="@style/dfy_order_detail_Title"
+                        />
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView
+                        android:id="@+id/tv_cy_money"
+                        style="@style/dfy_order_detail_information"
+                        android:text="@string/dfy_cy_money"
+                        />
+
+                <TextView
+                        android:id="@+id/tv_bx_money"
+                        android:layout_toRightOf="@id/tv_cy_money"
+                        android:layout_marginLeft="@dimen/size35"
+                        style="@style/dfy_order_detail_information"
+                        android:text="@string/dfy_bx_money"
+                        />
+                <View
+                        android:id="@+id/v1"
+                        android:layout_below="@id/tv_bx_money"
+                        android:layout_marginTop="@dimen/size5"
+                        style="@style/dfy_hor_view"
+                        ></View>
+
+                <TextView
+                        android:id="@+id/tv_order_total_money"
+                        android:layout_alignLeft="@id/tv_bx_money"
+                        android:layout_below="@id/v1"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="@dimen/size5"
+                        style="@style/dfy_order_detail_information"
+                        android:text="@string/dfy_order_total_money"
+                        />
+
+                <TextView
+                        android:id="@+id/tv_order_total_money1"
+                        android:layout_alignLeft="@id/tv_bx_money"
+                        android:layout_below="@id/tv_order_total_money"
+                        android:layout_marginLeft="0dp"
+                        style="@style/dfy_order_detail_information"
+                        android:text="@string/dfy_df_total_money"
+                        />
+
+            </RelativeLayout>
+            <View style="@style/dfy_hor_view" android:layout_marginTop="@dimen/size15"
+                    ></View>
+            <RelativeLayout
+                    android:layout_marginTop="@dimen/size12"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+                <View
+                        android:id="@+id/c"
+                        style="@style/dfy_vertical_view"></View>
+
+                <TextView
+                        android:layout_toRightOf="@id/c"
+                        android:text="@string/dfy_linkman"
+                        style="@style/dfy_order_detail_Title"
+                        />
+            </RelativeLayout>
+            <TextView
+                    android:id="@+id/tv_linkman_name"
+                    style="@style/dfy_order_detail_information"
+                    android:text="@string/dfy_name"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_linkman_tel"
+                    style="@style/dfy_order_detail_information"
+                    android:text="@string/dfy_tel1"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_linkman_email"
+                    style="@style/dfy_order_detail_information"
+                    android:text="@string/dfy_email"
+                    />
+            <View style="@style/dfy_hor_view" android:layout_marginTop="@dimen/size15"
+                    ></View>
+
+            <RelativeLayout
+                    android:layout_marginTop="@dimen/size12"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+                <View
+                        android:id="@+id/d"
+                        style="@style/dfy_vertical_view"></View>
+
+                <TextView
+                        android:id="@+id/tv_tourist"
+                        android:layout_toRightOf="@id/d"
+                        android:text="@string/dfy_tourist"
+                        style="@style/dfy_order_detail_Title"
+                        />
+
+                <ListView
+                        android:layout_below="@id/tv_tourist"
+                        android:id="@+id/lv_order"
+                        android:layout_width="match_parent" android:layout_height="wrap_content">
+                </ListView>
+
+            </RelativeLayout>
+
+            <!--<View style="@style/dfy_hor_view"-->
+            <!--></View>-->
+
+            <RelativeLayout
+                    android:layout_marginTop="@dimen/size12"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+                <View
+                        android:id="@+id/e"
+                        style="@style/dfy_vertical_view"></View>
+
+                <TextView
+                        android:layout_toRightOf="@id/e"
+                        android:text="@string/dfy_bill_information1"
+                        style="@style/dfy_order_detail_Title"
+                        />
+            </RelativeLayout>
+
+            <TextView
+                    android:id="@+id/tv_bill"
+                    style="@style/dfy_order_detail_information"
+                    android:text="@string/dfy_bill_yn"
+                    />
+
+            <LinearLayout
+                    android:id="@+id/ll_bill" android:orientation="vertical"
+                    android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView
+                        android:id="@+id/tv_bill_title"
+                        style="@style/dfy_order_detail_information"
+                        android:text="@string/dfy_bill_title"
+                        />
+                <TextView
+                        android:id="@+id/tv_bill_datail"
+                        style="@style/dfy_order_detail_information"
+                        android:text="@string/dfy_bill_detail"
+                        />
+                <TextView
+                        android:id="@+id/tv_bill_address"
+                        style="@style/dfy_order_detail_information"
+                        android:text="@string/dfy_bill_address"
+                        />
+
+                <TextView
+                        android:id="@+id/tv_bill_name"
+                        style="@style/dfy_order_detail_information"
+                        android:text="收件人："
+                        />
+
+                <TextView
+                        android:id="@+id/tv_bill_tel"
+                        style="@style/dfy_order_detail_information"
+                        android:text="收件人电话："
+                        />
+
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="@dimen/size30"></View>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

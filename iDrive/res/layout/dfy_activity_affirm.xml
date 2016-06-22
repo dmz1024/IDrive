@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <com.ccpress.izijia.dfy.view.TopView
+            android:id="@+id/top_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size44">
+    </com.ccpress.izijia.dfy.view.TopView>
+
+    <RelativeLayout
+            android:id="@+id/rl_bottom" android:layout_alignParentBottom="true"
+            android:background="@color/dfy_fff"
+            android:layout_width="match_parent" android:layout_height="@dimen/size50">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textSize="@dimen/size12" android:textColor="@color/dfy_f0851a"
+                  android:layout_centerVertical="true" android:layout_marginLeft="@dimen/size10"
+                  android:textStyle="bold" android:id="@+id/tv_total"
+                />
+
+        <TextView
+                android:gravity="center" android:id="@+id/tv_submit"
+                android:background="@color/dfy_50bbdb"
+                android:layout_width="@dimen/size110" android:layout_height="@dimen/size33"
+                android:textSize="@dimen/size12" android:text="@string/dfy_affirm_order" android:textColor="@color/dfy_fff"
+                android:layout_centerVertical="true" android:layout_marginLeft="@dimen/size10"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/size14"
+                />
+
+    </RelativeLayout>
+
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="match_parent"
+            android:layout_below="@id/top_view"
+            android:layout_above="@id/rl_bottom"
+            android:layout_width="wrap_content"
+            android:background="@color/dfy_ededed"
+            >
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+            <TextView
+                    android:id="@+id/tv_goods_name"
+                    android:background="@color/dfy_fff"
+                    android:layout_width="match_parent" android:layout_height="@dimen/size50"
+                    android:lineSpacingExtra="@dimen/size5"
+                    android:paddingRight="@dimen/size40"
+                    android:paddingTop="@dimen/size10" android:textColor="@color/dfy_333"
+                    android:paddingLeft="@dimen/size5"
+                    android:textSize="@dimen/size14"
+                    />
+
+            <RelativeLayout
+                    style="@style/dfy_write_rl">
+
+                <View
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:id="@+id/a"
+                        style="@style/dfy_write_view_vertical"></View>
+                <TextView
+                        android:id="@+id/c"
+                        android:text="@string/dfy_line"
+                        android:layout_toRightOf="@id/a"
+                        style="@style/dfy_write_tv_title"
+                        />
+                <View
+                        android:layout_below="@id/a"
+                        android:id="@+id/b"
+                        style="@style/dfy_write_view_match"
+                        ></View>
+                <TextView
+                        android:id="@+id/d"
+                        android:layout_below="@id/b" android:text="@string/dfy_zjt_name"
+                        android:layout_alignLeft="@id/c"
+                        style="@style/dfy_write_tv"
+                        />
+
+
+                <TextView
+                        android:id="@+id/tv_brand_name"
+                        android:layout_toRightOf="@id/d" android:text="云南落地自驾行摄之旅"
+                         android:layout_alignBottom="@id/d"
+                        android:layout_marginLeft="@dimen/size5"
+                        style="@style/dfy_write_tv"
+                        />
+
+                <TextView
+                        android:id="@+id/e"
+                        android:layout_below="@id/d" android:text="@string/dfy_tour_time"
+                        android:layout_alignLeft="@id/c"
+                        style="@style/dfy_write_tv"
+                        />
+                <TextView
+                        android:id="@+id/tv_date"
+                        android:layout_toRightOf="@id/e" android:text="2016-1-5"
+                        android:layout_alignBottom="@id/e"
+                        android:layout_marginLeft="@dimen/size5"
+                        style="@style/dfy_write_tv"
+                        />
+
+
+                <TextView
+                        android:id="@+id/f"
+                        android:layout_below="@id/e" android:text="@string/dfy_tour_count"
+                        android:layout_alignLeft="@id/c"
+                        style="@style/dfy_write_tv"
+                        />
+
+                <TextView
+                        android:id="@+id/tv_count"
+                        android:layout_toRightOf="@id/f"
+                        android:layout_alignBottom="@id/f"
+                        android:layout_marginLeft="@dimen/size5"
+                        style="@style/dfy_write_tv"
+                        />
+
+                <TextView
+                        android:id="@+id/g"
+                        android:layout_below="@id/f" android:text="@string/dfy_house_count"
+                        android:layout_alignLeft="@id/c" android:layout_marginBottom="@dimen/size5"
+                        style="@style/dfy_write_tv"
+                        />
+                <TextView
+                        android:id="@+id/tv_spell"
+                        android:text="2人间,愿意拼房"
+                        android:layout_alignBottom="@id/g"
+                        android:layout_toRightOf="@id/g"
+                        android:layout_marginLeft="@dimen/size5"
+                        style="@style/dfy_write_tv"
+                        />
+            </RelativeLayout>
+
+            <RelativeLayout
+                    style="@style/dfy_write_rl">
+                <View
+                        android:id="@+id/a2"
+                        style="@style/dfy_write_view_vertical"></View>
+                <TextView
+                        android:id="@+id/c3"
+                        android:text="游客信息"
+                        android:layout_toRightOf="@id/a2"
+                        style="@style/dfy_write_tv_title"
+                        />
+                <View
+                        android:layout_below="@id/a2"
+                        android:id="@+id/b2"
+                        style="@style/dfy_write_view_match"
+                        ></View>
+
+                <TextView
+                        android:id="@+id/c4"
+                        android:layout_below="@id/b2" android:text="@string/dfy_name"
+                        android:layout_alignLeft="@id/c3"
+                        style="@style/dfy_write_tv"
+                        />
+
+                <TextView
+                        android:id="@+id/tv_name"
+                        android:text="小智"
+                        android:layout_alignBottom="@id/c4"
+                        android:layout_toRightOf="@id/c4"
+                        android:layout_marginLeft="@dimen/size7"
+                        style="@style/dfy_write_tv"
+                        />
+                <View
+                      android:layout_alignLeft="@id/c3"
+                      android:layout_below="@id/tv_name"
+                      android:id="@+id/b3"
+                      style="@style/dfy_write_view_horizontal"
+                        ></View>
+
+                <TextView
+                        android:id="@+id/c5"
+                        android:layout_below="@id/b3" android:text="@string/dfy_sex"
+                        android:layout_alignLeft="@id/c3"
+                        style="@style/dfy_write_tv"
+                        />
+
+                <TextView
+                        android:id="@+id/tv_sex"  android:text="男"
+                        android:layout_alignBottom="@id/c5" android:layout_toRightOf="@id/c5"
+                        android:layout_marginLeft="@dimen/size7"
+                        style="@style/dfy_write_tv"
+                        />
+
+
+                <View
+                     android:layout_alignLeft="@id/c3"
+                      android:layout_below="@id/c5"
+                      android:id="@+id/b4"
+                      style="@style/dfy_write_view_horizontal"
+                        ></View>
+
+                <TextView
+                        android:id="@+id/c6"
+                        android:layout_below="@id/b4" android:text="@string/dfy_tel"
+                        android:layout_alignLeft="@id/c3"
+                        style="@style/dfy_write_tv"
+                        />
+
+                <TextView
+                        android:id="@+id/tv_tel" android:text="18655"
+                        android:layout_alignBottom="@id/c6" android:layout_toRightOf="@id/c6"
+                        android:layout_marginLeft="@dimen/size7"
+                        style="@style/dfy_write_tv"
+                        />
+
+                <View
+                      android:layout_below="@id/c6"
+                      android:id="@+id/b6" android:layout_alignLeft="@id/c3"
+                      style="@style/dfy_write_view_horizontal"
+                        ></View>
+
+                <TextView
+                        android:id="@+id/c7"
+                        android:layout_below="@id/b6" android:text="@string/dfy_email"
+                        android:layout_alignLeft="@id/c3"
+                        style="@style/dfy_write_tv"
+                        />
+
+                <TextView
+                        android:id="@+id/tv_email"
+                        android:layout_alignBottom="@id/c7" android:layout_toRightOf="@id/c7"
+                        android:layout_marginLeft="@dimen/size7"
+                        style="@style/dfy_write_tv"
+                        />
+
+                <View android:layout_alignLeft="@id/c3"
+                      android:layout_below="@id/c7"
+                      android:id="@+id/b7"
+                      style="@style/dfy_write_view_horizontal"
+                        ></View>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    style="@style/dfy_write_rl">
+
+                <View
+                        android:id="@+id/aa"
+                        style="@style/dfy_write_view_vertical"></View>
+                <TextView
+                        android:id="@+id/cc"
+                        android:text="@string/dfy_linkman"
+                        android:layout_toRightOf="@id/aa"
+                        style="@style/dfy_write_tv_title"
+                        />
+                <View
+                        android:layout_below="@id/aa"
+                        android:id="@+id/bb"
+                        style="@style/dfy_write_view_match"
+                        ></View>
+
+                <ListView
+                        android:layout_alignLeft="@id/cc" android:layout_marginRight="@dimen/size10"
+                        android:layout_marginBottom="@dimen/size5" android:divider="@color/dfy_dadada"
+                        android:dividerHeight="0.5dp"
+                        android:id="@+id/lv_tourist" android:layout_below="@id/bb" android:layout_marginTop="@dimen/size5"
+                        android:layout_width="match_parent" android:layout_height="match_parent">
+                </ListView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                    android:id="@+id/rl_fp"
+                    style="@style/dfy_write_rl">
+
+                <View
+                        android:id="@+id/ab"
+                        style="@style/dfy_write_view_vertical"
+                        ></View>
+                <TextView
+                        android:id="@+id/cb"
+                        android:text="@string/dfy_bill_information1"
+                        android:layout_toRightOf="@id/ab"
+                        style="@style/dfy_write_tv_title"
+                        />
+                <View
+                      android:layout_below="@id/ab"
+                      android:id="@+id/b5"
+                      style="@style/dfy_write_view_match"
+                        ></View>
+
+
+                <TextView
+                        android:id="@+id/cv"
+                        android:layout_below="@id/b5" android:text="@string/dfy_bill_yn"
+                        android:layout_alignLeft="@id/cb"
+                        style="@style/dfy_write_tv"
+                        />
+
+                <TextView
+                        android:id="@+id/tv_fp"
+                        android:layout_alignBottom="@id/cv" android:layout_toRightOf="@id/cv"
+                        android:layout_marginLeft="@dimen/size7"
+                        style="@style/dfy_write_tv"
+                        />
+
+
+                <View android:layout_width="match_parent" android:layout_height="@dimen/size0.5"
+                      android:background="@color/dfy_dadada" android:layout_alignLeft="@id/cv"
+                      android:layout_below="@id/cv"
+                      android:id="@+id/b8"
+                      android:layout_marginRight="@dimen/size10"
+                      android:layout_marginTop="@dimen/size5"
+                        ></View>
+
+                <RelativeLayout
+                        android:id="@+id/rl_fp_yes"
+                        android:layout_alignRight="@id/b8"
+                        android:layout_below="@id/b8" android:layout_alignLeft="@id/b8"
+                        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+                    <TextView
+                            android:id="@+id/c8"
+                            android:text="@string/dfy_bill_title"
+                            style="@style/dfy_write_tv"
+                            />
+
+                    <TextView
+                            android:id="@+id/tv_fp_title"
+                            android:layout_alignBottom="@id/c8" android:layout_toRightOf="@id/c8"
+                            android:layout_marginLeft="@dimen/size9"
+                            style="@style/dfy_write_tv"
+                            />
+                    <View
+                          android:layout_alignLeft="@id/c8"
+                          android:layout_below="@id/c8"
+                          android:id="@+id/b9"
+                          style="@style/dfy_write_view_horizontal"
+                            ></View>
+
+                    <TextView
+                            android:id="@+id/c9" android:layout_below="@id/b9"
+                            android:text="@string/dfy_bill_detail"
+                            style="@style/dfy_write_tv"
+                            />
+
+                    <TextView
+                            android:id="@+id/tv_fp_detail"
+                            android:layout_alignBottom="@id/c9"
+                            android:layout_toRightOf="@id/c9"
+                            android:layout_marginLeft="@dimen/size7"
+                            style="@style/dfy_write_tv"
+                            />
+                    <View android:layout_alignLeft="@id/c9"
+                          android:layout_below="@id/c9"
+                          android:id="@+id/b10"
+                          style="@style/dfy_write_view_horizontal"
+                            ></View>
+
+                    <TextView
+                            android:id="@+id/c10" android:layout_below="@id/b10"
+                            android:text="@string/dfy_bill_address"
+                            style="@style/dfy_write_tv"
+                            />
+
+                    <TextView
+                            android:id="@+id/tv_fp_address"
+                            android:layout_alignBottom="@id/c10"
+                            android:layout_toRightOf="@id/c10"
+                            android:layout_marginLeft="@dimen/size7"
+                            style="@style/dfy_write_tv"
+                            />
+                    <View android:layout_alignLeft="@id/c10"
+                          android:layout_below="@id/c10"
+                          android:id="@+id/b11"
+                          style="@style/dfy_write_view_horizontal"
+                            ></View>
+
+                    <TextView
+                            android:id="@+id/c11" android:layout_below="@id/b11"
+                            android:text="@string/dfy_bill_name"
+                            style="@style/dfy_write_tv"
+                            />
+
+                    <TextView
+                            android:id="@+id/tv_fp_addressee"
+                            android:layout_alignBottom="@id/c11"
+                            android:layout_toRightOf="@id/c11"
+                            android:layout_marginLeft="@dimen/size7"
+                            style="@style/dfy_write_tv"
+                            />
+                    <View android:layout_alignLeft="@id/c10"
+                          android:layout_below="@id/c11"
+                          android:id="@+id/b12"
+                          style="@style/dfy_write_view_horizontal"
+                            ></View>
+                    <TextView
+                            android:id="@+id/c12" android:layout_below="@id/b12"
+                            android:text="@string/dfy_bill_tel"
+                            style="@style/dfy_write_tv"
+                            />
+
+                    <TextView
+                            android:id="@+id/tv_fp_tel"
+                            android:layout_alignBottom="@id/c12"
+                            android:layout_toRightOf="@id/c12"
+                            android:layout_marginLeft="@dimen/size7"
+                            style="@style/dfy_write_tv"
+                            />
+                    <View android:layout_alignLeft="@id/c10"
+                          android:layout_below="@id/c12"
+                          android:id="@+id/b13"
+                          style="@style/dfy_write_tv"
+                            ></View>
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                    android:layout_width="match_parent" android:layout_height="@dimen/size40">
+                <TextView
+                        android:layout_centerInParent="true"
+                        android:textSize="@dimen/size9"
+                        android:id="@+id/tv_agree"
+                        android:text="@string/dfy_azj_deal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+

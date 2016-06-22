@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:paddingBottom="@dimen/size3"
+        android:paddingTop="@dimen/size3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+            android:id="@+id/tv_title"
+            android:textColor="#333"
+            android:textSize="@dimen/sp14"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:id="@+id/mi"
+            android:layout_marginLeft="@dimen/size2"
+            android:layout_centerVertical="true"
+            android:text="*"
+            android:textColor="#f00"
+            android:layout_toRightOf="@id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <EditText
+            android:layout_centerVertical="true"
+            android:id="@+id/et_content"
+            android:textColor="#333"
+            android:textSize="@dimen/sp13"
+            android:gravity="center"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/size2"
+            android:layout_toRightOf="@id/mi"
+            android:background="@drawable/yd_icon_check"
+            android:layout_width="@dimen/size110"
+            android:layout_height="@dimen/size22"/>
+</RelativeLayout>

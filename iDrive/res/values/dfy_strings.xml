@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 东方盈-->
+    <string name="dfy_all">全部</string>
+    <string name="dfy_jingnei">境内</string>
+    <string name="dfy_jingwai">境外</string>
+    <string name="￥">￥</string>
+    <string name="price">起</string>
+    <string name="loadmore">加载更多</string>
+    <string name="nowload">正在加载...</string>
+    <string name="noload">没有数据了</string>
+    <string name="dfy_load">重新加载</string>
+    <string name="noData">网络连接不可用，请检查网络</string>
+    <string name="noDataandFromNative">获取网络数据失败\n尝试加载本地数据</string>
+    <string name="pull_to_load">上拉加载...</string>
+    <string name="loading">正在载入...</string>
+    <string name="release_to_load">放开以加载...</string>
+
+    <string name="pull_to_xiala">下拉刷新...</string>
+    <string name="loading_xiala">正在刷新...</string>
+    <string name="release_to_xiala">放开以刷新...</string>
+
+    <string name="dfy_city">出发城市</string>
+    <string name="dfy_days">行程天数</string>
+    <string name="dfy_time">出发时间</string>
+    <string name="dfy_xu">推荐排序</string>
+    <string name="nodata">没有数据了...</string>
+    <string name="dfy_cancle">取消</string>
+    <string name="dfy_clear">清空已选</string>
+    <string name="dfy_ok">确定</string>
+    <string name="azonic">不限</string>
+    <string name="chengren">成人</string>
+    <string name="ertong">儿童</string>
+    <string name="tishi">日历价格为起价，订单最终价格以确定出游方案为准</string>
+
+    <!--选择支付方式页面-->
+    <string name="paymentCode">选择支付方式</string>
+    <string name="textTotal">订单总额：</string>
+    <string name="textMoney">￥XXX</string>
+    <string name="textZhi">支付宝支付</string>
+    <string name="textWei">微信支付</string>
+    <string name="textYin">银联支付</string>
+    <string name="textCountdown">剩余 00:18:44 请尽快付款</string>
+    <string name="textPayment">付款</string>
+    <string name="dfy_pay_detail">支付详情</string>
+    <string name="dfy_pay_ok">支付成功</string>
+    <string name="dfy_close">关闭</string>
+    <string name="dfy_pay_name">支付详情</string>
+
+    <string name="dfy_tourist_name">游客姓名</string>
+    <string name="dfy_fk">付款</string>
+    <string name="dfy_pj">评价</string>
+    <string name="dfy_zjt_name">自驾团名称：</string>
+    <string name="dfy_pay_type">支付方式</string>
+    <string name="dfy_pay_order">交易订单</string>
+    <string name="dfy_pay_time">交易时间</string>
+    <string name="dfy_pay_money">支付金额</string>
+    <string name="dfy_back_buy">返回继续订票</string>
+    <string name="dfy_pay_tishi">感谢您订购爱自驾云南落地自驾行摄7天之旅,爱自驾预祝你旅途愉快</string>
+    <!--选择支付方式页面-->
+    <string name="textDes">为了节约您的时间,请告知客服次产品的产品编号</string>
+    <string name="textNumber">产品编号:XXXXX</string>
+    <string name="textPhone">400-899-9999(咨询热线)</string>
+    <string name="callPhone">400-899-9999(咨询热线)</string>
+    
+    <!--填写订单-->
+    <string name="dfy_write_order">填写订单</string>
+
+    <string name="dfy_zjt">自驾团</string>
+    <string name="dfy_line">线路信息</string>
+    <string name="dfy_money_explain">费用说明</string>
+    <string name="dfy_unsubscribe">退订规则</string>
+    <string name="dfy_name">姓名：</string>
+    <string name="dfy_linkman">联系人信息</string>
+    <string name="dfy_sex">性别：</string>
+    <string name="dfy_man">男</string>
+    <string name="dfy_girl">女</string>
+    <string name="dfy_tel">手机号码：</string>
+    <string name="dfy_order_tel">手机号：</string>
+    <string name="dfy_tel1">手机：</string>
+    <string name="dfy_tourist">游客信息</string>
+    <string name="dfy_card_num">证件号：</string>
+    <string name="dfy_card_type">证件类型：</string>
+    <string name="dfy_idcard">身份证</string>
+    <string name="dfy_soldier">军官证</string>
+    <string name="dfy_passort">护照</string>
+    <string name="dfy_gaCard">港澳通行证</string>
+    <string name="dfy_bill_information">发票信息：</string>
+    <string name="dfy_bill_information1">发票信息</string>
+    <string name="dfy_bill_title">发票抬头：</string>
+    <string name="dfy_cancle_collecy">取消收藏</string>
+    <string name="dfy_bill_detail">发票明细：</string>
+    <string name="dfy_bill_address">配送地址：</string>
+    <string name="dfy_bill_name">收件人：</string>
+    <string name="dfy_bill_tel">收件人电话：</string>
+    <string name="dfy_collect">收藏</string>
+    <string name="dfy_call">电话咨询</string>
+    <string name="dfy_apply">我要报名</string>
+    <string name="dfy_apply_no">暂无报名信息</string>
+    <string name="dfy_bill_yn">是否需要发票：</string>
+    <string name="dfy_bill_yn1">是否需要发票</string>
+    <string name="dfy_bill_yes">是</string>
+    <string name="dfy_bill_no">否</string>
+    <string name="dfy_azj_deal">已阅读并同意爱自驾旅游协议</string>
+    <string name="dfy_submit_order">提交订单</string>
+    <string name="dfy_affirm_order">确认,去支付</string>
+    <string name="dfy_tour_time">出游日期：</string>
+    <string name="dfy_tour_count">出游人数：</string>
+    <string name="dfy_house_count">房间：</string>
+    <string name="dfy_spell_house">是否同意拼房：</string>
+    <string name="dfy_spell_yes">同意</string>
+    <string name="dfy_cost_include">费用包含:</string>
+    <string name="dfy_house_s">(2人间)</string>
+    <string name="dfy_spell_no">不同意拼房,愿意支付</string>
+    <string name="dfy_mi">*</string>
+    <string name="dfy_email">邮箱：</string>
+    <string name="dfy_bitian">必填</string>
+    <string name="dfy_bitian1">必填,接收合同信息</string>
+    <string name="dfy_search_hint">请输入搜索内容</string>
+    <string name="dfy_search">搜索</string>
+    <string name="dfy_my_order">我的订单</string>
+    <string name="dfy_order_num">订单号：</string>
+    <string name="dfy_order_add_time">预定时间：</string>
+    <string name="dfy_order_time">预订时间</string>
+    <string name="dfy_order_assess">待评价</string>
+    <string name="dfy_order_trip">待出行</string>
+    <string name="dfy_order_cancle">已取消</string>
+    <string name="dfy_order_pay">待支付</string>
+    <string name="dfy_all_order">全部分类</string>
+    <string name="dfy_time_order">按时间排序</string>
+    <string name="dfy_xu1">推荐排序</string>
+    <string name="dfy_xu2">30天销量最高</string>
+    <string name="dfy_xu3">关注度最高</string>
+    <string name="dfy_xu4">价格从高到低</string>
+    <string name="dfy_xu5">价格从低到高</string>
+
+    <!--订单详情-->
+    <string name="dfy_order_detail">订单详情</string>
+    <string name="dfy_order_information">订单信息：</string>
+    <string name="dfy_order_id">订单编号：</string>
+    <string name="dfy_start_city">出发城市：</string>
+    <string name="dfy_start_time">出发时间：</string>
+    <string name="dfy_end_time">归来时间：</string>
+    <string name="dfy_person_count">出游人数：</string>
+    <string name="dfy_order_state">订单状态：</string>
+    <string name="dfy_money_detail">费用详情</string>
+    <string name="dfy_cy_money">出游团费：</string>
+    <string name="dfy_bx_money">保险费用：</string>
+    <string name="dfy_order_total_money">订单总额：</string>
+    <string name="dfy_df_total_money">待付总额：</string>
+
+    <!--点评页面-->
+    <string name="dfy_evaluate">定评页面</string>
+    <string name="dfy_route">行程安排</string>
+    <string name="dfy_accommodation">住宿餐食</string>
+    <string name="dfy_travel">旅行交通</string>
+    <string name="dfy_submit_comment">提交评论</string>
+    <string name="dfy_my_comment">我要评价</string>
+    <string name="dfy_no_comment">未作出评价</string>
+    <string name="dfy_comment_content">未作出评价~~</string>
+
+    <!--订单页-->
+    <string name="dfy_order_all">全部分类</string>
+    <string name="dfy_order_dcx">待出行</string>
+    <string name="dfy_order_dzf">待支付</string>
+    <string name="dfy_order_dpj">待评价</string>
+    <string name="dfy_order_yqx">已取消</string>
+    <string name="dfy_order_xdsj">按下单时间排序</string>
+    <string name="dfy_order_cxsj">按出行时间排序</string>
+    
+    <string name="dfy_protocol_title">“爱自驾”旅游协议\n\n</string>
+    <string name="dfy_protocol_content">
+        第一条 特别提示
+
+        \n\n爱自驾网代理预订平台展示的自驾游产品均由合作商家直接提供，爱自驾网仅作为网络预订平台。合作商家充分借用爱自驾网预订平台，推出全方位的自驾游产品，并负责产品销售、资源确认、合同签署、发票开具、行程安排等全部环节的旅游服务。爱自驾网作为自驾游产品的展示平台，您对本协议的接受并不意味着爱自驾网成为自驾游产品交易的参与者，对前述交易爱自驾网仅提供技术支持，不对合作商家行为的合法性、有效性及旅游产品的真实性、合法性及有效性作任何明示或暗示的担保。
+
+        在预订开始前，请仔细阅读本须知，并注意本须知及活动页面中的其它重要条款也作为双方协议的补充内容。当您开始预订该产品时，表明您已仔细阅读并接受协议中的所有条款。
+
+        \n\n第二条 产品内容与价格
+
+        \n\n爱自驾网展示的产品价格仅为参考价格，由于旅游产品价格的波动性，合作商家可能因为机票、酒店的价格变动而适度调整其在爱自驾网上已公布的自驾游产品的价格。您预订的所有自驾游产品的价格及产品价格包含的内容，以合作商家与您最后确认为准。非特别标明，产品价格不包含办理护照、入台证、签证或签注费、行李物品的保管及超重费、个人消费、航空人身意外保险费及您应自行投保的其它保险费用。
+
+        \n\n第三条 订单生效与合同生效
+
+        \n\n您在爱自驾网预订产品成功后，合作商家会给您关于订单的确认，您应在与合作商家约定的付款期前及时付清合作商家给您确认的应付款，您确认的订单才生效。但如您未及时付清相关费用，而此时旅游产品的价格、内容或标准等有发生变化，爱自驾网及其合作商家对此不承担任何责任。待您付款成功，并且合作商家给予您最终确认后，合作商家与您之间的合同生效。
+
+        \n\n第四条 您主动更改或取消生效订单
+
+        \n\n订单生效后，您若需要更改或取消该订单内的任何项目，请务必在行程开始前通知合作商家更改或取消。合作商家会尽量满足您的需求，但您必须全额承担因变更或取消带来的损失及可能增加的费用，包括但不限于签证或签注费、订房损失费、机票费及其它车船交通费用等。若您所预订的产品在目的地停留的日期部分或全部处在国家法定节假日或其它部分国际性、国家性、地方性重大节日期间，鉴于资源的特殊状况，已生效订单如进行更改或取消将产生全额损失。
+
+        \n\n第五条 因合作商家原因变更或取消已生效订单
+
+        \n\n在您按要求付清应付费用并经合作商家最终确认后，如因合作商家原因，致使您的旅游产品不能成行或内容发生更改的，合作商家会第一时间通知您，并无条件退返您已支付的所有费用。或在经您同意后，调整产品中的行程内容或接待标准，退还差额费用。如调整后的产品价格高于原来价格，您须补足多出的相应差额。
+
+        \n\n第六条 安全事项
+
+        \n\n1.您应确保出行人身体条件适合本次外出旅游度假，如出行人为孕妇或有心脏病、高血压、呼吸系统疾病等病史，请在征得医院专业医生同意后出行。
+
+        \n2.您保证提供的证件、通讯联络方式、配送地址等相关资料均真实有效。
+
+        \n3.您应尊重当地的法律法规、宗教信仰、民族习惯和风土人情，自觉保护当地自然环境。
+
+        \n4.您在旅行中应注意人身财产安全，妥善保管自己的证件及行李物品，如果发生人身意外、伤害或随身携带行李物品遗失、被盗、被抢等情况，由您自行承担。
+
+        \n5.您在旅游过程中如对旅游产品合作商家的服务质量有异议，应积极与旅游产品合作商家沟通积极争取在旅游过程中解决。
+
+        \n\n第七条 第三方责任
+
+        \n\n由于出入境管理局、各国领馆、航空公司、保险公司、及其他有权机构等不可控制的第三方、原因导致您人身、财产权益受到损害的，包括但不限于，航班延误或取消、护照延期、签证拒签或未按时出签、不得出入境等，应由您方自行协商解决，必要时请及时联系合作商家协助处理。
+    </string>
+    
+    <array name="card_array">
+        <item>@string/dfy_idcard</item>
+        <item>@string/dfy_soldier</item>
+        <item>@string/dfy_passort</item>
+        <item>@string/dfy_gaCard</item>
+    </array>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:paddingTop="@dimen/size20"
+        android:paddingLeft="@dimen/size25"
+        android:paddingBottom="@dimen/size23">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/de.hdodenhof.circleimageview.CircleImageView"
+                android:id="@id/img"
+                android:layout_width="@dimen/size60"
+                android:layout_height="@dimen/size60"
+                android:layout_marginRight="@dimen/size13"
+                app:border_width="1dp"
+                app:border_color="@android:color/transparent"/>
+
+        <TextView
+                android:id="@+id/nick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:textSize="@dimen/size15"
+                android:textColor="#000000"
+                android:text="nick name"/>
+
+        <TextView
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/img"
+                android:textSize="@dimen/size15"
+                android:textColor="#000000"
+                android:paddingTop="@dimen/size15"
+                android:paddingBottom="@dimen/size15"
+                android:paddingRight="@dimen/size15"
+                android:text="登录账户"/>
+    </RelativeLayout>
+</LinearLayout>

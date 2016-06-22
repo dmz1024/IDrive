@@ -1,0 +1,53 @@
+{
+	"name" : "颐和园",
+	"addr" : "海淀区西安市新城广场新城剧场",
+	"geo"  : "116.273945,39.999093",
+	"images" : [
+		{
+			"title" : "",
+			"image" : "http://www.zhifang.com/upload/2012-11-29/1dcdd6b220ed8abb7d047d0c2443514f.jpg"
+		}
+	],
+	"organizer" : "爱自驾",
+	"time" : "2015-10-1 上午08:00",
+	"hotline" : "4000-000-0000",
+	"moments" : [
+		{
+			"title" : "济州岛海上惊险瞬间",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/377adab44aed2e734f95ff8e8701a18b87d6fa10.jpg",
+			"time"  : "2015-02-13",
+			"url" : "http://data.vod.itc.cn/?pt=1&pg=1&prod=ad&new=/178/59/lbZreeOkRY2JRntvhuZd1B.mp4"
+		},
+		{
+			"title" : "韩国的“夏威夷”, 有鲜花烂漫，茶香四溢",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/3ac79f3df8dcd100cd928183728b4710b9122f01.jpg",
+			"time"  : "2015-02-12",
+			"url" : "http://data.vod.itc.cn/?pt=1&pg=1&prod=ad&new=/178/59/lbZreeOkRY2JRntvhuZd1B.mp4"
+		},
+		{
+			"title" : "悠游济州岛，感受魅力韩风",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/21a4462309f79052d06e81f70ef3d7ca7acbd582.jpg",
+			"time"  : "2015-02-13",
+			"url" : "http://data.vod.itc.cn/?pt=1&pg=1&prod=ad&new=/178/59/lbZreeOkRY2JRntvhuZd1B.mp4"
+		},
+		{
+			"title" : "【首尔、济州岛】一次意外的相遇！",
+			"image" : "http://hiphotos.baidu.com/lvpics/pic/item/00e93901213fb80e09b15ea734d12f2eb9389459.jpg",
+			"time"  : "2015-02-13",
+			"url" : "http://data.vod.itc.cn/?pt=1&pg=1&prod=ad&new=/178/59/lbZreeOkRY2JRntvhuZd1B.mp4"
+		}		
+	],
+
+	"content" : {
+		"image" : "http://hiphotos.baidu.com/lvpics/pic/item/3ac79f3df8dcd100cd928183728b4710b9122f01.jpg",
+		"desc" : "DAY1：上海——济州岛    19:20上海搭乘班机前往济州，21:40抵达济州。 入住Jeju Neighborhood Hotel（济州街区酒店）\nDAY2：牛岛——午餐：济州特色黑猪烤肉——涉地岬——城山日出峰——山君不离——新罗免税店 \nDAY3：汉拿山1100高地+汉拿山自然史博物馆——汉拿树木园主题园：【3D奥妙艺术馆】、【冰雕城堡】、【5D幻想影像馆】——午餐：韩式石锅拌饭+唰唰锅——无主人良心咖啡店——魔幻彩绘秀Hero        ——晚餐：人参鸡汤，入住Seogwipo Kal Hotel Jeju (济州岛西归浦卡尔酒店) \nDAY4：独立岩——西归浦鸟岛新缘桥——泰迪熊博物馆——午餐：韩定食——乐天免税店（济州店）——       小人国主题乐园——返回上海"
+	},
+
+	"apply" : [
+		"海淀区西安市新城广场新城剧场",
+		"直接拨打电话参与报名",
+		"参加官网活动报名"
+	],
+
+	"status" : 1
+}
